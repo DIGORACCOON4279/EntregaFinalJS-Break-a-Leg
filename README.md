@@ -5,7 +5,7 @@
 
 # Descripcion</br>
 
-Break a Leg es un ecommerce ficticio de ropa adolescente y jovenes que gustan del skate. Se adopta este proyecto para trabajar en el curso de JS e ir modificandolo a medida que se aprendia y se modificada segun las 3 preentregas y ahora esta la entrega final.</br>
+Break a Leg es un ecommerce ficticio de ropa adolescente y jovenes que gustan del skate. Se adopta este proyecto para trabajar en el curso de JS e ir modificandolo a medida que se  aprendia y se modificada segun las 3 preentregas y ahora esta la entrega final.</br>
 
 👉 Herramientas utilizadas: 🛠 </br>
 
@@ -82,7 +82,5 @@ Detalles</br>
 👉Links:</br>
 
 🚀 ![white_Vercel](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/05e191bc-53e1-42d0-9c84-0b4b832abd88)[Vercel](https://break-a-leg.vercel.app/)</br>
-🚀 ![color_Netlify](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/8cbdb3ea-151e-479a-9975-869b9081c1a9)[Netlify]</br>
-
 
 ![raccon_Logo3](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/0950de58-a518-42f3-a502-088da15a18d4)
