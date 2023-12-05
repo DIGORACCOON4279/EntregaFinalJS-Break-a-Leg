@@ -1,3 +1,4 @@
+
 console.log("Script loaded: store.js");
 
 
@@ -230,15 +231,44 @@ const outfits = [
     }
 ]
 
+// Mi codigo
+
 
 // Storage
+// let cartProducts;
+// let cartProductsLS = localStorage.getItem("cartProducts")
+// if(cartProductsLS) {
+//     cartProducts = JSON.parse(cartProductsLS)
+// } else {
+//     cartProducts = []
+// }
+
+
+
+// Correccion chat gpt me soluciono el problema de marcar los productos en el shopping cart
+
 let cartProducts;
 let cartProductsLS = localStorage.getItem("cartProducts")
-if(cartProductsLS) {
-    cartProducts = JSON.parse(cartProductsLS)
+
+// Verificar si cartProductsLS es un array antes de parsearlo
+if (cartProductsLS) {
+    try {
+        cartProducts = JSON.parse(cartProductsLS);
+        // Verificar si cartProducts es un array
+        if (!Array.isArray(cartProducts)) {
+            cartProducts = [];
+        }
+    } catch (error) {
+        console.error("Error al analizar el carrito desde el almacenamiento local:", error);
+        cartProducts = [];
+    }
 } else {
-    cartProducts = []
+    cartProducts = [];
 }
+
+
+
+
 
 
 let addButton = document.querySelectorAll(".linkStore");
@@ -381,6 +411,7 @@ function agregarAlCarrito(selectedOutfit) {
 
     localStorage.setItem("cartProducts", JSON.stringify(cartProducts));
 }
+
 
 
 

@@ -166,6 +166,8 @@
 
         <!-- ShoppingCart -->
 
+         <!-- ShoppingCart -->
+
         <input id="cart" type="checkbox">
         <section class="sectionShop">
             <div class="menuCart">
@@ -184,17 +186,18 @@
                             </article>
                             <article class="containerArticles">
 
-                            <!-- Se inyecta el codigo desde wishlist.js -->
+                                <!-- Se inyecta el codigo desde cart.js -->
 
                             </article>
                         </div>
                     </div>
                     <div class="outcomeCard">
                         <article class="outcome">
-                            <p class="shipping">Shipping<span>$00</span></p>
-                            <p class="discount">Discount 25%<span>$00</span></p>
-                            <p class="total">Total<span>$00</span></p>
-                        </article>
+                            <!-- <p class="shipping">Shipping<span>$00</span></p>
+                            <p class="discount">Discount 25%<span>$00</span></p> -->
+                            <p id="cartTotal">Total: $0</p>
+                            <!-- Inyectar el total de los productos del carrito -->
+                            </article>
                         <button class="btnCheckout">Secure checkout</button>
                     </div>
                 </nav>
@@ -307,8 +310,8 @@
 
     <!-- <script type="text/javascript" src="../main.js"></script> -->
 
-    <script type="text/javascript" src="../js/cart.js"></script>
     <script type="text/javascript" src="../js/store.js"></script>
+    <script type="text/javascript" src="../js/cart.js"></script>
     <script type="text/javascript" src="../js/filter.js"></script>
     <script type="text/javascript" src="../js/wishlist.js"></script>
     <script type="text/javascript" src="../js/sign_In_&_Create_Account.js"></script>

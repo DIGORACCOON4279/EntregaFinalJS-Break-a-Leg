@@ -223,42 +223,44 @@
             </article>
         </section>
 
-        <!-- ShoppingCart -->
+      <!-- ShoppingCart -->
 
-        <input id="cart" type="checkbox">
-        <section class="sectionShop">
-            <div class="menuCart">
-                <label for="cart" class="cartShop">
-                    <img class="closeCross" src="../img/close_Cross.svg" alt="Close cross icon">
-                </label>
-                <nav class="menuCartlist">
-                    <div class="choiceCartlist">
-                        <h3 class="cartlistWord">My cart</h3>
-                        <div class="cart">
-                            <article class="category">
-                                <h3 class="titleCartlist">Item</h3>
-                                <h3 class="titleCartlist">Pricing</h3>
-                                <h3 class="titleCartlist">Quantity</h3>
-                                <h3 class="titleCartlist">Total</h3>
-                            </article>
-                            <article class="containerArticles">
+      <input id="cart" type="checkbox">
+      <section class="sectionShop">
+          <div class="menuCart">
+              <label for="cart" class="cartShop">
+                  <img class="closeCross" src="../img/close_Cross.svg" alt="Close cross icon">
+              </label>
+              <nav class="menuCartlist">
+                  <div class="choiceCartlist">
+                      <h3 class="cartlistWord">My cart</h3>
+                      <div class="cart">
+                          <article class="category">
+                              <h3 class="titleCartlist">Item</h3>
+                              <h3 class="titleCartlist">Pricing</h3>
+                              <h3 class="titleCartlist">Quantity</h3>
+                              <h3 class="titleCartlist">Total</h3>
+                          </article>
+                          <article class="containerArticles">
 
-                                <!-- Se inyecta el codigo desde cart.js -->
+                              <!-- Se inyecta el codigo desde cart.js -->
 
-                            </article>
-                        </div>
-                    </div>
-                    <div class="outcomeCard">
-                        <article class="outcome">
-                            <p class="shipping">Shipping<span>$00</span></p>
-                            <p class="discount">Discount 25%<span>$00</span></p>
-                            <p class="total">Total<span>$00</span></p>
+                          </article>
+                      </div>
+                  </div>
+                  <div class="outcomeCard">
+                      <article class="outcome">
+                          <!-- <p class="shipping">Shipping<span>$00</span></p>
+                          <p class="discount">Discount 25%<span>$00</span></p> -->
+                          <p id="cartTotal">Total: $0</p>
+
+                           <!-- Inyectar el total de los productos del carrito -->
                         </article>
-                        <button class="btnCheckout">Secure checkout</button>
-                    </div>
-                </nav>
-            </div>
-        </section>
+                      <button class="btnCheckout">Secure checkout</button>
+                  </div>
+              </nav>
+          </div>
+      </section>
 
         <!-- Place order -->
 
@@ -333,15 +335,15 @@
                     </fieldset>
                     <fieldset>
                         <label for="nameOnCard">
-                            <input type="text" id="nameOnCard" inputmode="text" pattern="[A-Za-z]+" name="cardholderName" minlength="3" maxlength="10" placeholder="Name on card" required/                              >
+                            <input type="text" id="nameOnCard" inputmode="text" pattern="[A-Za-z]+" name="cardholderName" minlength="3" maxlength="10" title="Digita solo letras de la A-Z" placeholder="Name on card" required/>
                         </label>
                     </fieldset>
                     <fieldset class="expirateDateCvc">
                         <label for="cvc">
-                            <input type="tel" id="cvc" inputmode="numeric" name="cvc" minlength="3" maxlength="3" placeholder="CVC" required/                              >
+                            <input type="tel" id="cvc" inputmode="numeric" pattern="^[0-9]{3}$" minLength="3" maxLength="3" name="cvc" title="Digita los ultimos tres digitos numericos de tu tarjeta" minlength="3" maxlength="3" placeholder="CVC" required/>
                         </label>
                         <label for="expirateDate">
-                            <input type="month" id="expirateDate" name="date" required/>
+                            <input type="month" id="expirateDate" name="date" inputmode="numeric" placeholder="MM-YY" title="Digita mes y año de expiracion de tu tarjeta con este formato XX-XXXX" required/>
                         </label>
                     </fieldset>
                     <button class="btnPlaceOnOrder" type="submit">Place on order</button>
@@ -472,8 +474,8 @@
 
     <!-- <script type="text/javascript" src="../main.js"></script> -->
 
-    <script type="text/javascript" src="../js/cart.js"></script>
     <script type="text/javascript" src="../js/store.js"></script>
+    <script type="text/javascript" src="../js/cart.js"></script>
     <script type="text/javascript" src="../js/filter.js"></script>
     <script type="text/javascript" src="../js/wishlist.js"></script>
     <script type="text/javascript" src="../js/sign_In_&_Create_Account.js"></script>
@@ -481,3 +483,5 @@
 
 </body>
 </html>
+
+
