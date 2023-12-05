@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.flexRowBetween, .footerContainer .footer, .showRoom .rightSide .containerAccordion .accordionItem .accordionCollapse .accordionBody:nth-child(1) .case .opinion, .showRoom .rightSide .infoProduct .addToCart, .showRoom .rightSide .infoProduct .productRating, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .labelThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .labelThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .labelThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .labelThree, .sectionFilter .menuFilterSide, .sectionPlaceOrder .unionOrder .delivery .deliveryContact .fullName, .sectionPlaceOrder .unionOrder, .headerSignIn .menuSide .top, .sectionWishlist .menuWishlist .choiceWishlist .wish .containerWishlist .wishlist .blockProduct, .giftCards .containerGetOff, .heroSection, .header .menuSide .top, .header .menuIcons ul .menuSection .landingMenu ul li .linksLanding p, .header, .sectionShop .menuCart .menuCartlist .choiceCartlist .cart .containerArticles .cartList, .sectionShop .menuCart .menuCartlist .choiceCartlist .cart .category {
+.flexRowBetween, .footerContainer .footer, .showRoom .rightSide .containerAccordion .accordionItem .accordionCollapse .accordionBody:nth-child(1) .case .opinion, .showRoom .rightSide .infoProduct .productRating, .showRoom .leftSide .addToCart, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .labelThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .labelThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .labelThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .labelThree, .sectionFilter .menuFilterSide, .sectionPlaceOrder .unionOrder .delivery .deliveryContact .fullName, .sectionPlaceOrder .unionOrder, .headerSignIn .menuSide .top, .sectionWishlist .menuWishlist .choiceWishlist .wish .containerWishlist .wishlist .blockProduct, .giftCards .containerGetOff, .heroSection, .header .menuSide .top, .header .menuIcons ul .menuSection .landingMenu ul li .linksLanding p, .header, .sectionShop .menuCart .menuCartlist .choiceCartlist .cart .containerArticles .cartList, .sectionShop .menuCart .menuCartlist .choiceCartlist .cart .category {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -2771,16 +2771,109 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   align-items: flex-start;
   margin: 150px auto;
   font-family: "Jura", sans-serif;
+  column-gap: 70px;
 }
 .showRoom .leftSide, .showRoom .rightSide {
   width: 100%;
   height: auto;
 }
+.showRoom .leftSide {
+  position: relative;
+  overflow: hidden;
+}
 .showRoom .leftSide .itemProduct {
-  width: auto;
+  width: 100%;
   height: auto;
   object-fit: cover;
-  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+.showRoom .leftSide .itemProduct:hover {
+  filter: contrast(115%);
+}
+.showRoom .leftSide .itemProduct:hover + .soldOutLabel {
+  background-color: #bc2327;
+}
+.showRoom .leftSide .soldOutLabel {
+  transform: skew(-15deg, 0deg);
+  position: absolute;
+  top: 0px;
+  right: -7px;
+  padding: 10px 15px;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: "Jura", sans-serif;
+  transition: 0.3s ease-in-out;
+}
+.showRoom .leftSide .addToCart {
+  width: 100%;
+  gap: 20px;
+  margin: 50px auto 0px;
+  position: relative;
+}
+.showRoom .leftSide .addToCart .btnAddToCart {
+  width: 100%;
+  height: 50px;
+  color: #f1f1f1;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 1px solid black;
+  background-color: #000000;
+  transition: 0.3s ease-in-out;
+}
+.showRoom .leftSide .addToCart .btnAddToCart:hover {
+  color: #000000;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+.showRoom .leftSide .addToCart .wishlistIcon {
+  width: 50px;
+  cursor: pointer;
+  padding-top: 11px;
+  padding-right: 11px;
+  padding-left: 11px;
+  padding-bottom: 11px;
+  border: 1px solid #f1f1f1;
+  transition: 0.3s ease-in-out;
+}
+.showRoom .leftSide .addToCart .wishlistIcon:hover {
+  border: 1px solid #000000;
+}
+.showRoom .leftSide .addToCart .wishlistIcon:hover + .toolTip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0%);
+}
+.showRoom .leftSide .addToCart .toolTip {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: -80%;
+  right: -10px;
+  background-color: #000000;
+  transform: translateY(100%);
+  transition: 0.3s ease-in-out;
+}
+.showRoom .leftSide .addToCart .toolTip .toolTipMessage {
+  margin: 5px 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Jura", sans-serif;
+}
+.showRoom .leftSide .addToCart .toolTip .clipPath {
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
+  clip-path: polygon(49% 30%, 20% 0, 80% 0);
+  position: absolute;
+  top: 25px;
+  left: 18px;
 }
 .showRoom .rightSide {
   display: flex;
@@ -2953,75 +3046,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .showRoom .rightSide .infoProduct .size .containerSize .itemSize:hover {
   border: 1px solid #000000;
-}
-.showRoom .rightSide .infoProduct .addToCart {
-  width: 100%;
-  gap: 20px;
-  margin: 20px auto;
-  position: relative;
-}
-.showRoom .rightSide .infoProduct .addToCart .btnAddToCart {
-  width: 100%;
-  height: 50px;
-  color: #f1f1f1;
-  padding: 15px;
-  font-size: 1rem;
-  font-weight: 700;
-  border: 1px solid black;
-  background-color: #000000;
-  transition: 0.3s ease-in-out;
-}
-.showRoom .rightSide .infoProduct .addToCart .btnAddToCart:hover {
-  color: #000000;
-  border: 1px solid #000000;
-  background-color: #ffffff;
-}
-.showRoom .rightSide .infoProduct .addToCart .wishlistIcon {
-  width: 50px;
-  cursor: pointer;
-  padding-top: 11px;
-  padding-right: 11px;
-  padding-left: 11px;
-  padding-bottom: 11px;
-  border: 1px solid #f1f1f1;
-  transition: 0.3s ease-in-out;
-}
-.showRoom .rightSide .infoProduct .addToCart .wishlistIcon:hover {
-  border: 1px solid #000000;
-}
-.showRoom .rightSide .infoProduct .addToCart .wishlistIcon:hover + .toolTip {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0%);
-}
-.showRoom .rightSide .infoProduct .addToCart .toolTip {
-  width: auto;
-  height: auto;
-  cursor: pointer;
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  top: -80%;
-  right: -10px;
-  background-color: #000000;
-  transform: translateY(100%);
-  transition: 0.3s ease-in-out;
-}
-.showRoom .rightSide .infoProduct .addToCart .toolTip .toolTipMessage {
-  margin: 5px 10px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: #ffffff;
-  font-family: "Jura", sans-serif;
-}
-.showRoom .rightSide .infoProduct .addToCart .toolTip .clipPath {
-  width: 30px;
-  height: 30px;
-  background-color: #000000;
-  clip-path: polygon(49% 30%, 20% 0, 80% 0);
-  position: absolute;
-  top: 25px;
-  left: 18px;
 }
 .showRoom .rightSide .infoProduct .complementInfo {
   width: 100%;
