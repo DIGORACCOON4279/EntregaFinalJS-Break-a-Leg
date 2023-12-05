@@ -1,7 +1,7 @@
-console.log("Script loaded: wishlist.js");
-
 
 // Wishlist y localStorage
+
+console.log("Script loaded: wishlist.js");
 
 // Obtiene la sección de wishlist
 
@@ -15,7 +15,6 @@ if(wishlistProductsLS) {
 } else {
     wishlistProducts = [];
 }
-
 
 // Función para renderizar wishlist
 
@@ -56,9 +55,7 @@ function renderWishlist(wishlistItems) {
     });
 }
 
-
 // Función para agregar wishlist
-
 function agregarAWishlist(selectedOutfit) {
 
     if (!selectedOutfit || !selectedOutfit.id) {
@@ -96,7 +93,6 @@ function agregarAWishlist(selectedOutfit) {
 
 
 // Función para eliminar desde wishlist
-
 function eliminarDeWishlist(productId) {
 
     const index = wishlistProducts.findIndex(product => product && product.id == productId);

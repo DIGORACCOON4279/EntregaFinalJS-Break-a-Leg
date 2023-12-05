@@ -1,8 +1,7 @@
 
-
-
 console.log("Script loaded: filter.js");
 
+// Filter
 
 // Obtener elementos del filtro
 

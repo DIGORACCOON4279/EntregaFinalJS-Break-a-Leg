@@ -1,6 +1,7 @@
 
 console.log("Script loaded: store.js");
 
+// Store
 
 // Arrays de objetos constante outfits
 
@@ -233,7 +234,6 @@ const outfits = [
 
 // Mi codigo
 
-
 // Storage
 // let cartProducts;
 // let cartProductsLS = localStorage.getItem("cartProducts")
@@ -242,8 +242,6 @@ const outfits = [
 // } else {
 //     cartProducts = []
 // }
-
-
 
 // Correccion chat gpt me soluciono el problema de marcar los productos en el shopping cart
 
@@ -266,18 +264,13 @@ if (cartProductsLS) {
     cartProducts = [];
 }
 
-
-
-
-
-
 let addButton = document.querySelectorAll(".linkStore");
 let sectionCard = document.querySelector(".sectionCard");
 
+// Funcion para renderizar productos
 function renderProducts(outfitsArray) {
     outfitsArray.forEach(outfit => {
 
-        // Verificar si el producto tiene un ID antes de acceder
         if (!outfit.id) {
             console.error("El producto no tiene un ID válido:", outfit);
             return;
@@ -312,9 +305,7 @@ function renderProducts(outfitsArray) {
 
 renderProducts(outfits);
 
-
 // Funcion agregar al carrito
-
 function addToCartButton() {
     addButton = document.querySelectorAll(".linkStore");
     addButton.forEach(button => {

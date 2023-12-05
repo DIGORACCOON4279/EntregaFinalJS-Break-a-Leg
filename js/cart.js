@@ -66,7 +66,6 @@ function renderCart(cartItems) {
 
 renderCart(cartStorage);
 
-
 // Función para eliminar un producto del carrito por su ID
 function eliminarDelCarrito(productId) {
     const index = cartProducts.findIndex(product => product.id == productId);
