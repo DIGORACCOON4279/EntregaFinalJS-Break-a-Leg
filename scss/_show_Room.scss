@@ -14,7 +14,6 @@
     .leftSide{
         position: relative;
         overflow: hidden;
-
         .itemProduct{
             width:100%;
             height: auto;
@@ -280,7 +279,6 @@
                     }
                 }
             }
-
             .complementInfo{
                 width:100%;
                 @include display_flex_row_space_between_flex_start();
@@ -452,7 +450,7 @@
 #containerNewArrivals{
     margin-bottom:150px;
     .title{
-        font-size:$nameLogo;
+        font-size:$LargeTitle;
         font-family: $fontRubik;
         color: $primaryColor;
         text-align: center;
