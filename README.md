@@ -81,6 +81,6 @@ Detalles</br>
 
 👉Links:</br>
 
-🚀 ![white_Vercel](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/05e191bc-53e1-42d0-9c84-0b4b832abd88)[Vercel](https://break-a-5kher3214-digoraccoon4279.vercel.app/p/)</br>
+🚀 ![white_Vercel](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/05e191bc-53e1-42d0-9c84-0b4b832abd88)[Vercel](https://break-a-5kher3214-digoraccoon4279.vercel.app/)</br>
 
 ![raccon_Logo3](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/0950de58-a518-42f3-a502-088da15a18d4)
