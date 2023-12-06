@@ -3463,6 +3463,22 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   margin: 0px auto;
   display: flex;
   place-items: center;
+  filter: contrast(102%);
+  animation: tags 3s linear;
+}
+@keyframes tags {
+  0% {
+    opacity: 0;
+    filter: contrast(85%);
+  }
+  50% {
+    opacity: 0.5;
+    filter: contrast(95%);
+  }
+  100% {
+    opacity: 1;
+    filter: contrast(102%);
+  }
 }
 .containerError .pageError .sentenceBreakALeg {
   width: 65vw;
@@ -3471,14 +3487,18 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   color: #6b6b6b;
   font-size: 1.8rem;
   font-family: "Jura", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
 }
-.containerError .pageError .sentenceBreakALeg .returnSentence span {
+.containerError .pageError .sentenceBreakALeg .returnSentence span, .containerError .pageError .sentenceBreakALeg .returnSentence .intro {
   color: #bc2327;
   font-size: 1.8rem;
   font-family: "Rubik Distressed", cursive;
   font-weight: 500;
+}
+.containerError .pageError .sentenceBreakALeg .returnSentence .intro {
+  font-family: "Jura", sans-serif;
+  font-weight: 600;
 }
 .containerError .pageError .btnBreakALeg {
   margin: 35px auto;
