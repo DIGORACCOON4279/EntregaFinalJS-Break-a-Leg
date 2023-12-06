@@ -982,7 +982,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-family: "Jura", sans-serif;
   color: #bc2327;
   text-align: left;
-  font-weight: 700;
+  font-weight: 400;
 }
 .giftCards .containerGetOff .containerMessage .paragraph {
   font-size: 1.5rem;
@@ -2553,15 +2553,23 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-size: 0.7rem;
   font-family: "Jura", sans-serif;
   color: #bc2327;
-  font-weight: 600;
-  background-color: rgba(0, 0, 0, 0.8509803922);
-  color: white;
+  font-weight: 700;
+  background-color: rgba(241, 241, 241, 0.8196078431);
+  color: #000000;
   padding: 20px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.6431372549));
+}
+#messageContainer div .stockProduct, #messageNewProduct div .stockProduct, #out-of-stock-message div .stockProduct {
+  color: #ffffff;
+  background-color: rgba(107, 107, 107, 0.8196078431);
+}
+#messageContainer div .soldOutProduct, #messageNewProduct div .soldOutProduct, #out-of-stock-message div .soldOutProduct {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8196078431);
 }
 
 #out-of-stock-message {
@@ -2969,7 +2977,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   width: 70px;
   height: 104px;
   position: relative;
-  background-color: #555555;
+  background-color: #3d3d3d;
   border: 1px solid #f1f1f1;
   transition: 0.3s ease-in-out;
 }

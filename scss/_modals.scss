@@ -17,9 +17,9 @@
             font-size: $xxSmallText;
             font-family: $fontJura;
             color:$primaryColor;
-            font-weight:$bold;
-            background-color: #000000d9;
-            color: white;
+            font-weight:$ExtraBold;
+            background-color: #f1f1f1d1;
+            color: $blackColor;
             padding: 20px;
             border-radius: 10px;
             display: flex;
@@ -27,6 +27,15 @@
             justify-content: space-between;
             filter: $filterShadow;
         }
+        .stockProduct{
+            color: $whiteColor;
+            background-color: #6b6b6bd1;
+        }
+        .soldOutProduct{
+            color: $whiteColor;
+            background-color:#000000d1;
+        }
+
     }
 }
 

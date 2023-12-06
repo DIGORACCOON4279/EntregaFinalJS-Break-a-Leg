@@ -202,7 +202,7 @@
                         width:70px;
                         height:104px;
                         position: relative;
-                        background-color: #555555;
+                        background-color:$btnBackgroundColor;
                         border:$itemProduct;
                         transition: $transition;
                         &:hover{
