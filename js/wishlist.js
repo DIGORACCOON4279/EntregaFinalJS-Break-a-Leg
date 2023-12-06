@@ -17,9 +17,12 @@ if(wishlistProductsLS) {
 }
 
 // Función para renderizar wishlist
-
 function renderWishlist(wishlistItems) {
     wishlistContainer.innerHTML = "";
+
+    // Determinar la ruta base en función de la ubicación del script
+    const isIndexPage = window.location.pathname.endsWith('index.html');
+    const basePath = isIndexPage ? '' : '../';
 
     wishlistItems.forEach(wishlistItem => {
         if (wishlistItem) {
@@ -27,19 +30,18 @@ function renderWishlist(wishlistItems) {
             wishlistProduct.classList.add("wishlist");
             wishlistProduct.setAttribute("data-product-id", wishlistItem.id);
 
-            wishlistProduct.innerHTML =
-            `
-                                        <div class="blockProduct">
-                                            <img class="itemProduct" src="${wishlistItem.image}" alt="Product pic">
-                                            <div class="description">
-                                                <p class="wishPrice">$${wishlistItem.pricing}</p>
-                                                <div class="icons">
-                                                    <img class="delete" src="../img/trash_Icon.svg" alt="Trash icon">
-                                                    <img class="edit" src="../img/edit_Icon.svg" alt="Edit icon">
-                                                </div>
-                                            </div>
-                                            <img class="itemWishlist" src="../img/wishlist_Icon.svg" alt="Wishlist icon">
-                                        </div>
+            wishlistProduct.innerHTML = `
+                <div class="blockProduct">
+                    <img class="itemProduct" src="${wishlistItem.image}" alt="Product pic">
+                    <div class="description">
+                        <p class="wishPrice">$${wishlistItem.pricing}</p>
+                        <div class="icons">
+                            <img class="delete" src="${basePath}img/trash_Icon.svg" alt="Trash icon">
+                            <img class="edit" src="${basePath}img/edit_Icon.svg" alt="Edit icon">
+                        </div>
+                    </div>
+                    <img class="itemWishlist" src="${basePath}img/wishlist_Icon.svg" alt="Wishlist icon">
+                </div>
             `;
 
             wishlistProduct.querySelector('.delete').addEventListener('click', () => {
@@ -47,13 +49,87 @@ function renderWishlist(wishlistItems) {
             });
 
             wishlistProduct.querySelector('.edit').addEventListener('click', () => {
-                alert('Corregir ruta logica para editar producto');
+                // Redirigir a la página de error404 con la ruta base
+                window.location.href = `${basePath}views/error404.html`;
             });
 
             wishlistContainer.appendChild(wishlistProduct);
         }
     });
 }
+// function renderWishlist(wishlistItems) {
+//     wishlistContainer.innerHTML = "";
+
+//     wishlistItems.forEach(wishlistItem => {
+//         if (wishlistItem) {
+//             const wishlistProduct = document.createElement("article");
+//             wishlistProduct.classList.add("wishlist");
+//             wishlistProduct.setAttribute("data-product-id", wishlistItem.id);
+
+//             wishlistProduct.innerHTML = `
+//                 <div class="blockProduct">
+//                     <img class="itemProduct" src="${wishlistItem.image}" alt="Product pic">
+//                     <div class="description">
+//                         <p class="wishPrice">$${wishlistItem.pricing}</p>
+//                         <div class="icons">
+//                             <img class="delete" src="../img/trash_Icon.svg" alt="Trash icon">
+//                             <img class="edit" src="../img/edit_Icon.svg" alt="Edit icon">
+//                         </div>
+//                     </div>
+//                     <img class="itemWishlist" src="../img/wishlist_Icon.svg" alt="Wishlist icon">
+//                 </div>
+//             `;
+
+//             wishlistProduct.querySelector('.delete').addEventListener('click', () => {
+//                 eliminarDeWishlist(wishlistItem.id);
+//             });
+
+//             wishlistProduct.querySelector('.edit').addEventListener('click', () => {
+//                 window.location.href = `../views/error404.html`;
+
+//             });
+
+//             wishlistContainer.appendChild(wishlistProduct);
+//         }
+//     });
+// }
+
+// function renderWishlist(wishlistItems) {
+//     wishlistContainer.innerHTML = "";
+
+//     wishlistItems.forEach(wishlistItem => {
+//         if (wishlistItem) {
+//             const wishlistProduct = document.createElement("article");
+//             wishlistProduct.classList.add("wishlist");
+//             wishlistProduct.setAttribute("data-product-id", wishlistItem.id);
+
+//             wishlistProduct.innerHTML =
+//             `
+//                                         <div class="blockProduct">
+//                                             <img class="itemProduct" src="${wishlistItem.image}" alt="Product pic">
+//                                             <div class="description">
+//                                                 <p class="wishPrice">$${wishlistItem.pricing}</p>
+//                                                 <div class="icons">
+//                                                     <img class="delete" src="../img/trash_Icon.svg" alt="Trash icon">
+//                                                     <img class="edit" src="../img/edit_Icon.svg" alt="Edit icon">
+//                                                 </div>
+//                                             </div>
+//                                             <img class="itemWishlist" src="../img/wishlist_Icon.svg" alt="Wishlist icon">
+//                                         </div>
+//             `;
+
+//             wishlistProduct.querySelector('.delete').addEventListener('click', () => {
+//                 eliminarDeWishlist(wishlistItem.id);
+//             });
+
+//             wishlistProduct.querySelector('.edit').addEventListener('click', () => {
+//                 alert('Corregir ruta logica para editar producto');
+//             });
+
+//             wishlistContainer.appendChild(wishlistProduct);
+//         }
+//     });
+// }
 
 // Función para agregar wishlist
 function agregarAWishlist(selectedOutfit) {

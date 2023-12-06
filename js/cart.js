@@ -10,8 +10,70 @@ let cartContainer = document.querySelector(".containerArticles");
 
 // Funcion para renderizar el carrito
 
+// function renderCart(cartItems) {
+//     cartContainer.innerHTML = "";
+
+//     if (!Array.isArray(cartItems)) {
+//         cartItems = [];
+//     }
+
+//     cartItems.forEach(cartItem => {
+//         const cart = document.createElement("article");
+//         cart.classList.add("cartList");
+//         cart.setAttribute("data-product-id", cartItem.id);
+//         cart.innerHTML =
+//             `
+//             <img class="itemProduct" src="${cartItem.image}" alt="Product pic">
+//             <div class="description">
+//                 <p class="price"> $${cartItem.pricing} </p>
+//                 <div class="icons">
+//                     <img src="../img/trash_Icon.svg" alt="Trash icon" class="delete-icon">
+//                     <img src="../img/edit_Icon.svg" alt="Edit icon" class="edit-icon">
+//                 </div>
+//             </div>
+//             <div class="itemNumber">
+//                 <div class="counter">
+//                     <button class="minusBtn">-</button>
+//                     <span class="counterValue">${cartItem.quantity}</span>
+//                     <button class="plusBtn">+</button>
+//                 </div>
+//             </div>
+//             <p class="total">$${cartItem.pricing * cartItem.quantity}</p>
+//         `;
+
+//         cartContainer.appendChild(cart);
+
+//         const counterValue = cart.querySelector(".counterValue");
+//         const plusButton = cart.querySelector(".plusBtn");
+//         const minusButton = cart.querySelector(".minusBtn");
+
+//         plusButton.addEventListener('click', () => {
+//             actualizarContador(cartItem, counterValue, 1);
+//         });
+
+//         minusButton.addEventListener('click', () => {
+//             actualizarContador(cartItem, counterValue, -1);
+//         });
+
+//         const deleteIcon = cart.querySelector(".delete-icon");
+//         deleteIcon.addEventListener('click', () => {
+//             eliminarDelCarrito(cartItem.id);
+//         });
+
+//         const editIcon = cart.querySelector(".edit-icon")
+//         editIcon.addEventListener('click', () => {
+//             window.location.href = `../views/error404.html`;
+//         });
+//     });
+
+//         actualizarTotalCarrito();
+// }
 function renderCart(cartItems) {
     cartContainer.innerHTML = "";
+
+    // Determinar la ruta base en función de la ubicación del script
+    const isIndexPage = window.location.pathname.endsWith('index.html');
+    const basePath = isIndexPage ? '' : '../';
 
     if (!Array.isArray(cartItems)) {
         cartItems = [];
@@ -21,14 +83,13 @@ function renderCart(cartItems) {
         const cart = document.createElement("article");
         cart.classList.add("cartList");
         cart.setAttribute("data-product-id", cartItem.id);
-        cart.innerHTML =
-            `
+        cart.innerHTML = `
             <img class="itemProduct" src="${cartItem.image}" alt="Product pic">
             <div class="description">
                 <p class="price"> $${cartItem.pricing} </p>
                 <div class="icons">
-                    <img src="../img/trash_Icon.svg" alt="Trash icon" class="delete-icon">
-                    <img src="../img/edit_Icon.svg" alt="Edit icon" class="edit-icon">
+                    <img src="${basePath}img/trash_Icon.svg" alt="Trash icon" class="delete-icon">
+                    <img src="${basePath}img/edit_Icon.svg" alt="Edit icon" class="edit-icon">
                 </div>
             </div>
             <div class="itemNumber">
@@ -59,9 +120,15 @@ function renderCart(cartItems) {
         deleteIcon.addEventListener('click', () => {
             eliminarDelCarrito(cartItem.id);
         });
+
+        const editIcon = cart.querySelector(".edit-icon");
+        editIcon.addEventListener('click', () => {
+            // Redirigir a la página de error404 con la ruta base
+            window.location.href = `${basePath}views/error404.html`;
+        });
     });
 
-        actualizarTotalCarrito();
+    actualizarTotalCarrito();
 }
 
 renderCart(cartStorage);
