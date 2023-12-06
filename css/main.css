@@ -3463,21 +3463,21 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   margin: 0px auto;
   display: flex;
   place-items: center;
-  filter: contrast(102%);
+  filter: drop-shadow(0 0 5px #9a9a9a) contrast(102%);
   animation: tags 2s linear;
 }
 @keyframes tags {
   0% {
     opacity: 0;
-    filter: contrast(85%);
+    filter: drop-shadow(0 0 5px #9a9a9a) contrast(85%);
   }
   50% {
     opacity: 0.5;
-    filter: contrast(95%);
+    filter: drop-shadow(0 0 5px #9a9a9a) contrast(95%);
   }
   100% {
     opacity: 1;
-    filter: contrast(102%);
+    filter: drop-shadow(0 0 5px #9a9a9a) contrast(102%);
   }
 }
 .containerError .pageError .sentenceBreakALeg {
