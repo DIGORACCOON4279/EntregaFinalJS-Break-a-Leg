@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
-    bottom: 70px;
+    bottom: 110px;
     right: 6%;
     z-index: 99;
     div{
@@ -35,29 +35,28 @@
             color: $whiteColor;
             background-color:#000000d1;
         }
-
     }
 }
 
 // SoldOutStock
 
 #out-of-stock-message{
-    animation:slideUp 5800ms linear 0.3s;
+    animation:slideUp 9000ms linear 0.4s;
     @keyframes slideUp {
         0% {
             transform:translateY(0%);
         }
         25%{
-            transform:translateY(-125%);
+            transform:translateY(-150%);
         }
         50% {
-            transform:translateY(-225%);
+            transform:translateY(-300%);
         }
         75%{
-            transform:translateY(-325%);
+            transform:translateY(-500%);
         }
         100% {
-            transform:translateY(-425%);
+            transform:translateY(-600%);
         }
     }
 }
