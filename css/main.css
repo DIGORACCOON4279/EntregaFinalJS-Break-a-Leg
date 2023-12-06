@@ -308,19 +308,16 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   bottom: 10px;
   left: 20px;
 }
-.sectionShop .menuCart .menuCartlist .outcomeCard .outcome .shipping, .sectionShop .menuCart .menuCartlist .outcomeCard .outcome .discount, .sectionShop .menuCart .menuCartlist .outcomeCard .outcome .total {
+.sectionShop .menuCart .menuCartlist .outcomeCard .outcome #cartTotal {
   margin: 2px;
   width: inherit;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-family: "Jura", sans-serif;
-  color: #191919;
+  color: #bc2327;
   font-weight: 600;
   display: flex;
   justify-content: space-between;
-}
-.sectionShop .menuCart .menuCartlist .outcomeCard .outcome .total {
-  color: #bc2327;
-  font-weight: 700;
+  background-color: rgba(188, 35, 40, 0.137254902);
 }
 .sectionShop .menuCart .menuCartlist .outcomeCard .btnCheckout {
   width: 100%;

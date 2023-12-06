@@ -249,20 +249,16 @@ html{
                 bottom:10px;
                 left:20px;
                 .outcome{
-                    .shipping, .discount, .total{
+                    #cartTotal{
                         margin: 2px;
                         width: inherit;
-                        font-size: $smallText;
+                        font-size: $MediumTitle;
                         font-family: $fontJura;
-                        color:$tertiaryColor;
+                        color:$primaryColor;
                         font-weight: $bold;
                         display: flex;
                         justify-content: space-between;
-                        // background-color: #707070;
-                    }
-                    .total{
-                        color:$primaryColor;
-                        font-weight: $ExtraBold;
+                        background-color: #bc232823;
                     }
                 }
                 .btnCheckout{

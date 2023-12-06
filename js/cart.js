@@ -114,14 +114,14 @@ function renderizarTotalCarrito(carrito) {
 }
 
 // Función para actualizar el total del carrito inmediatamente
-function actualizarTotalCarrito() {
-    const totalCarritoElement = document.getElementById('cartTotal');
-    const totalCarrito = calcularTotalCarrito(cartProducts);
+// function actualizarTotalCarrito() {
+//     const totalCarritoElement = document.getElementById('cartTotal');
+//     const totalCarrito = calcularTotalCarrito(cartProducts);
 
-    if (totalCarritoElement) {
-        totalCarritoElement.textContent = `Total: $${totalCarrito}`;
-    }
-}
+//     if (totalCarritoElement) {
+//         totalCarritoElement.textContent = `Total:$${totalCarrito}`;
+//     }
+// }
 
 // Funcion para actuzalizar contador
 function actualizarContador(cartItem, counterElement, incremento) {
@@ -171,7 +171,7 @@ function actualizarTotalCarrito() {
     const totalCarritoElement = document.getElementById('cartTotal');
 
     if (totalCarritoElement) {
-        totalCarritoElement.textContent = `Total: $${totalCarrito}`;
+        totalCarritoElement.textContent = `Total.............................................  $${totalCarrito}`;
     }
 }
 
