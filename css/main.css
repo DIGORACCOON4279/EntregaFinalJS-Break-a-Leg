@@ -35,7 +35,7 @@
   align-items: flex-start;
 }
 
-.flexColumnCenterCenter, body .containerError .pageError, .footerContainer .footer .brand, .footerContainer, .showRoom .rightSide .containerAccordion .accordionItem .accordionCollapse .accordionBodyDos, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .btnFilter, .sectionPlaceOrder .unionOrder .formPayment .btnPlaceOnOrder, .headerSignIn .menuIcons ul, .container .logInCreateAccount .tags .formLogIn, .container .logInCreateAccount .tags .formCreateAccount, .getOffHoddy, .sectionShop .menuCart .menuCartlist .outcomeCard .btnCheckout {
+.flexColumnCenterCenter, .containerError .pageError, .footerContainer .footer .brand, .footerContainer, .showRoom .rightSide .containerAccordion .accordionItem .accordionCollapse .accordionBodyDos, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .btnFilter, .sectionPlaceOrder .unionOrder .formPayment .btnPlaceOnOrder, .headerSignIn .menuIcons ul, .container .logInCreateAccount .tags .formLogIn, .container .logInCreateAccount .tags .formCreateAccount, .getOffHoddy, .sectionShop .menuCart .menuCartlist .outcomeCard .btnCheckout {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -3447,58 +3447,73 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-family: "Jura", sans-serif;
 }
 
-body {
+.containerError {
+  width: 100%;
+  height: 100vh;
   background-color: #f1f1f1;
 }
-body .containerError {
-  width: 100%;
-  height: auto;
-}
-body .containerError .pageError {
+.containerError .pageError {
   width: 80vw;
   height: auto;
   margin: 0px auto;
 }
-body .containerError .pageError .imgBreakaLeg .tag .tagBreakALeg {
-  width: 60%;
+.containerError .pageError .imgBreakaLeg .tag .tagBreakALeg {
+  width: 50%;
   height: auto;
   margin: 0px auto;
   display: flex;
   place-items: center;
 }
-body .containerError .pageError .sentenceBreakALeg {
-  width: 50vw;
+.containerError .pageError .sentenceBreakALeg {
+  width: 65vw;
 }
-body .containerError .pageError .sentenceBreakALeg .returnSentence {
-  color: #bc2327;
-  font-size: 1.5rem;
-  font-family: "Rubik Distressed", cursive;
+.containerError .pageError .sentenceBreakALeg .returnSentence {
+  color: #6b6b6b;
+  font-size: 1.8rem;
+  font-family: "Jura", sans-serif;
   font-weight: 500;
   text-align: center;
 }
-body .containerError .pageError .btnBreakALeg {
+.containerError .pageError .sentenceBreakALeg .returnSentence span {
+  color: #bc2327;
+  font-size: 1.8rem;
+  font-family: "Rubik Distressed", cursive;
+  font-weight: 500;
+}
+.containerError .pageError .btnBreakALeg {
   margin: 35px auto;
 }
-body .containerError .pageError .btnBreakALeg .btnReturn {
-  width: 20vw;
+.containerError .pageError .btnBreakALeg .btnReturn {
+  width: 100%;
   color: #ffffff;
   font-size: 1.2rem;
   font-family: "Rubik Distressed", cursive;
   font-weight: 500;
   text-align: center;
-  padding: 20px 40px;
+  padding: 15px 25px;
   background-color: #000000;
-  border: 1px solid #000000;
   text-decoration: none;
-  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
 }
-body .containerError .pageError .btnBreakALeg .btnReturn:hover {
+.containerError .pageError .btnBreakALeg .btnReturn:hover > .skullBrand {
+  opacity: 1;
+  visibility: visible;
   color: #000000;
   background-color: #ffffff;
-  border: 1px solid #000000;
+  box-shadow: 1px 5px 6px 2px #363636;
 }
-body .containerError .pageError .btnBreakALeg .skullBrand {
-  width: 31%;
+.containerError .pageError .btnBreakALeg .skullBrand {
+  width: 100%;
+  height: 98%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+  padding: 15px 25px;
+  transition: 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=main.css.map */
