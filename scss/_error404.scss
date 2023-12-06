@@ -1,3 +1,62 @@
 // Errors404 Page
 
-// Undefined yet
+body{
+    background-color: $backgroundColor;
+    .containerError{
+        width:100%;
+        height: auto;
+        .pageError{
+            width:80vw;
+            height:auto;
+            margin: 0px auto;
+            @extend .flexColumnCenterCenter;
+            .imgBreakaLeg{
+                .tag{
+                    .tagBreakALeg{
+                        width:60%;
+                        height:auto;
+                        margin: 0px auto;
+                        display: flex;
+                        place-items: center;
+
+                    }
+                }
+            }
+            .sentenceBreakALeg{
+                width: 50vw;
+                .returnSentence{
+                    color:$primaryColor;
+                    font-size:$sentence ;
+                    font-family: $fontRubik;
+                    font-weight:$semiBold;
+                    text-align: center;
+                }
+            }
+            .btnBreakALeg{
+                margin: 35px auto;
+                .btnReturn{
+                    width:20vw;
+                    color:$whiteColor;
+                    font-size:$MediumTitle ;
+                    font-family: $fontRubik;
+                    font-weight:$semiBold;
+                    text-align: center;
+                    padding: $paddingSectionCto;
+                    background-color: $blackColor;
+                    border: 1px solid $blackColor;
+                    text-decoration: none;
+                    transition:$transition;
+                    &:hover{
+                        color:$blackColor;
+                        background-color: $whiteColor;
+                        border: 1px solid $blackColor;
+                    }
+
+                }
+                .skullBrand{
+                    width:31%;
+                }
+            }
+        }
+    }
+}
