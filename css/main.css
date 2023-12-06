@@ -3464,7 +3464,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   display: flex;
   place-items: center;
   filter: contrast(102%);
-  animation: tags 3s linear;
+  animation: tags 2s linear;
 }
 @keyframes tags {
   0% {
