@@ -69,21 +69,6 @@
         }
     }
     .ctaStore{
-        display:flex;
-        justify-content: center;
-        margin: 70px auto 0px;
-        width: 200px;
-        padding:$paddingSectionCto;
-        color:$whiteColor;
-        font-family: $fontJura;
-        font-weight: $ExtraBold;
-        background-color:$btnBackgroundColor;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        &:hover{
-            background-color:#BC2327 ;
-            box-shadow: $boxShadowCard;
-            text-decoration: underline;
-        }
+        @extend .ctaStoreFeatures;
     }
 }

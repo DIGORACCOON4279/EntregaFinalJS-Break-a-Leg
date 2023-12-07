@@ -63,6 +63,26 @@
   align-items: flex-start;
 }
 
+/******************* ctoStore ******************/
+.ctaStoreFeatures, .newArrivals .ctaStore, .bestSellers .ctaStore {
+  display: flex;
+  justify-content: center;
+  margin: 70px auto 0px;
+  width: 200px;
+  padding: 20px 40px;
+  color: #ffffff;
+  font-family: "Jura", sans-serif;
+  font-weight: 700;
+  background-color: #3d3d3d;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.ctaStoreFeatures:hover, .newArrivals .ctaStore:hover, .bestSellers .ctaStore:hover {
+  background-color: #BC2327;
+  box-shadow: 0 0 4px 2px #707070;
+  text-decoration: underline;
+}
+
 /******************* Include ******************/
 * {
   margin: 0px;
@@ -1059,25 +1079,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 .bestSellers .sectionCardBlock .cardProducts .article .outFit:hover ~ .info {
   transform: translateY(-110%);
 }
-.bestSellers .ctaStore {
-  display: flex;
-  justify-content: center;
-  margin: 70px auto 0px;
-  width: 200px;
-  padding: 20px 40px;
-  color: #ffffff;
-  font-family: "Jura", sans-serif;
-  font-weight: 700;
-  background-color: #3d3d3d;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-.bestSellers .ctaStore:hover {
-  background-color: #BC2327;
-  box-shadow: 0 0 4px 2px #707070;
-  text-decoration: underline;
-}
-
 #wishlistSide {
   display: none;
 }
@@ -1574,26 +1575,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     box-shadow: 0 0 7px 8px #b4b4b4;
   }
 }
-.newArrivals .ctaStore {
-  display: flex;
-  justify-content: center;
-  margin: 70px auto 0px;
-  width: 200px;
-  padding: 20px 40px;
-  color: #d9d9d9;
-  font-family: "Jura", sans-serif;
-  font-weight: 700;
-  background-color: #3f3f3f;
-  background-color: #3f3f3f;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-.newArrivals .ctaStore:hover {
-  background-color: #BC2327;
-  box-shadow: 0 0 4px 2px rgb(112, 112, 112);
-  text-decoration: underline;
-}
-
 .container {
   width: 100vh;
   height: auto;
