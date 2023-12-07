@@ -2783,13 +2783,14 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   height: auto;
 }
 .showRoom .leftSide {
-  position: relative;
   overflow: hidden;
+  position: relative;
 }
 .showRoom .leftSide .itemProduct {
   width: 100%;
   height: auto;
   object-fit: cover;
+  cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 .showRoom .leftSide .itemProduct:hover {
@@ -2801,7 +2802,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 .showRoom .leftSide .soldOutLabel {
   transform: skew(-15deg, 0deg);
   position: absolute;
-  top: 0px;
+  top: 0%;
   right: -7px;
   padding: 10px 15px;
   background-color: #000000;
@@ -2834,7 +2835,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   background-color: #ffffff;
 }
 .showRoom .leftSide .addToCart .wishlistIcon {
-  width: 50px;
+  width: 13%;
   cursor: pointer;
   padding-top: 11px;
   padding-right: 11px;
@@ -2859,7 +2860,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   visibility: hidden;
   position: absolute;
   top: -80%;
-  right: 5px;
+  right: 0px;
   background-color: #000000;
   transform: translateY(100%);
   transition: 0.3s ease-in-out;
@@ -2878,7 +2879,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   clip-path: polygon(49% 30%, 20% 0, 80% 0);
   position: absolute;
   top: 25px;
-  left: 18px;
+  right: 15%;
 }
 .showRoom .rightSide {
   display: flex;

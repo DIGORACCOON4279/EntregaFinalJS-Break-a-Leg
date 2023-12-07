@@ -12,12 +12,13 @@
         height: auto;
     }
     .leftSide{
-        position: relative;
         overflow: hidden;
+        position: relative;
         .itemProduct{
             width:100%;
             height: auto;
             object-fit: cover;
+            cursor: pointer;
             transition:$transition;
             &:hover{
                 filter:contrast(115%);
@@ -29,7 +30,7 @@
         .soldOutLabel{
             transform: skew(-15deg, 0deg);
             position: absolute;
-            top:0px;
+            top:0%;
             right:-7px;
             padding:10px 15px;
             background-color: $blackColor;
@@ -62,7 +63,7 @@
                 }
             }
             .wishlistIcon{
-                width:50px;
+                width:13%;
                 cursor: pointer;
                 padding-top: 11px;
                 padding-right: 11px;
@@ -87,7 +88,7 @@
                 visibility: hidden;
                 position:absolute;
                 top:-80%;
-                right:5px;
+                right:0px;
                 background-color:$blackColor;
                 transform: translateY(100%);
                 transition: $transition;
@@ -105,7 +106,7 @@
                     clip-path: polygon(49% 30%, 20% 0, 80% 0);
                     position: absolute;
                     top:25px;
-                    left:18px;
+                    right:15%;
                 }
             }
         }
