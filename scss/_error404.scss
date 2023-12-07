@@ -69,7 +69,7 @@
                     font-family: $fontRubik;
                     font-weight:$semiBold;
                     text-align: center;
-                    padding:  15px 25px;
+                    padding:  15px 50px;
                     background-color: $blackColor;
                     text-decoration: none;
                     cursor: pointer;
@@ -93,7 +93,7 @@
                     opacity:0;
                     visibility:hidden;
                     cursor: pointer;
-                    padding:  15px 25px;
+                    padding:  12px 5px;
                     transform:scale(0%, 0%);
                     transition:$transition;
                 }
