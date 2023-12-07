@@ -3500,6 +3500,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-family: "Jura", sans-serif;
   font-weight: 600;
 }
+.containerError .pageError .sentenceBreakALeg .returnSentence .emojiIcon {
+  font-size: 20px;
+}
 .containerError .pageError .btnBreakALeg {
   margin: 35px auto;
 }
