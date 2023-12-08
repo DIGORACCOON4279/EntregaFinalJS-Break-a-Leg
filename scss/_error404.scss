@@ -5,6 +5,25 @@
         width:100%;
         height: 100vh;
         background-color: $backgroundColor;
+        animation:sliderColor 2s linear;
+        @keyframes sliderColor {
+            0%{
+                background-color: #f1f1f12e;
+            }
+            25%{
+                background-color: #f1f1f16a;
+            }
+            50%{
+                background-color: #f1f1f197;
+            }
+            75%{
+                background-color: #f1f1f1cc;
+            }
+            100%{
+                background-color: #f1f1f1;
+            }
+
+        }
         .pageError{
             width:80vw;
             height:auto;
