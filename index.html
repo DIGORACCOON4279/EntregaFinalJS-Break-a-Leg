@@ -217,8 +217,10 @@
 
                             <!-- Inyectar el total de los productos del carrito a p -->
 
-                            </article>
-                        <button class="btnCheckout">Secure checkout</button>
+                        </article>
+                        <label for="order" class="orderCross">
+                            <p class="btnCheckout">Secure checkout</p>
+                        </label>
                     </div>
                 </nav>
             </div>
@@ -684,6 +686,95 @@
                     <p class="paragraph">Now, you can buy and give away 4 <span class="higthlighter">"gift cards"</span></p>
                 </article>
             </div>
+        </section>
+
+         <!-- Place order -->
+
+        <input type="checkbox" id="order">
+        <section class="sectionPlaceOrder">
+            <label for="order" class="orderCross">
+                <img class="crossCloseWhite" src="img/close_Cross_White.svg" alt="Cross Icon" >
+            </label>
+            <form class="unionOrder" id="unionOrder">
+                <fieldset class="delivery">
+                    <fieldset class="deliveryContact">
+                        <legend class="contactTitle">Contact</legend>
+                        <fieldset>
+                            <label for="email">
+                                <input type="email" name="email" placeholder="Email" required>
+                            </label>
+                        </fieldset>
+                        <legend class="deliveryTitle">Delivery</legend>
+                        <fieldset class="fullName">
+                            <label for="firstName">
+                                <input type="text" id="firstName" name="firstName" pattern="[A-Za-z]+" minlength="3"  maxlength="10" placeholder="First name" required>
+                            </label>
+                            <label for="lastName">
+                                <input type="text" id="lastName" name="lastName" pattern="[A-Za-z]+" minlength="3"  maxlength="10" placeholder="Last name" required>
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <label for="province">
+                                <input type="text" id="province" name="province" pattern="[A-Za-z]+" minlength="3"  maxlength="12" placeholder="Province" required>
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <label for="address">
+                                <input type="text" id="address" name="address" pattern="[A-Za-z0-9\s]+" placeholder="Address" required>
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <label for="cellphone">
+                                <input type="tel" id="cellphone" name="cellphone" inputmode="numeric" pattern="\d+" minlength="11"  maxlength="12" placeholder="Cellphone number" required>
+                            </label>
+                        </fieldset>
+                    </fieldset>
+                    <article class="creditCards">
+                        <p class="transactions">All transactions are secure and encrypted.</p>
+                        <img class="paymentCards" src="img/payments.webp" alt="Credit cards">
+                    </article>
+                </fieldset>
+                <fieldset class="formPayment">
+                    <Legend class="paymentTitle">Payment</Legend>
+                    <fieldset required>
+                        <select>
+                            <option class="card" disabled selected>Card select</option>
+                            <option class="card" required>Debit Card</option>
+                            <option class="card" required>Credit Card</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <select required>
+                            <option class="cardType" disabled selected>Card type</option>
+                            <option class="cardType" required>Master card</option>
+                            <option class="cardType" required>Visa</option>
+                            <option class="cardType" required>American express</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label class="cardNumbers" for="cardNumber">
+                            <input type="text" id="cardNumber" name="cardNumber" inputmode="numeric" pattern="\d{4}" placeholder="XXXX" minlength="4" maxlength="4" required />-
+                            <input type="text" id="cardNumber" name="cardNumber" inputmode="numeric" pattern="\d{4}" placeholder="XXXX" minlength="4" maxlength="4" required />-
+                            <input type="text" id="cardNumber" name="cardNumber" inputmode="numeric" pattern="\d{4}" placeholder="XXXX" minlength="4" maxlength="4" required />-
+                            <input type="text" id="cardNumber" name="cardNumber" inputmode="numeric" pattern="\d{4}" placeholder="XXXX" minlength="4" maxlength="4" required />
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label for="nameOnCard">
+                            <input type="text" id="nameOnCard" inputmode="text" pattern="[A-Za-z]+" name="cardholderName" minlength="3" maxlength="10" title="Digita solo letras de la A-Z" placeholder="Name on card" required/>
+                        </label>
+                    </fieldset>
+                    <fieldset class="expirateDateCvc">
+                        <label for="cvc">
+                            <input type="tel" id="cvc" inputmode="numeric" pattern="^[0-9]{3}$" minLength="3" maxLength="3" name="cvc" title="Digita los ultimos tres digitos numericos de tu tarjeta" minlength="3" maxlength="3" placeholder="CVC" required/>
+                        </label>
+                        <label for="expirateDate">
+                            <input type="month" id="expirateDate" name="date" inputmode="numeric" placeholder="MM-YY" title="Digita mes y año de expiracion de tu tarjeta con este formato XX-XXXX" required/>
+                        </label>
+                    </fieldset>
+                    <button type="submit" class="btnPlaceOnOrder">Place on order</button>
+                </fieldset>
+            </form>
         </section>
 
     </main>
