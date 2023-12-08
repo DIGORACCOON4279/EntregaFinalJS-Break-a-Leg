@@ -2571,6 +2571,42 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 
+.swal2-container .swal2-actions {
+  width: 50%;
+}
+.swal2-container .swal2-actions .swal2-confirm {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Jura", sans-serif;
+  background-color: #000000;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 0%;
+  transition: 0.3s ease-in-out;
+}
+.swal2-container .swal2-actions .swal2-confirm:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+.swal2-container .swal2-popup {
+  background-color: #ffffff;
+}
+.swal2-container .swal2-popup .swal2-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #bc2327;
+  font-family: "Jura", sans-serif;
+}
+.swal2-container .swal2-popup .swal2-html-container {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #6b6b6b;
+  font-family: "Jura", sans-serif;
+}
+
 .sectionFilter .menuFilterSide {
   width: 100%;
 }

@@ -60,3 +60,44 @@
         }
     }
 }
+
+// SwalPopUp - SignIn
+
+.swal2-container{
+    .swal2-actions{
+        width: 50%;
+        .swal2-confirm{
+            width: 100%;
+            font-size:$regularText;
+            font-weight: $ExtraBold;
+            color: $whiteColor;
+            font-family: $fontJura;
+            background-color: $blackColor;
+            padding:10px;
+            border: $btnMenu;
+            border-radius:0%;
+            transition: $transition;
+            &:hover{
+                color: $blackColor;
+                background-color: $whiteColor;
+                border: $btnMenu;
+            }
+        }
+    }
+    .swal2-popup{
+        background-color: $whiteColor;
+        .swal2-title{
+            font-size:$nameLogo;
+            font-weight: $bold;
+            color: $primaryColor;
+            font-family: $fontJura;
+        }
+        .swal2-html-container{
+            font-size:$smallText;
+            font-weight: $mediumBold;
+            color: $lineColor;
+            font-family: $fontJura;
+        }
+    }
+}
+
