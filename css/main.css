@@ -2215,7 +2215,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 
 #orderCross {
-  display: flex;
+  display: none;
   font-family: "Jura", sans-serif;
 }
 #orderCross:checked ~ .sectionPurchaseOrder {

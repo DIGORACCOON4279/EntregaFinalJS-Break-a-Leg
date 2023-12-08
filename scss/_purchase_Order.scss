@@ -1,7 +1,7 @@
  // Purchase order
 
 #orderCross{
-    display: flex;
+    display: none;
     font-family: $fontJura;
     &:checked ~ .sectionPurchaseOrder{
         transform:translateY(150%);
