@@ -2323,7 +2323,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 
 #order {
-  display: flex;
+  display: none;
   font-family: "Jura", sans-serif;
 }
 #order:checked ~ .sectionPlaceOrder {
@@ -2572,7 +2572,10 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 
 .swal2-container .swal2-popup {
+  width: 30vw;
+  height: auto;
   background-color: #ffffff;
+  border-radius: 10px;
 }
 .swal2-container .swal2-popup .swal2-title {
   font-size: 1.8rem;
@@ -2587,7 +2590,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-family: "Jura", sans-serif;
 }
 .swal2-container .swal2-actions {
-  width: 50%;
+  width: 70%;
 }
 .swal2-container .swal2-actions .swal2-confirm {
   width: 100%;

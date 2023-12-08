@@ -1,6 +1,6 @@
 
 
-// PopUp SignIn
+// Modal SignIn
 
 const formSignIn = document.querySelector(".formLogIn");
 
@@ -13,7 +13,7 @@ formSignIn.addEventListener('submit', (event) => {
     });
 });
 
-// PopUp CreateAccount
+// Modal CreateAccount
 
 const formCreateAccount = document.querySelector(".formCreateAccount");
 

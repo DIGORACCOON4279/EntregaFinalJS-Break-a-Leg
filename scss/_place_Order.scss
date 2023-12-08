@@ -1,7 +1,7 @@
  // Place order
 
 #order{
-    display: flex;
+    display: none;
     font-family: $fontJura;
     &:checked ~ .sectionPlaceOrder{
         transform:translateY(150%);

@@ -65,7 +65,10 @@
 
 .swal2-container{
     .swal2-popup{
+        width:30vw;
+        height:auto;
         background-color: $whiteColor;
+        border-radius: $borderRadius;
         .swal2-title{
             font-size:$nameLogo;
             font-weight: $bold;
@@ -80,7 +83,7 @@
         }
     }
     .swal2-actions{
-        width: 50%;
+        width: 70%;
         .swal2-confirm{
             width: 100%;
             font-size:$regularText;
