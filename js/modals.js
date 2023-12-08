@@ -7,7 +7,7 @@ const formSignIn = document.querySelector(".formLogIn");
 formSignIn.addEventListener('submit', (event) => {
     event.preventDefault();
     Swal.fire({
-        title: "Good job!",
+        title: "Well done!",
         text: "You have logged in successfully!",
         icon: "success",
     });
@@ -20,7 +20,7 @@ const formCreateAccount = document.querySelector(".formCreateAccount");
 formCreateAccount.addEventListener('submit', (event) => {
     event.preventDefault();
     Swal.fire({
-        title: "Good job!",
+        title: "Great work!",
         text: "You have created your account successfully!",
         icon: "success",
     });
