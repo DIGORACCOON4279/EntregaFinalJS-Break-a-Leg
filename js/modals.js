@@ -1,21 +1,29 @@
 
 
-const btnAlertSignIn = document.querySelector(".btnSignIn");
+// PopUp SignIn
 
-btnAlertSignIn.addEventListener('click', () => {
+const formSignIn = document.querySelector(".formLogIn");
+
+formSignIn.addEventListener('submit', (event) => {
+    event.preventDefault();
     Swal.fire({
         title: "Good job!",
         text: "You have logged in successfully!",
         icon: "success",
     });
-})
+});
 
-const btnAlertCreateAccount = document.querySelector(".btnCreateAccount");
+// PopUp CreateAccount
 
-btnAlertCreateAccount.addEventListener('click', () => {
+const formCreateAccount = document.querySelector(".formCreateAccount");
+
+formCreateAccount.addEventListener('submit', (event) => {
+    event.preventDefault();
     Swal.fire({
         title: "Good job!",
         text: "You have created your account successfully!",
         icon: "success",
     });
-})
+});
+
+
