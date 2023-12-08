@@ -325,12 +325,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   left: 20px;
 }
 .sectionShop .menuCart .menuCartlist .outcomeCard .outcome #cartTotal {
-  margin: 10px auto;
-  padding: 2px;
+  margin: 0px auto 10px;
   width: inherit;
   font-size: 1.2rem;
   font-family: "Jura", sans-serif;
@@ -341,6 +340,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .sectionShop .menuCart .menuCartlist .outcomeCard .btnCheckout {
   width: 100%;
+  height: 40.39px;
   padding: 10px 20px;
   margin: 0px;
   font-size: 1rem;

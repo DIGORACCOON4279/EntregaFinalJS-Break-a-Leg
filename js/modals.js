@@ -9,6 +9,7 @@ formSignIn.addEventListener('submit', (event) => {
         title: "Well done!",
         text: "You have logged in successfully!",
         icon: "success",
+        iconColor: '#bc2327',
     });
 });
 
@@ -22,6 +23,7 @@ formCreateAccount.addEventListener('submit', (event) => {
         title: "Great work!",
         text: "You have created your account successfully!",
         icon: "success",
+        iconColor: '#bc2327',
     });
 });
 
