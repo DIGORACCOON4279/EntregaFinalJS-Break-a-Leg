@@ -1,18 +1,4 @@
 
-// Modal SignIn
-
-const formSignIn = document.querySelector(".formLogIn");
-
-formSignIn.addEventListener('submit', (event) => {
-    event.preventDefault();
-    Swal.fire({
-        title: "Well done!",
-        text: "You have logged in successfully!",
-        icon: "success",
-        iconColor: '#bc2327',
-    });
-});
-
 // Modal CreateAccount
 
 const formCreateAccount = document.querySelector(".formCreateAccount");
@@ -26,7 +12,6 @@ formCreateAccount.addEventListener('submit', (event) => {
         iconColor: '#bc2327',
     });
 });
-
 
 
 
