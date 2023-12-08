@@ -246,11 +246,12 @@ html{
                 flex-direction: column;
                 justify-content: space-between;
                 position:absolute;
-                bottom:10px;
+                bottom:30px;
                 left:20px;
                 .outcome{
                     #cartTotal{
-                        margin: 2px;
+                        margin: 10px auto;
+                        padding: 2px;
                         width: inherit;
                         font-size: $MediumTitle;
                         font-family: $fontJura;
@@ -258,14 +259,13 @@ html{
                         font-weight: $bold;
                         display: flex;
                         justify-content: space-between;
-                        background-color: #bc232823;
                     }
                 }
                 .btnCheckout{
                     width: 100%;
                     padding: 10px 20px;
+                    margin:0px;
                     @extend .flexColumnCenterCenter;
-                    margin:10px auto;
                     font-size: $regularText;
                     font-family: $fontJura;
                     font-weight: $bold;

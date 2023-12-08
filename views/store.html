@@ -258,7 +258,7 @@
 
                         </article>
                         <label for="order" class="orderCross">
-                            <button class="btnCheckout">Secure checkout</button>
+                            <p class="btnCheckout">Secure checkout</p>
                         </label>
                     </div>
                 </nav>
@@ -272,7 +272,7 @@
             <label for="order" class="orderCross">
                 <img class="crossCloseWhite" src="../img/close_Cross_White.svg" alt="Cross Icon" >
             </label>
-            <form class="unionOrder">
+            <form class="unionOrder" id="unionOrder">
                 <fieldset class="delivery">
                     <fieldset class="deliveryContact">
                         <legend class="contactTitle">Contact</legend>
@@ -349,7 +349,7 @@
                             <input type="month" id="expirateDate" name="date" inputmode="numeric" placeholder="MM-YY" title="Digita mes y año de expiracion de tu tarjeta con este formato XX-XXXX" required/>
                         </label>
                     </fieldset>
-                    <button class="btnPlaceOnOrder" type="submit">Place on order</button>
+                    <button type="submit" class="btnPlaceOnOrder">Place on order</button>
                 </fieldset>
             </form>
         </section>
@@ -368,7 +368,7 @@
                 <img class="cartCheck" src="../img/cart_Check.svg" alt="Break a Leg brand">
                 <p class="order"> Your purchase order number is</p>
                 <p class="number">526896-589</p>
-                <button href="#" class="close">Close</button>
+                <button type="submit" class="close">Close</button>
             </article>
         </section>
 
@@ -480,6 +480,7 @@
     <script type="text/javascript" src="../js/filter.js"></script>
     <script type="text/javascript" src="../js/wishlist.js"></script>
     <script type="text/javascript" src="../js/modals.js"></script>
+    <script type="text/javascript" src="../js/modalStore.js"></script>
 
 </body>
 </html>

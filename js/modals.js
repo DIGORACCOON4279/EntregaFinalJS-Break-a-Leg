@@ -1,5 +1,4 @@
 
-
 // Modal SignIn
 
 const formSignIn = document.querySelector(".formLogIn");
@@ -25,5 +24,7 @@ formCreateAccount.addEventListener('submit', (event) => {
         icon: "success",
     });
 });
+
+
 
 
