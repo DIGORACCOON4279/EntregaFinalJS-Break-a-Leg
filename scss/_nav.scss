@@ -76,7 +76,7 @@
                     &:checked ~ .landingMenu{
                         visibility: visible;
                         opacity: 1;
-                        transform: translateX(00%);
+                        clip-path: circle(141.2% at 100% 0);
                     }
                 }
                 .landingIcon{
@@ -90,15 +90,15 @@
                     width:140px;
                     height: auto;
                     position:absolute;
-                    top:48px;
+                    top:40px;
                     right:0px;
                     filter: $filterShadow;
                     opacity: 0;
                     visibility: hidden;
                     background-color: $secondaryBackground;
                     overflow: hidden;
-                    transform: translateX(-130%);
-                    transition: transform $transition;
+                    clip-path: circle(1.0% at 99% 0);
+                    transition: $transition;
                     ul{
                         @extend .flexColumn;
                         margin-left:-32px;

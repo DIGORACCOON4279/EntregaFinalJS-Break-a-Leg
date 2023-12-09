@@ -433,7 +433,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 .header .menuIcons ul .menuSection #newMenu:checked ~ .landingMenu {
   visibility: visible;
   opacity: 1;
-  transform: translateX(0%);
+  clip-path: circle(141.2% at 100% 0);
 }
 .header .menuIcons ul .menuSection .landingIcon .menuLandingIcon {
   width: 25px;
@@ -444,15 +444,15 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   width: 140px;
   height: auto;
   position: absolute;
-  top: 48px;
+  top: 40px;
   right: 0px;
   filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.6431372549));
   opacity: 0;
   visibility: hidden;
   background-color: #1b1b1b;
   overflow: hidden;
-  transform: translateX(-130%);
-  transition: transform 0.3s ease-in-out;
+  clip-path: circle(1% at 99% 0);
+  transition: 0.3s ease-in-out;
 }
 .header .menuIcons ul .menuSection .landingMenu ul {
   margin-left: -32px;
