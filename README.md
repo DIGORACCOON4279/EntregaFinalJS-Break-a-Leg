@@ -60,7 +60,7 @@ Primero que todo se realizo el mockup en Figma para tener una vision mas amplia 
 ✔filter.js</br>
 ✔modals.js</br>
 ✔modalSignIn.js</br>
-✔modalStore.js</br
+✔modalStore.js</br>
 
 Detalles</br>
 
