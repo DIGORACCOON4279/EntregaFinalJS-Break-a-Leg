@@ -232,18 +232,6 @@ const outfits = [
     }
 ]
 
-// Mi codigo
-
-// Storage
-// let cartProducts;
-// let cartProductsLS = localStorage.getItem("cartProducts")
-// if(cartProductsLS) {
-//     cartProducts = JSON.parse(cartProductsLS)
-// } else {
-//     cartProducts = []
-// }
-
-// Correccion chat gpt me soluciono el problema de marcar los productos en el shopping cart
 
 let cartProducts;
 let cartProductsLS = localStorage.getItem("cartProducts")

@@ -1,5 +1,5 @@
 
-// Modal SignIn
+// Modal SignIn library SweetAlert
 
 document.addEventListener('DOMContentLoaded', function () {
   const formSignIn = document.querySelector('.formLogIn');

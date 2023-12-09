@@ -1,5 +1,5 @@
 
-// Modal CreateAccount
+// Modal CreateAccount library SweetAlert
 
 const formCreateAccount = document.querySelector(".formCreateAccount");
 

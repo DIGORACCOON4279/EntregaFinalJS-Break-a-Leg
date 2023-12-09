@@ -1,5 +1,5 @@
 
-// Modal PlaceOnOrder
+// Modal PlaceOnOrder library SweetAlert
 
 const placeOnOrder = document.getElementById("unionOrder");
 
