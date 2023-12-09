@@ -72,16 +72,20 @@ Detalles</br>
 >>**Tambien para tener una historia de usuario exitosa se crearon como simulador el login & createAccount</br>
 >>**Se realizo simulacion de la compra llenando formulario de placeOrder y obtener modal de tarea exitosa.</br>
 >>**Se terminaron los ajustes en las interfaces y page Error 404(opcional), como tambien su adaptacion a pantallas cellphone y tablet(Opcional)</br>
+>>**La mayoria de las animationes se realizaron con css nativo utilizando animations, @keyframes, transitions.</br>
+>>**Se trabajo con npm para compilar con SASS e utilizar _partials, mixin,(include & exclude) & variables</br>
 
 🎯Para esta entrega final se realizo:</br>
 
 ✔DOM</br>
 ✔Se creo en el archivo de JS los arrays de objetos el cual contiene 28 productos con sus respectivos clave:, valor:</br>
 ✔Eventos</br>
+✔Functions</br>
+✔Conditionales</br>
 ✔Storage & JSON</br>
 ✔Async & await & promises </br>
-✔Se utilizo la librery "sweetAlert" para mostrar el ultimo modal para indicar al usuario que realizo exitosamente su compra [ onteniendo el purchase number]-opcional.
-✔Tambien se utilizo la librery "sweetAlert" para mostrar el ultimo modal para mostrar toast & popUps de signIn & createAccount.
+✔Se utilizo la librery "![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027)" para mostrar el ultimo modal para indicar al usuario que realizo exitosamente su compra [ onteniendo el purchase number]-opcional.</br>
+✔Tambien se utilizo la librery "![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027)" para mostrar el ultimo modal para mostrar toast & popUps de signIn & createAccount.</br>
 
 👉Links:</br>
 
