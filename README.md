@@ -85,7 +85,7 @@ Detalles</br>
 ✔Storage & JSON</br>
 ✔Async & await</br>
 ✔setTimeOut (Toasties)</br>
-✔Fetch & promises </br>
+✔AJAX & fetch </br>
 ✔Se utilizo la librery "![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027)" para mostrar el ultimo modal para indicar al usuario que realizo exitosamente su compra [ onteniendo el purchase number]-opcional.</br>
 ✔Tambien se utilizo la librery "![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027)" para mostrar el ultimo modal para mostrar toast & popUps de signIn & createAccount.</br>
 
