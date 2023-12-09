@@ -65,7 +65,7 @@ Primero que todo se realizo el mockup en Figma para tener una vision mas amplia 
 
 Detalles</br>
 
->>**Se  realizo la logica del store agregando productos a favoritos con dos opciones de eliminar y editar(direcciona a la pagina error404) cuando el producto ya fue ingresado a sus favoritos aparece un modal advirtiendo</br>
+>>**Se  realizo la logica del store agregando productos a favoritos con dos opciones de eliminar y editar(direcciona a la pagina error404) cuando el producto ya fue ingresado a sus favoritos aparece un toast advirtiendo</br>
 >>**Se creo la seccion de filtros de eleccion del usuario con dos categorias availability & pricing cada uno con sus respectivas opciones combinandolas uno a uno.</br>
 >>**Al crear la seccion store  se tuvo en cuenta el shopping card, en el cual los usuarios pueden escoger el producto con un maximo total de 5 unidades de stock por producto mostrando con sus respectivos toasties la cantidad maxima permitida y la cantidad minima del producto el cual es uno, lo puede realizar desde el store o desde la shopping cart section. Tiene la opcion de editar(direcciona a la pagina error404), eliminar y muestra el calculo por producto y tambien se obtiene el total final.</br>
 >>**Se creo una carpeta llamada JS y se crearon 7 archivos.</br>
