@@ -40,8 +40,9 @@ Primero que todo se realizo el mockup en Figma para tener una vision mas amplia 
 ✔Landing page</br>
 ✔Store</br>
 ✔ShowRoom</br>
-✔Pagina Error 404(opcional)</br>
 ✔Sign in & Create Account</br>
+✔Pagina Error 404(opcional)</br>
+✔Mediaqueries cellphone y tablet(Opcional)</br>
 
 💻Desktop
 
@@ -65,12 +66,12 @@ Primero que todo se realizo el mockup en Figma para tener una vision mas amplia 
 Detalles</br>
 
 >>**Se  realizo la logica del store agregando productos a favoritos con dos opciones de eliminar y editar cuando el producto ya fue ingresado a sus favoritos aparece un modal advirtiendo</br>
->>**Al crear la seccion store  se tuvo en cuenta el shopping card, en el cual los usuarios pueden escoger el producto con un maximo total de 5 unidades de stock por producto mostrando con sus respectivos modales la cantidad maxima permitida y la cantidad minima del producto el cual es uno, lo puede realizar desde el store o desde la shopping cart section. Tiene la opcion de editar y eliminar mostrando el calculo por producto. Tambuen se obtiene el total final con el fee de shipping y discount or compras superiores a $5000.</br>
 >>**Se creo la seccion de filtros de eleccion del usuario con dos categorias availability & pricing cada uno con sus respectivas opciones combinandolas uno a uno.</br>
->>**Se creo una carpeta llamada JS y se crearon 5 archivos.</br>
->>**Tambien para tener una historia de usuario exitosa se crearon como simulador el login & createAccount &</br>
+>>**Al crear la seccion store  se tuvo en cuenta el shopping card, en el cual los usuarios pueden escoger el producto con un maximo total de 5 unidades de stock por producto mostrando con sus respectivos toasties la cantidad maxima permitida y la cantidad minima del producto el cual es uno, lo puede realizar desde el store o desde la shopping cart section. Tiene la opcion de editar(direcciona a la pagina error404), eliminar y muestra el calculo por producto y tambien se obtiene el total final.</br>
+>>**Se creo una carpeta llamada JS y se crearon 7 archivos.</br>
+>>**Tambien para tener una historia de usuario exitosa se crearon como simulador el login & createAccount</br>
 >>**Se realizo simulacion de la compra llenando formulario de placeOrder y obtener modal de tarea exitosa.</br>
->>**Se creaerminaron los ajustes en las interfaces y page Error 404(opcional), como tambien su adaptacion a pantallas cellphone y tablet(Opcional)</br>
+>>**Se terminaron los ajustes en las interfaces y page Error 404(opcional), como tambien su adaptacion a pantallas cellphone y tablet(Opcional)</br>
 
 🎯Para esta entrega final se realizo:</br>
 
@@ -79,7 +80,8 @@ Detalles</br>
 ✔Eventos</br>
 ✔Storage & JSON</br>
 ✔Async & await & promises </br>
-✔Se utilizo la librery "XXXXXX" para mostrar el ultimo modal para indicar al usuario que realizo exitosamente su compra [ onteniendo el purchase number]-opcional.
+✔Se utilizo la librery "sweetAlert" para mostrar el ultimo modal para indicar al usuario que realizo exitosamente su compra [ onteniendo el purchase number]-opcional.
+✔Tambien se utilizo la librery "sweetAlert" para mostrar el ultimo modal para mostrar toast & popUps de signIn & createAccount.
 
 👉Links:</br>
 
