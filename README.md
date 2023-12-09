@@ -41,8 +41,7 @@ Primero que todo se realizo el mockup en Figma para tener una vision mas amplia 
 ✔Store</br>
 ✔ShowRoom</br>
 ✔Pagina Error 404(opcional)</br>
-✔Sign in & </br>
-✔Create Account</br>
+✔Sign in & Create Account</br>
 
 💻Desktop
 
