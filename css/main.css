@@ -652,12 +652,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 .heroSection .heroSectionCentered .info .break {
   font-size: 4.5rem;
   font-family: "Rubik Distressed", cursive;
-  color: #9a9a9a;
+  color: #bc2327;
 }
 .heroSection .heroSectionCentered .info .subtitle {
   font-size: 2.5rem;
   font-family: "Jura", sans-serif;
-  color: #bc2327;
+  color: #6b6b6b;
   font-weight: 600;
   margin-top: -45px;
 }
