@@ -56,7 +56,7 @@ Primero que todo se realizo el mockup en Figma para tener una vision mas amplia 
 
 ✔store.js</br>
 ✔wishlist.js</br>
-✔Cart.js</br>
+✔cart.js</br>
 ✔filter.js</br>
 ✔modals.js</br>
 ✔modalSignIn.js</br>
