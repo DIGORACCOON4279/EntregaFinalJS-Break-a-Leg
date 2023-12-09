@@ -19,7 +19,7 @@ Break a Leg es un ecommerce ficticio de ropa adolescente y jovenes que gustan de
 ![npm](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/e703b698-4589-43d5-b5ba-2a75693a3691) npm &</br>
 ![vsc](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/bd61bcc5-5a44-4c33-b675-d03bb01589c0) VSC</br>
 
-👉 Lenguajes, preprocesador, librery & framework utilizadas: 🛠</br>
+👉 Lenguajes, preprocesador, library & framework utilizadas: 🛠</br>
 
 ![css](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/b2e2f475-b8d9-4188-aae4-fe7e9a7acf4a)CSS (Lenguaje de estilos)</br>
 ![html](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/b0692228-5ca9-433d-a4c5-b52369d3c4bf)HTML (Lenguaje de marcado y estructura)</br>
