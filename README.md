@@ -26,7 +26,7 @@ Break a Leg es un ecommerce ficticio de ropa adolescente y jovenes que gustan de
 ![js](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/1ef7c489-c0b4-41a6-bdce-b12d8c0654ad)JavaScript (Lenguage de programación)</br>
 ![Bootstrap](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/570d9449-d0dc-4e46-b34c-cae994960cff)Bootstrap (Framework)</br>
 ![Sass](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/97214254-d103-46e6-a306-8f5c3c10571c)Sass (Preprocesador)</br>
-![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027)(Library)</br>
+![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027) (Library)</br>
 
 Primero que todo se realizo el mockup en Figma para tener una vision mas amplia de lo que se queria lograr segun historias de usuario y consignas del curso JS:</br>
 
