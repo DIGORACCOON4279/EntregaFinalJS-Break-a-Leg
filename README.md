@@ -19,14 +19,14 @@ Break a Leg es un ecommerce ficticio de ropa adolescente y jovenes que gustan de
 ![npm](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/e703b698-4589-43d5-b5ba-2a75693a3691) npm &</br>
 ![vsc](https://github.com/DIGORACCOON4279/EntregaFinal/assets/88150970/bd61bcc5-5a44-4c33-b675-d03bb01589c0) VSC</br>
 
-👉 Lenguajes, preprocesador, librery & framework utilizadas: 🛠</br>
+👉 Lenguajes, preprocesador, library & framework utilizadas: 🛠</br>
 
 ![css](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/b2e2f475-b8d9-4188-aae4-fe7e9a7acf4a)CSS (Lenguaje de estilos)</br>
 ![html](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/b0692228-5ca9-433d-a4c5-b52369d3c4bf)HTML (Lenguaje de marcado y estructura)</br>
 ![js](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/1ef7c489-c0b4-41a6-bdce-b12d8c0654ad)JavaScript (Lenguage de programación)</br>
 ![Bootstrap](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/570d9449-d0dc-4e46-b34c-cae994960cff)Bootstrap (Framework)</br>
 ![Sass](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/97214254-d103-46e6-a306-8f5c3c10571c)Sass (Preprocesador)</br>
-(Library)</br>
+![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027) (Library)</br>
 
 Primero que todo se realizo el mockup en Figma para tener una vision mas amplia de lo que se queria lograr segun historias de usuario y consignas del curso JS:</br>
 
@@ -39,10 +39,10 @@ Primero que todo se realizo el mockup en Figma para tener una vision mas amplia 
 
 ✔Landing page</br>
 ✔Store</br>
-✔Sign in & </br>
-✔Create Account</br>
 ✔ShowRoom</br>
-✖Resta la pagina Error 404(opcional)</br>
+✔Sign in & Create Account</br>
+✔Pagina Error 404(opcional)</br>
+✔Mediaqueries cellphone y tablet(Opcional)</br>
 
 💻Desktop
 
@@ -55,29 +55,39 @@ Primero que todo se realizo el mockup en Figma para tener una vision mas amplia 
 
 🗃Archivos JS</br>
 
-✔Store.js</br>
-✔Wishlist.js</br>
-✔Cart.js</br>
-✔Filter.js</br>
+✔store.js</br>
+✔wishlist.js</br>
+✔cart.js</br>
+✔filter.js</br>
+✔modals.js</br>
+✔modalSignIn.js</br>
+✔modalStore.js</br>
 
 Detalles</br>
 
->>**Se  realizo la logica del store agregando productos a favoritos con dos opciones de eliminar y editar cuando el producto ya fue ingresado a sus favoritos aparece un modal advirtiendo</br>
->>**Al crear la seccion store  se tuvo en cuenta el shopping card, en el cual los usuarios pueden escoger el producto con un maximo total de 5 unidades de stock por producto mostrando con sus respectivos modales la cantidad maxima permitida y la cantidad minima del producto el cual es uno, lo puede realizar desde el store o desde la shopping cart section. Tiene la opcion de editar y eliminar mostrando el calculo por producto. Tambuen se obtiene el total final con el fee de shipping y discount or compras superiores a $5000.</br>
+>>**Se  realizo la logica del store agregando productos a favoritos con dos opciones de eliminar y editar(direcciona a la pagina error404) cuando el producto ya fue ingresado a sus favoritos aparece un toast advirtiendo</br>
 >>**Se creo la seccion de filtros de eleccion del usuario con dos categorias availability & pricing cada uno con sus respectivas opciones combinandolas uno a uno.</br>
->>**Se creo una carpeta llamada JS y se crearon 5 archivos.</br>
->>**Tambien para tener una historia de usuario exitosa se crearon como simulador el login & createAccount &</br>
+>>**Al crear la seccion store  se tuvo en cuenta el shopping card, en el cual los usuarios pueden escoger el producto con un maximo total de 5 unidades de stock por producto mostrando con sus respectivos toasties la cantidad maxima permitida y la cantidad minima del producto el cual es uno, lo puede realizar desde el store o desde la shopping cart section. Tiene la opcion de editar(direcciona a la pagina error404), eliminar y muestra el calculo por producto y tambien se obtiene el total final.</br>
+>>**Se creo una carpeta llamada JS y se crearon 7 archivos.</br>
+>>**Tambien para tener una historia de usuario exitosa se crearon como simulador el login & createAccount</br>
 >>**Se realizo simulacion de la compra llenando formulario de placeOrder y obtener modal de tarea exitosa.</br>
->>**Se creaerminaron los ajustes en las interfaces y page Error 404(opcional), como tambien su adaptacion a pantallas cellphone y tablet(Opcional)</br>
+>>**Se terminaron los ajustes en las interfaces y page Error 404(opcional), como tambien su adaptacion a pantallas cellphone y tablet(Opcional)</br>
+>>**La mayoria de las animationes se realizaron con css nativo utilizando animations, @keyframes, transitions.</br>
+>>**Se trabajo con npm para compilar con SASS e utilizar _partials, mixin,(include & exclude) & variables</br>
 
 🎯Para esta entrega final se realizo:</br>
 
 ✔DOM</br>
 ✔Se creo en el archivo de JS los arrays de objetos el cual contiene 28 productos con sus respectivos clave:, valor:</br>
 ✔Eventos</br>
+✔Functions</br>
+✔Conditionales</br>
 ✔Storage & JSON</br>
-✔Async & await & promises </br>
-✔Se utilizo la librery "XXXXXX" para mostrar el ultimo modal para indicar al usuario que realizo exitosamente su compra [ onteniendo el purchase number]-opcional.
+✔Async & await</br>
+✔setTimeOut (Toasties)</br>
+✔AJAX & fetch </br>
+✔Se utilizo la librery ![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027) para mostrar el ultimo modal para indicar al usuario que realizo exitosamente su compra [ onteniendo el purchase number]-opcional.</br>
+✔Tambien se utilizo la librery ![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027) para mostrar el ultimo modal para mostrar toast & popUps de signIn & createAccount.</br>
 
 👉Links:</br>
 
