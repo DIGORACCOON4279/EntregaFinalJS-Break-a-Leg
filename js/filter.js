@@ -3,7 +3,7 @@ console.log("Script loaded: filter.js");
 
 // Filter
 
-// Obtener elementos del filtro
+// Obtiene elementos del filtro
 
 const inStockCheckbox = document.getElementById("inStock");
 const newArrivalsCheckbox = document.getElementById("newArrivals");
@@ -12,8 +12,6 @@ const soldOutCheckbox = document.getElementById("soldOut");
 const priceOneCheckbox = document.getElementById("priceOne");
 const priceTwoCheckbox = document.getElementById("priceTwo");
 const priceThreeCheckbox = document.getElementById("priceThree");
-
-// const resetButton = document.querySelector(".btnReset");
 
 // Controladores de eventos para checkboxes
 inStockCheckbox.addEventListener("change", applyFilter);
@@ -24,11 +22,8 @@ priceOneCheckbox.addEventListener("change", applyFilter);
 priceTwoCheckbox.addEventListener("change", applyFilter);
 priceThreeCheckbox.addEventListener("change", applyFilter);
 
-// Manejador de eventos para el botón de reinicio
-// resetButton.addEventListener("click", resetFilter);
 
 // Funcion aplicar filtros
-
 function applyFilter() {
     const filteredProducts = outfits.filter(product => {
         const isInStock = inStockCheckbox.checked ? product.stock > 0 : true;
@@ -56,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 // Función para reiniciar el filtro
-
 function resetFilter() {
 
     // Reinicia los checkboxes

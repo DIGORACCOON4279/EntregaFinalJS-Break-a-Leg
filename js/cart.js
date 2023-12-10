@@ -12,7 +12,7 @@ let cartContainer = document.querySelector(".containerArticles");
 function renderCart(cartItems) {
     cartContainer.innerHTML = "";
 
-    // Determinar la ruta base en función de la ubicación del script
+    // Determina la ruta base en función de la ubicación del script
     const isIndexPage = window.location.pathname.endsWith('index.html');
     const basePath = isIndexPage ? '' : '../';
 
@@ -64,7 +64,7 @@ function renderCart(cartItems) {
 
         const editIcon = cart.querySelector(".edit-icon");
         editIcon.addEventListener('click', () => {
-            // Redirigir a la página de error404 con la ruta base
+            // Redirige a la página de error404 con la ruta base
             window.location.href = `${basePath}views/error404.html`;
         });
     });
@@ -130,7 +130,7 @@ function actualizarContador(cartItem, counterElement, incremento) {
         messageProduct.classList.add("messageProduct");
         messageProduct.innerHTML = `<p class="stockProduct">${message}</p>`;
 
-        const messageContainer = document.getElementById('messageNewProduct'); // Reemplaza con el ID real de tu contenedor
+        const messageContainer = document.getElementById('messageNewProduct');
         messageContainer.appendChild(messageProduct);
 
         setTimeout(() => {

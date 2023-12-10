@@ -4,7 +4,6 @@
 console.log("Script loaded: wishlist.js");
 
 // Obtiene la sección de wishlist
-
 const wishlistContainer = document.querySelector('.sectionWishlist .containerWishlist');
 
 // Storage
@@ -20,7 +19,7 @@ if(wishlistProductsLS) {
 function renderWishlist(wishlistItems) {
     wishlistContainer.innerHTML = "";
 
-    // Determinar la ruta base en función de la ubicación del script
+    // Determina la ruta base en función de la ubicación del script
     const isIndexPage = window.location.pathname.endsWith('index.html');
     const basePath = isIndexPage ? '' : '../';
 
@@ -49,7 +48,7 @@ function renderWishlist(wishlistItems) {
             });
 
             wishlistProduct.querySelector('.edit').addEventListener('click', () => {
-                // Redirigir a la página de error404 con la ruta base
+                // Redirige a la página de error404 con la ruta base
                 window.location.href = `${basePath}views/error404.html`;
             });
 

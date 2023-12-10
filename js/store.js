@@ -6,11 +6,12 @@ console.log("Script loaded: store.js");
 let cartProducts;
 let cartProductsLS = localStorage.getItem("cartProducts")
 
-// Verificar si cartProductsLS es un array antes de parsearlo
+// Verifica si cartProductsLS es un array antes de parsearlo
 if (cartProductsLS) {
     try {
         cartProducts = JSON.parse(cartProductsLS);
-        // Verificar si cartProducts es un array
+
+        // Verifica si cartProducts es un array
         if (!Array.isArray(cartProducts)) {
             cartProducts = [];
         }
@@ -92,8 +93,6 @@ function addToCartButton() {
 
                     messageSection.remove();
 
-                    // Elimina la clase 'sold-out-button' después del tiempo de espera
-                    // e.currentTarget.classList.remove("sold-out-button");
                 }
 
                 return;
@@ -127,7 +126,6 @@ function addToCartButton() {
 
 
 // Funcion agregar al carrito
-
 function agregarAlCarrito(selectedOutfit) {
     const existingCartItem = cartProducts.find(item => item.id == selectedOutfit.id);
 
