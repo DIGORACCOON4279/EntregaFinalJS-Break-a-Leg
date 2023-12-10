@@ -1,7 +1,7 @@
 
 # Break a Leg - Ecommerce</br>
 
-![portadaBreakaLeg](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/14d27299-ad01-48f4-8fd7-82b8264922ba)
+![portadaBaL](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/2a3ea1df-737a-40b4-b1ae-27ede990c463)</br>
 
 # Descripcion</br>
 
