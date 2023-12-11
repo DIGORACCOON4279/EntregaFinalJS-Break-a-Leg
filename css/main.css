@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Rubik+Distressed&display=swap");
-/********************* Mixin ******************/
+/******************* Mixin ********************/
 /******************* Extend ******************/
 .flexColumn, .showRoom .rightSide .infoProduct .color, .sectionPlaceOrder .unionOrder .delivery .deliveryContact, .sectionPlaceOrder .unionOrder .delivery, .containerStore .sectionStore .sectionCard .cardProducts .article .info, .sectionWishlist, .bestSellers .sectionCardBlock .cardProducts .article .info, .header .menuIcons ul .menuSection .landingMenu ul, .header .menuIcons ul .menuSection {
   display: flex;
