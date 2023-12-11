@@ -32,10 +32,10 @@ Break a Leg es un ecommerce ficticio de ropa adolescente y jovenes que gustan de
 Primero que todo se realizo el mockup en Figma para tener una vision mas amplia de lo que se queria lograr segun historias de usuario y consignas del curso JS:</br>
 
 🛒UserStory 1</br>
-El objetivo del usuario es crear una cuenta,  loguearse & dirigirse al storePage para realizar su eleccion & agregar al carrito y realizar la compra llenando unidades requeridas. Luego diligencia el placeOrder, aparece popUp de pago indicando que su pago fue realizdo y envio a su cuenta via email .</br>
+El objetivo del usuario es crear una cuenta, loguearse & dirigirse al storePage para realizar su eleccion de compras & agregar al carrito. Luego diligencia el placeOrder, aparece popUp de pago indicando que su pago fue realizado con exito y envio de la factura electronica a su cuenta via email .</br>
 
 😍UserStory 2</br>
-El objetivo en esta tarea es que el usuario sin necesidad de crear cuenta ni loguearse pueda ir al storePage crear & escoger en su lista de favoritos, los productos o outfits de su gusto.</br>
+El objetivo en esta tarea es que el usuario sin necesidad de crear cuenta ni loguearse pueda ir al storePage crear & escoger en su lista de favoritos, los productos o outfits de su gusto y/o preferencia.</br>
 
 👉Links</br>
 
