@@ -76,7 +76,7 @@ Detalles</br>
 >>**Se terminaron los ajustes en las interfaces y page Error 404(opcional), como tambien su adaptacion a pantallas cellphone(Opcional), tablet(Opcional) & desktop</br>
 >>**La mayoria de las animationes se realizaron con css nativo utilizando animations, @keyframes, transitions.</br>
 >>**Se trabajo con npm para compilar con SASS e utilizar _partials, mixin,(include & exclude) & variables</br>
->>**Aunque no estaba en la consigna pero se realizos sus metada data para posicionamiento SEO: title, description, & keywords.
+>>**Aunque no estaba en la consigna pero se realizo su met/data para posicionamiento SEO: title, description, & keywords.
 
 🎯Para esta entrega final se realizo:</br>
 
