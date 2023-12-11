@@ -43,7 +43,7 @@ Primero que todo se realizo el mockup en Figma para tener una vision mas amplia 
 ✔ShowRoom</br>
 ✔Sign in & Create Account</br>
 ✔Pagina Error 404(opcional)</br>
-✔Mediaqueries cellphone y tablet(Opcional)</br>
+✔Desktop - Mediaqueries cellphone(Opcional) y tablet(Opcional)</br>
 
 💻Desktop
 
