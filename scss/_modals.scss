@@ -12,7 +12,7 @@
     z-index: 99;
     div{
         .messageWishlist, .stockProduct{
-            @extend .toolTip;
+            @extend .toast;
             background-color: #f1f1f1d1;
             color: $blackColor;
         }
@@ -35,7 +35,7 @@
     z-index: 99;
     div{
         .soldOutProduct{
-            @extend .toolTip;
+            @extend .toast;
             color: $whiteColor;
             background-color:#000000d1;
         }
