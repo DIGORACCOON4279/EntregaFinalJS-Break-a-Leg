@@ -31,6 +31,12 @@ Break a Leg es un ecommerce ficticio de ropa adolescente y jovenes que gustan de
 
 Primero que todo se realizo el mockup en Figma para tener una vision mas amplia de lo que se queria lograr segun historias de usuario y consignas del curso JS:</br>
 
+🛒UserStory 1</br>
+El objetivo del usuario es crear una cuenta, loguearse & dirigirse al storePage para realizar su eleccion de compras & agregar al carrito. Luego diligencia el placeOrder, aparece popUp de pago indicando que su pago fue realizado con exito y envio de la factura electronica a su cuenta via email .</br>
+
+😍UserStory 2</br>
+El objetivo en esta tarea es que el usuario sin necesidad de crear cuenta ni loguearse pueda ir al storePage crear & escoger en su lista de favoritos, los productos o outfits de su gusto y/o preferencia.</br>
+
 👉Links</br>
 
 💻[Prototipo desktop](https://www.figma.com/proto/gRXoq1ASGPhQZxr65ZgDZQ/Break-a-Leg?page-id=1868%3A9069&type=design&node-id=1868-11638&viewport=4929%2C20517%2C0.31&t=SJTlBD9JZ5jP49Mz-1&scaling=scale-down&starting-point-node-id=1868%3A11638&mode=design)</br>
@@ -76,6 +82,8 @@ Detalles</br>
 >>**Se terminaron los ajustes en las interfaces y page Error 404(opcional), como tambien su adaptacion a pantallas cellphone(Opcional), tablet(Opcional) & desktop</br>
 >>**La mayoria de las animationes se realizaron con css nativo utilizando animations, @keyframes, transitions.</br>
 >>**Se trabajo con npm para compilar con SASS e utilizar _partials, mixin,(include & exclude) & variables</br>
+>>**Aunque no estaba en la consigna pero se realizo su meta/data para posicionamiento SEO: title, description, & keywords.</br>
+>>**Todas la ilustraciones e imagenes fueron transformadas a archivos.webp e iconos a archivos.svg todo para mejor latencia y desempeño del website</br>
 
 🎯Para esta entrega final se realizo:</br>
 
