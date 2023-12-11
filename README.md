@@ -56,6 +56,7 @@ Primero que todo se realizo el mockup en Figma para tener una vision mas amplia 
 
 🗃Archivos JS</br>
 
+✔main.js</br>
 ✔store.js</br>
 ✔wishlist.js</br>
 ✔cart.js</br>
