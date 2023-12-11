@@ -224,7 +224,7 @@
                             font-weight: $bold;
                             margin: 0px auto 0px 0px;
                             padding-bottom: 15px;
-                            border-bottom: $FormBottom;
+                            border-bottom: $borderTop;
                             transition: $transition;
                             &:hover{
                                 background-color: $backgroundColorMenu;
@@ -246,7 +246,7 @@
                 color:$whiteColor;
                 font-weight:$bold;
                 padding-left: 30px;
-                border-bottom: $FormBottom;
+                border-bottom: $borderTop;
                 padding-bottom: 15px;
             }
             ul{

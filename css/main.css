@@ -593,7 +593,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-weight: 600;
   margin: 0px auto 0px 0px;
   padding-bottom: 15px;
-  border-bottom: 1px solid #9c9c9c;
+  border-bottom: 1px solid #3d3d3d;
   transition: 0.3s ease-in-out;
 }
 .header .menuSide .menu ul li .cartShop .link:hover {
@@ -615,7 +615,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   color: #ffffff;
   font-weight: 600;
   padding-left: 30px;
-  border-bottom: 1px solid #9c9c9c;
+  border-bottom: 1px solid #3d3d3d;
   padding-bottom: 15px;
 }
 .header .menuSide .contactUs ul {
@@ -2052,7 +2052,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-weight: 600;
   margin: 0px auto 0px 0px;
   padding-bottom: 15px;
-  border-bottom: 1px solid #9c9c9c;
+  border-bottom: 1px solid #3d3d3d;
   transition: 0.3s ease-in-out;
 }
 .headerSignIn .menuSide .menu ul li .cartShop .link:hover {
@@ -2074,7 +2074,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   color: #ffffff;
   font-weight: 600;
   padding-left: 30px;
-  border-bottom: 1px solid #9c9c9c;
+  border-bottom: 1px solid #3d3d3d;
   padding-bottom: 15px;
 }
 .headerSignIn .menuSide .contactUs ul {
