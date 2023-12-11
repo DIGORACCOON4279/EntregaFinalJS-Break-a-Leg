@@ -1,7 +1,7 @@
 
 # Break a Leg - Ecommerce</br>
 
-![portadaBaL](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/2a3ea1df-737a-40b4-b1ae-27ede990c463)</br>
+![portadaBaL](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/2a3ea1df-737a-40b4-b1ae-27ede990c463)
 
 # Descripcion</br>
 
@@ -27,6 +27,7 @@ Break a Leg es un ecommerce ficticio de ropa adolescente y jovenes que gustan de
 ![Bootstrap](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/570d9449-d0dc-4e46-b34c-cae994960cff)Bootstrap (Framework)</br>
 ![Sass](https://github.com/DIGORACCOON4279/Break-a-Leg/assets/88150970/97214254-d103-46e6-a306-8f5c3c10571c)Sass (Preprocesador)</br>
 ![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027) (Library)</br>
+![jsonbin](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f6325c47-216b-412c-a101-7e596e1c29c6) (AJAX & JSON - fetch)</br>
 
 Primero que todo se realizo el mockup en Figma para tener una vision mas amplia de lo que se queria lograr segun historias de usuario y consignas del curso JS:</br>
 
@@ -84,8 +85,8 @@ Detalles</br>
 ✔Conditionales</br>
 ✔Storage & JSON</br>
 ✔Async & await</br>
-✔setTimeOut (Toasties)</br>
-✔AJAX & fetch </br>
+✔setTimeOut (Toastes)</br>
+✔AJAX & fetch : Se utilizo para los fetch ![jsonbin](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f6325c47-216b-412c-a101-7e596e1c29c6) para realizar las peticiones y renderizar las prodcuts cards de outfits asincronamente de storage</br>
 ✔Se utilizo la librery ![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027) para mostrar el ultimo modal para indicar al usuario que realizo exitosamente su compra [ onteniendo el purchase number]-opcional.</br>
 ✔Tambien se utilizo la librery ![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027) para mostrar el ultimo modal para mostrar toast & popUps de signIn & createAccount.</br>
 
