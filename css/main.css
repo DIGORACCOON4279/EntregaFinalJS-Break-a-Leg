@@ -83,6 +83,20 @@
   text-decoration: underline;
 }
 
+.toolTip, #out-of-stock-message div .soldOutProduct, #messageContainer div .messageWishlist, #messageContainer div .stockProduct, #messageNewProduct div .messageWishlist, #messageNewProduct div .stockProduct {
+  width: 10vw;
+  height: auto;
+  font-size: 0.6rem;
+  font-family: "Jura", sans-serif;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.6431372549));
+}
+
 /******************* Include ******************/
 * {
   margin: 0px;
@@ -1918,12 +1932,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   cursor: pointer;
   order: 2;
 }
-.headerSignIn .menuIcons ul li .menu:hover + .toolTip, .headerSignIn .menuIcons ul li .wishHeadLine:hover + .toolTip, .headerSignIn .menuIcons ul li .cartShop:hover + .toolTip {
+.headerSignIn .menuIcons ul li .menu:hover + .toolTip, .headerSignIn .menuIcons ul li #out-of-stock-message div .menu:hover + .soldOutProduct, #out-of-stock-message div .headerSignIn .menuIcons ul li .menu:hover + .soldOutProduct, .headerSignIn .menuIcons ul li #messageContainer div .menu:hover + .messageWishlist, #messageContainer div .headerSignIn .menuIcons ul li .menu:hover + .messageWishlist, .headerSignIn .menuIcons ul li #messageContainer div .menu:hover + .stockProduct, #messageContainer div .headerSignIn .menuIcons ul li .menu:hover + .stockProduct, .headerSignIn .menuIcons ul li #messageNewProduct div .menu:hover + .messageWishlist, #messageNewProduct div .headerSignIn .menuIcons ul li .menu:hover + .messageWishlist, .headerSignIn .menuIcons ul li #messageNewProduct div .menu:hover + .stockProduct, #messageNewProduct div .headerSignIn .menuIcons ul li .menu:hover + .stockProduct, .headerSignIn .menuIcons ul li .wishHeadLine:hover + .toolTip, .headerSignIn .menuIcons ul li #out-of-stock-message div .wishHeadLine:hover + .soldOutProduct, #out-of-stock-message div .headerSignIn .menuIcons ul li .wishHeadLine:hover + .soldOutProduct, .headerSignIn .menuIcons ul li #messageContainer div .wishHeadLine:hover + .messageWishlist, #messageContainer div .headerSignIn .menuIcons ul li .wishHeadLine:hover + .messageWishlist, .headerSignIn .menuIcons ul li #messageContainer div .wishHeadLine:hover + .stockProduct, #messageContainer div .headerSignIn .menuIcons ul li .wishHeadLine:hover + .stockProduct, .headerSignIn .menuIcons ul li #messageNewProduct div .wishHeadLine:hover + .messageWishlist, #messageNewProduct div .headerSignIn .menuIcons ul li .wishHeadLine:hover + .messageWishlist, .headerSignIn .menuIcons ul li #messageNewProduct div .wishHeadLine:hover + .stockProduct, #messageNewProduct div .headerSignIn .menuIcons ul li .wishHeadLine:hover + .stockProduct, .headerSignIn .menuIcons ul li .cartShop:hover + .toolTip, .headerSignIn .menuIcons ul li #out-of-stock-message div .cartShop:hover + .soldOutProduct, #out-of-stock-message div .headerSignIn .menuIcons ul li .cartShop:hover + .soldOutProduct, .headerSignIn .menuIcons ul li #messageContainer div .cartShop:hover + .messageWishlist, #messageContainer div .headerSignIn .menuIcons ul li .cartShop:hover + .messageWishlist, .headerSignIn .menuIcons ul li #messageContainer div .cartShop:hover + .stockProduct, #messageContainer div .headerSignIn .menuIcons ul li .cartShop:hover + .stockProduct, .headerSignIn .menuIcons ul li #messageNewProduct div .cartShop:hover + .messageWishlist, #messageNewProduct div .headerSignIn .menuIcons ul li .cartShop:hover + .messageWishlist, .headerSignIn .menuIcons ul li #messageNewProduct div .cartShop:hover + .stockProduct, #messageNewProduct div .headerSignIn .menuIcons ul li .cartShop:hover + .stockProduct {
   opacity: 1;
   visibility: visible;
   transform: translate(0%);
 }
-.headerSignIn .menuIcons ul li .toolTip {
+.headerSignIn .menuIcons ul li .toolTip, .headerSignIn .menuIcons ul li #out-of-stock-message div .soldOutProduct, #out-of-stock-message div .headerSignIn .menuIcons ul li .soldOutProduct, .headerSignIn .menuIcons ul li #messageContainer div .messageWishlist, #messageContainer div .headerSignIn .menuIcons ul li .messageWishlist, .headerSignIn .menuIcons ul li #messageContainer div .stockProduct, #messageContainer div .headerSignIn .menuIcons ul li .stockProduct, .headerSignIn .menuIcons ul li #messageNewProduct div .messageWishlist, #messageNewProduct div .headerSignIn .menuIcons ul li .messageWishlist, .headerSignIn .menuIcons ul li #messageNewProduct div .stockProduct, #messageNewProduct div .headerSignIn .menuIcons ul li .stockProduct {
   width: auto;
   height: auto;
   cursor: pointer;
@@ -1935,14 +1949,14 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: translate(-100%);
   transition: 0.3s ease-in-out;
 }
-.headerSignIn .menuIcons ul li .toolTip .toolTipMessage {
+.headerSignIn .menuIcons ul li .toolTip .toolTipMessage, .headerSignIn .menuIcons ul li #out-of-stock-message div .soldOutProduct .toolTipMessage, #out-of-stock-message div .headerSignIn .menuIcons ul li .soldOutProduct .toolTipMessage, .headerSignIn .menuIcons ul li #messageContainer div .messageWishlist .toolTipMessage, #messageContainer div .headerSignIn .menuIcons ul li .messageWishlist .toolTipMessage, .headerSignIn .menuIcons ul li #messageContainer div .stockProduct .toolTipMessage, #messageContainer div .headerSignIn .menuIcons ul li .stockProduct .toolTipMessage, .headerSignIn .menuIcons ul li #messageNewProduct div .messageWishlist .toolTipMessage, #messageNewProduct div .headerSignIn .menuIcons ul li .messageWishlist .toolTipMessage, .headerSignIn .menuIcons ul li #messageNewProduct div .stockProduct .toolTipMessage, #messageNewProduct div .headerSignIn .menuIcons ul li .stockProduct .toolTipMessage {
   margin: 5px 10px;
   font-size: 0.7rem;
   font-weight: 700;
   color: #ffffff;
   font-family: "Jura", sans-serif;
 }
-.headerSignIn .menuIcons ul li .toolTip .clipPath {
+.headerSignIn .menuIcons ul li .toolTip .clipPath, .headerSignIn .menuIcons ul li #out-of-stock-message div .soldOutProduct .clipPath, #out-of-stock-message div .headerSignIn .menuIcons ul li .soldOutProduct .clipPath, .headerSignIn .menuIcons ul li #messageContainer div .messageWishlist .clipPath, #messageContainer div .headerSignIn .menuIcons ul li .messageWishlist .clipPath, .headerSignIn .menuIcons ul li #messageContainer div .stockProduct .clipPath, #messageContainer div .headerSignIn .menuIcons ul li .stockProduct .clipPath, .headerSignIn .menuIcons ul li #messageNewProduct div .messageWishlist .clipPath, #messageNewProduct div .headerSignIn .menuIcons ul li .messageWishlist .clipPath, .headerSignIn .menuIcons ul li #messageNewProduct div .stockProduct .clipPath, #messageNewProduct div .headerSignIn .menuIcons ul li .stockProduct .clipPath {
   width: 30px;
   height: 30px;
   background-color: #000000;
@@ -2516,42 +2530,37 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   position: relative;
 }
 
-#messageContainer, #messageNewProduct, #out-of-stock-message {
+#messageContainer, #messageNewProduct {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
-  bottom: 110px;
-  right: 6%;
+  top: 80px;
+  right: 30px;
   z-index: 99;
 }
-#messageContainer div .messageWishlist, #messageContainer div .stockProduct, #messageContainer div .soldOutProduct, #messageNewProduct div .messageWishlist, #messageNewProduct div .stockProduct, #messageNewProduct div .soldOutProduct, #out-of-stock-message div .messageWishlist, #out-of-stock-message div .stockProduct, #out-of-stock-message div .soldOutProduct {
-  width: 14vw;
-  height: auto;
-  font-size: 0.7rem;
-  font-family: "Jura", sans-serif;
-  color: #bc2327;
-  font-weight: 700;
+#messageContainer div .messageWishlist, #messageContainer div .stockProduct, #messageNewProduct div .messageWishlist, #messageNewProduct div .stockProduct {
   background-color: rgba(241, 241, 241, 0.8196078431);
   color: #000000;
-  padding: 20px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  filter: drop-shadow(12px 12px 5px rgba(0, 0, 0, 0.6431372549));
 }
-#messageContainer div .stockProduct, #messageNewProduct div .stockProduct, #out-of-stock-message div .stockProduct {
+#messageContainer div .stockProduct, #messageNewProduct div .stockProduct {
   color: #ffffff;
   background-color: rgba(107, 107, 107, 0.8196078431);
 }
-#messageContainer div .soldOutProduct, #messageNewProduct div .soldOutProduct, #out-of-stock-message div .soldOutProduct {
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.8196078431);
-}
 
 #out-of-stock-message {
-  animation: slideUp 9000ms linear 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  z-index: 99;
+  animation: slideUp 11000ms linear 0.4s;
+}
+#out-of-stock-message div .soldOutProduct {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8196078431);
 }
 @keyframes slideUp {
   0% {
@@ -2561,13 +2570,13 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     transform: translateY(-150%);
   }
   50% {
-    transform: translateY(-300%);
+    transform: translateY(-350%);
   }
   75% {
-    transform: translateY(-500%);
+    transform: translateY(-550%);
   }
   100% {
-    transform: translateY(-600%);
+    transform: translateY(-750%);
   }
 }
 
@@ -2868,12 +2877,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 .showRoom .leftSide .addToCart .wishlistIcon:hover {
   border: 1px solid #000000;
 }
-.showRoom .leftSide .addToCart .wishlistIcon:hover + .toolTip {
+.showRoom .leftSide .addToCart .wishlistIcon:hover + .toolTip, .showRoom .leftSide .addToCart #messageContainer div .wishlistIcon:hover + .messageWishlist, #messageContainer div .showRoom .leftSide .addToCart .wishlistIcon:hover + .messageWishlist, .showRoom .leftSide .addToCart #messageContainer div .wishlistIcon:hover + .stockProduct, #messageContainer div .showRoom .leftSide .addToCart .wishlistIcon:hover + .stockProduct, .showRoom .leftSide .addToCart #messageNewProduct div .wishlistIcon:hover + .messageWishlist, #messageNewProduct div .showRoom .leftSide .addToCart .wishlistIcon:hover + .messageWishlist, .showRoom .leftSide .addToCart #messageNewProduct div .wishlistIcon:hover + .stockProduct, #messageNewProduct div .showRoom .leftSide .addToCart .wishlistIcon:hover + .stockProduct, .showRoom .leftSide .addToCart #out-of-stock-message div .wishlistIcon:hover + .soldOutProduct, #out-of-stock-message div .showRoom .leftSide .addToCart .wishlistIcon:hover + .soldOutProduct {
   opacity: 1;
   visibility: visible;
   transform: translateY(0%);
 }
-.showRoom .leftSide .addToCart .toolTip {
+.showRoom .leftSide .addToCart .toolTip, .showRoom .leftSide .addToCart #messageContainer div .messageWishlist, #messageContainer div .showRoom .leftSide .addToCart .messageWishlist, .showRoom .leftSide .addToCart #messageContainer div .stockProduct, #messageContainer div .showRoom .leftSide .addToCart .stockProduct, .showRoom .leftSide .addToCart #messageNewProduct div .messageWishlist, #messageNewProduct div .showRoom .leftSide .addToCart .messageWishlist, .showRoom .leftSide .addToCart #messageNewProduct div .stockProduct, #messageNewProduct div .showRoom .leftSide .addToCart .stockProduct, .showRoom .leftSide .addToCart #out-of-stock-message div .soldOutProduct, #out-of-stock-message div .showRoom .leftSide .addToCart .soldOutProduct {
   width: auto;
   height: auto;
   cursor: pointer;
@@ -2886,14 +2895,14 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: translateY(100%);
   transition: 0.3s ease-in-out;
 }
-.showRoom .leftSide .addToCart .toolTip .toolTipMessage {
+.showRoom .leftSide .addToCart .toolTip .toolTipMessage, .showRoom .leftSide .addToCart #messageContainer div .messageWishlist .toolTipMessage, #messageContainer div .showRoom .leftSide .addToCart .messageWishlist .toolTipMessage, .showRoom .leftSide .addToCart #messageContainer div .stockProduct .toolTipMessage, #messageContainer div .showRoom .leftSide .addToCart .stockProduct .toolTipMessage, .showRoom .leftSide .addToCart #messageNewProduct div .messageWishlist .toolTipMessage, #messageNewProduct div .showRoom .leftSide .addToCart .messageWishlist .toolTipMessage, .showRoom .leftSide .addToCart #messageNewProduct div .stockProduct .toolTipMessage, #messageNewProduct div .showRoom .leftSide .addToCart .stockProduct .toolTipMessage, .showRoom .leftSide .addToCart #out-of-stock-message div .soldOutProduct .toolTipMessage, #out-of-stock-message div .showRoom .leftSide .addToCart .soldOutProduct .toolTipMessage {
   margin: 5px 10px;
   font-size: 0.7rem;
   font-weight: 700;
   color: #ffffff;
   font-family: "Jura", sans-serif;
 }
-.showRoom .leftSide .addToCart .toolTip .clipPath {
+.showRoom .leftSide .addToCart .toolTip .clipPath, .showRoom .leftSide .addToCart #messageContainer div .messageWishlist .clipPath, #messageContainer div .showRoom .leftSide .addToCart .messageWishlist .clipPath, .showRoom .leftSide .addToCart #messageContainer div .stockProduct .clipPath, #messageContainer div .showRoom .leftSide .addToCart .stockProduct .clipPath, .showRoom .leftSide .addToCart #messageNewProduct div .messageWishlist .clipPath, #messageNewProduct div .showRoom .leftSide .addToCart .messageWishlist .clipPath, .showRoom .leftSide .addToCart #messageNewProduct div .stockProduct .clipPath, #messageNewProduct div .showRoom .leftSide .addToCart .stockProduct .clipPath, .showRoom .leftSide .addToCart #out-of-stock-message div .soldOutProduct .clipPath, #out-of-stock-message div .showRoom .leftSide .addToCart .soldOutProduct .clipPath {
   width: 30px;
   height: 30px;
   background-color: #000000;
@@ -2950,7 +2959,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   position: relative;
   cursor: pointer;
 }
-.showRoom .rightSide .infoProduct .color .containerColor .smallPic .toolTip {
+.showRoom .rightSide .infoProduct .color .containerColor .smallPic .toolTip, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageContainer div .messageWishlist, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .messageWishlist, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageContainer div .stockProduct, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .stockProduct, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageNewProduct div .messageWishlist, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .messageWishlist, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageNewProduct div .stockProduct, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .stockProduct, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #out-of-stock-message div .soldOutProduct, #out-of-stock-message div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .soldOutProduct {
   opacity: 0;
   visibility: hidden;
   position: absolute;
@@ -2959,7 +2968,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: translateY(100%);
   transition: 0.3s ease-in-out;
 }
-.showRoom .rightSide .infoProduct .color .containerColor .smallPic .toolTip p {
+.showRoom .rightSide .infoProduct .color .containerColor .smallPic .toolTip p, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageContainer div .messageWishlist p, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .messageWishlist p, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageContainer div .stockProduct p, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .stockProduct p, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageNewProduct div .messageWishlist p, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .messageWishlist p, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageNewProduct div .stockProduct p, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .stockProduct p, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #out-of-stock-message div .soldOutProduct p, #out-of-stock-message div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .soldOutProduct p {
   background-color: #000000;
   padding: 5px 10px;
   font-size: 0.7rem;
@@ -2967,7 +2976,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   color: #ffffff;
   font-family: "Jura", sans-serif;
 }
-.showRoom .rightSide .infoProduct .color .containerColor .smallPic .toolTip .clipPath {
+.showRoom .rightSide .infoProduct .color .containerColor .smallPic .toolTip .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageContainer div .messageWishlist .clipPath, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .messageWishlist .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageContainer div .stockProduct .clipPath, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .stockProduct .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageNewProduct div .messageWishlist .clipPath, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .messageWishlist .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageNewProduct div .stockProduct .clipPath, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .stockProduct .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #out-of-stock-message div .soldOutProduct .clipPath, #out-of-stock-message div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .soldOutProduct .clipPath {
   width: 30px;
   height: 30px;
   background-color: #000000;
@@ -2986,7 +2995,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 .showRoom .rightSide .infoProduct .color .containerColor .smallPic .itemProduct:hover {
   border: 1px solid #000000;
 }
-.showRoom .rightSide .infoProduct .color .containerColor .smallPic .itemProduct:hover + .toolTip {
+.showRoom .rightSide .infoProduct .color .containerColor .smallPic .itemProduct:hover + .toolTip, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageContainer div .itemProduct:hover + .messageWishlist, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .itemProduct:hover + .messageWishlist, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageContainer div .itemProduct:hover + .stockProduct, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .itemProduct:hover + .stockProduct, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageNewProduct div .itemProduct:hover + .messageWishlist, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .itemProduct:hover + .messageWishlist, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #messageNewProduct div .itemProduct:hover + .stockProduct, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .itemProduct:hover + .stockProduct, .showRoom .rightSide .infoProduct .color .containerColor .smallPic #out-of-stock-message div .itemProduct:hover + .soldOutProduct, #out-of-stock-message div .showRoom .rightSide .infoProduct .color .containerColor .smallPic .itemProduct:hover + .soldOutProduct {
   opacity: 1;
   visibility: visible;
   transform: translateY(0%);
@@ -3003,12 +3012,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 .showRoom .rightSide .infoProduct .color .containerColor .colorBlack:hover, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite:hover {
   border: 1px solid #000000;
 }
-.showRoom .rightSide .infoProduct .color .containerColor .colorBlack:hover > .toolTip, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite:hover > .toolTip {
+.showRoom .rightSide .infoProduct .color .containerColor .colorBlack:hover > .toolTip, .showRoom .rightSide .infoProduct .color .containerColor #messageContainer div .colorBlack:hover > .messageWishlist, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack:hover > .messageWishlist, .showRoom .rightSide .infoProduct .color .containerColor #messageContainer div .colorBlack:hover > .stockProduct, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack:hover > .stockProduct, .showRoom .rightSide .infoProduct .color .containerColor #messageNewProduct div .colorBlack:hover > .messageWishlist, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack:hover > .messageWishlist, .showRoom .rightSide .infoProduct .color .containerColor #messageNewProduct div .colorBlack:hover > .stockProduct, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack:hover > .stockProduct, .showRoom .rightSide .infoProduct .color .containerColor #out-of-stock-message div .colorBlack:hover > .soldOutProduct, #out-of-stock-message div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack:hover > .soldOutProduct, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite:hover > .toolTip, .showRoom .rightSide .infoProduct .color .containerColor #messageContainer div .colorWhite:hover > .messageWishlist, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite:hover > .messageWishlist, .showRoom .rightSide .infoProduct .color .containerColor #messageContainer div .colorWhite:hover > .stockProduct, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite:hover > .stockProduct, .showRoom .rightSide .infoProduct .color .containerColor #messageNewProduct div .colorWhite:hover > .messageWishlist, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite:hover > .messageWishlist, .showRoom .rightSide .infoProduct .color .containerColor #messageNewProduct div .colorWhite:hover > .stockProduct, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite:hover > .stockProduct, .showRoom .rightSide .infoProduct .color .containerColor #out-of-stock-message div .colorWhite:hover > .soldOutProduct, #out-of-stock-message div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite:hover > .soldOutProduct {
   opacity: 1;
   visibility: visible;
   transform: translateY(0%);
 }
-.showRoom .rightSide .infoProduct .color .containerColor .colorBlack .toolTip, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .toolTip {
+.showRoom .rightSide .infoProduct .color .containerColor .colorBlack .toolTip, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #messageContainer div .messageWishlist, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .messageWishlist, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #messageContainer div .stockProduct, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .stockProduct, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #messageNewProduct div .messageWishlist, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .messageWishlist, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #messageNewProduct div .stockProduct, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .stockProduct, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #out-of-stock-message div .soldOutProduct, #out-of-stock-message div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .soldOutProduct, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .toolTip, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #messageContainer div .messageWishlist, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .messageWishlist, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #messageContainer div .stockProduct, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .stockProduct, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #messageNewProduct div .messageWishlist, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .messageWishlist, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #messageNewProduct div .stockProduct, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .stockProduct, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #out-of-stock-message div .soldOutProduct, #out-of-stock-message div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .soldOutProduct {
   opacity: 0;
   visibility: hidden;
   position: absolute;
@@ -3017,7 +3026,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: translateY(100%);
   transition: 0.3s ease-in-out;
 }
-.showRoom .rightSide .infoProduct .color .containerColor .colorBlack .toolTip p, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .toolTip p {
+.showRoom .rightSide .infoProduct .color .containerColor .colorBlack .toolTip p, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #messageContainer div .messageWishlist p, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .messageWishlist p, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #messageContainer div .stockProduct p, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .stockProduct p, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #messageNewProduct div .messageWishlist p, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .messageWishlist p, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #messageNewProduct div .stockProduct p, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .stockProduct p, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #out-of-stock-message div .soldOutProduct p, #out-of-stock-message div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .soldOutProduct p, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .toolTip p, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #messageContainer div .messageWishlist p, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .messageWishlist p, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #messageContainer div .stockProduct p, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .stockProduct p, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #messageNewProduct div .messageWishlist p, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .messageWishlist p, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #messageNewProduct div .stockProduct p, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .stockProduct p, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #out-of-stock-message div .soldOutProduct p, #out-of-stock-message div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .soldOutProduct p {
   background-color: #000000;
   padding: 5px 10px;
   font-size: 0.7rem;
@@ -3025,7 +3034,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   color: #ffffff;
   font-family: "Jura", sans-serif;
 }
-.showRoom .rightSide .infoProduct .color .containerColor .colorBlack .toolTip .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .toolTip .clipPath {
+.showRoom .rightSide .infoProduct .color .containerColor .colorBlack .toolTip .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #messageContainer div .messageWishlist .clipPath, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .messageWishlist .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #messageContainer div .stockProduct .clipPath, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .stockProduct .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #messageNewProduct div .messageWishlist .clipPath, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .messageWishlist .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #messageNewProduct div .stockProduct .clipPath, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .stockProduct .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .colorBlack #out-of-stock-message div .soldOutProduct .clipPath, #out-of-stock-message div .showRoom .rightSide .infoProduct .color .containerColor .colorBlack .soldOutProduct .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .toolTip .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #messageContainer div .messageWishlist .clipPath, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .messageWishlist .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #messageContainer div .stockProduct .clipPath, #messageContainer div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .stockProduct .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #messageNewProduct div .messageWishlist .clipPath, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .messageWishlist .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #messageNewProduct div .stockProduct .clipPath, #messageNewProduct div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .stockProduct .clipPath, .showRoom .rightSide .infoProduct .color .containerColor .colorWhite #out-of-stock-message div .soldOutProduct .clipPath, #out-of-stock-message div .showRoom .rightSide .infoProduct .color .containerColor .colorWhite .soldOutProduct .clipPath {
   width: 30px;
   height: 30px;
   background-color: #000000;

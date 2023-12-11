@@ -2,38 +2,23 @@
 
 // wishlist & shopping cart & store modal
 
-#messageContainer, #messageNewProduct, #out-of-stock-message{
+#messageContainer, #messageNewProduct{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
-    bottom: 110px;
-    right: 6%;
+    top: 80px;
+    right: 30px;
     z-index: 99;
     div{
-        .messageWishlist, .stockProduct, .soldOutProduct{
-            width: 14vw;
-            height: auto;
-            font-size: $xxSmallText;
-            font-family: $fontJura;
-            color:$primaryColor;
-            font-weight:$ExtraBold;
+        .messageWishlist, .stockProduct{
+            @extend .toolTip;
             background-color: #f1f1f1d1;
             color: $blackColor;
-            padding: 20px;
-            border-radius: 10px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            filter: $filterShadow;
         }
         .stockProduct{
             color: $whiteColor;
             background-color: #6b6b6bd1;
-        }
-        .soldOutProduct{
-            color: $whiteColor;
-            background-color:#000000d1;
         }
     }
 }
@@ -41,7 +26,21 @@
 // SoldOutStock
 
 #out-of-stock-message{
-    animation:slideUp 9000ms linear 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    z-index: 99;
+    div{
+        .soldOutProduct{
+            @extend .toolTip;
+            color: $whiteColor;
+            background-color:#000000d1;
+        }
+    }
+    animation:slideUp 11000ms linear 0.4s;
     @keyframes slideUp {
         0% {
             transform:translateY(0%);
@@ -50,16 +49,17 @@
             transform:translateY(-150%);
         }
         50% {
-            transform:translateY(-300%);
+            transform:translateY(-350%);
         }
         75%{
-            transform:translateY(-500%);
+            transform:translateY(-550%);
         }
         100% {
-            transform:translateY(-600%);
+            transform:translateY(-750%);
         }
     }
 }
+
 
 // SwalPopUp - SignIn
 
