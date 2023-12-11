@@ -94,7 +94,7 @@ Detalles</br>
 ✔Conditionales</br>
 ✔Storage & JSON</br>
 ✔Async & await</br>
-✔setTimeOut (Toastes)</br>
+✔setTimeOut (Toasts)</br>
 ✔AJAX & fetch : Se utilizo para los fetch ![jsonbin](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f6325c47-216b-412c-a101-7e596e1c29c6) para realizar las peticiones y renderizar los products cards de outfits asincronamente de storage</br>
 ✔Se utilizo la librery ![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027) para mostrar el ultimo modal para indicar al usuario que realizo exitosamente su compra [obteniendo el purchase number/opcional].</br>
 ✔Tambien se utilizo la librery ![sweetAlert](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f818c7b9-edc6-4c93-bab5-141f3a4cd027) para mostrar toast & popUps de signIn & createAccount.</br>
