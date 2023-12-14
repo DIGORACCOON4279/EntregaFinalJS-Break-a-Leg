@@ -1,9 +1,8 @@
-
 // Errors404 Page
 
     .containerError{
         width:100%;
-        height: 100vh;
+        height:100%;
         background-color: $backgroundColor;
         animation:sliderColor 2s linear;
         @keyframes sliderColor {
@@ -22,14 +21,14 @@
             100%{
                 background-color: #f1f1f1;
             }
-
         }
         .pageError{
             width:80vw;
             height:auto;
             margin: 0px auto;
             @extend .flexColumnCenterCenter;
-            .imgBreakaLeg{
+            gap: 0px;
+            .imgBreakALeg{
                 animation:bounceDown 1.6s ease-in-out;
                 @keyframes bounceDown{
                     0%{
@@ -59,11 +58,10 @@
                 }
                 .tag{
                     .tagBreakALeg{
-                        width:53%;
+                        width:85%;
                         height:auto;
                         margin: 0px auto;
                         display: flex;
-                        place-items: center;
                         filter: drop-shadow( 0 0 5px $secondaryColor) contrast(102%);
                         animation:tags 2s linear;
                         @keyframes tags {
@@ -84,7 +82,7 @@
                 }
             }
             .sentenceBreakALeg{
-                width: 65vw;
+                width: 75vw;
                 .returnSentence{
                     color:$lineColor;
                     font-size:$nameLogo ;
