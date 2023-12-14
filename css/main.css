@@ -601,6 +601,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .header .menuSide .contactUs {
   width: 100%;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -2082,6 +2083,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .headerSignIn .menuSide .contactUs {
   width: 100%;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

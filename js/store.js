@@ -3,6 +3,235 @@ console.log("Script loaded: store.js");
 
 // Store
 
+const outfits = [
+    {
+        "id": 1,
+        "category": "Xtreme",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 499,
+        "image": "../img/pic1.webp"
+    },
+    {
+        "id": 2,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 599,
+        "image": "../img/pic2.webp"
+    },
+    {
+        "id": 3,
+        "category": "Street",
+        "stock": 0,
+        "availability": "Sold-out",
+        "pricing": 999,
+        "image": "../img/pic5.webp"
+    },
+    {
+        "id": 4,
+        "category": "Xtreme",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 599,
+        "image": "../img/pic6.webp"
+    },
+    {
+        "id": 5,
+        "category": "Street",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 499,
+        "image": "../img/pic37.webp"
+    },
+    {
+        "id": 6,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 499,
+        "image": "../img/pic8.webp"
+    },
+    {
+        "id": 7,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 599,
+        "image": "../img/pic38.webp"
+    },
+    {
+        "id": 8,
+        "category": "Street",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 599,
+        "image": "../img/pic11.webp"
+    },
+    {
+        "id": 9,
+        "category": "Aggressive",
+        "stock": 0,
+        "availability": "Sold-out",
+        "pricing": 999,
+        "image": "../img/pic13.webp"
+    },
+    {
+        "id": 10,
+        "category": "Xtreme",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 999,
+        "image": "../img/pic14.webp"
+    },
+    {
+        "id": 11,
+        "category": "Street",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 599,
+        "image": "../img/pic15.webp"
+    },
+    {
+        "id": 12,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 499,
+        "image": "../img/pic16.webp"
+    },
+    {
+        "id": 13,
+        "category": "Xtreme",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 499,
+        "image": "../img/pic17.webp"
+    },
+    {
+        "id": 14,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 999,
+        "image": "../img/pic18.webp"
+    },
+    {
+        "id": 15,
+        "category": "Street",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 999,
+        "image": "../img/pic20.webp"
+    },
+    {
+        "id": 16,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 499,
+        "image": "../img/pic22.webp"
+    },
+    {
+        "id": 17,
+        "category": "Street",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 599,
+        "image": "../img/pic23.webp"
+    },
+    {
+        "id": 18,
+        "category": "Xtreme",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 999,
+        "image": "../img/pic24.webp"
+    },
+    {
+        "id": 19,
+        "category": "Aggressive",
+        "stock": 0,
+        "availability": "Sold-out",
+        "pricing": 499,
+        "image": "../img/pic25.webp"
+    },
+    {
+        "id": 20,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 499,
+        "image": "../img/pic28.webp"
+    },
+    {
+        "id": 21,
+        "category": "Street",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 599,
+        "image": "../img/pic29.webp"
+    },
+    {
+        "id": 22,
+        "category": "Aggressive",
+        "stock": 0,
+        "availability": "Sold-out",
+        "pricing": 999,
+        "image": "../img/pic38.webp"
+    },
+    {
+        "id": 23,
+        "category": "Xtreme",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 999,
+        "image": "../img/pic31.webp"
+    },
+    {
+        "id": 24,
+        "category": "Street",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 499,
+        "image": "../img/pic32.webp"
+    },
+    {
+        "id": 25,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 599,
+        "image": "../img/pic33.webp"
+    },
+    {
+        "id": 26,
+        "category": "Street",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 999,
+        "image": "../img/pic34.webp"
+    },
+    {
+        "id": 27,
+        "category": "Xtreme",
+        "stock": 0,
+        "availability": "Sold-out",
+        "pricing": 599,
+        "image": "../img/pic35.webp"
+    },
+    {
+        "id": 28,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 999,
+        "image": "../img/pic36.webp"
+    }
+]
+
+
+
 let cartProducts;
 let cartProductsLS = localStorage.getItem("cartProducts")
 
