@@ -3904,10 +3904,16 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .headerSignIn .menuSide {
     width: 100vw;
   }
-  .container .sectionShop {
+  .container .sectionShop, .containerStore .sectionShop, .mainContainer .sectionShop {
     width: 100vw;
   }
-  .container .sectionWishlist {
+  .container .sectionShop .menuCart .menuCartlist .outcomeCard, .containerStore .sectionShop .menuCart .menuCartlist .outcomeCard, .mainContainer .sectionShop .menuCart .menuCartlist .outcomeCard {
+    width: 100%;
+  }
+  .container .sectionShop .menuCart .menuCartlist .outcomeCard .btnCheckout, .containerStore .sectionShop .menuCart .menuCartlist .outcomeCard .btnCheckout, .mainContainer .sectionShop .menuCart .menuCartlist .outcomeCard .btnCheckout {
+    width: 90%;
+  }
+  .container .sectionWishlist, .containerStore .sectionWishlist, .mainContainer .sectionWishlist {
     width: 100vw;
   }
   .containerStore .sectionStore .sectionCard {
@@ -3918,15 +3924,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 @media (max-width: 425px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
     width: 100vw;
-  }
-  .containerStore .sectionShop {
-    width: 100vw;
-  }
-  .containerStore .sectionShop .menuCart .menuCartlist .outcomeCard {
-    width: 100%;
-  }
-  .containerStore .sectionShop .menuCart .menuCartlist .outcomeCard .btnCheckout {
-    width: 90%;
   }
   .containerStore .sectionWishlist {
     width: 100vw;

@@ -313,9 +313,19 @@
             width:100vw;
         }
     }
-    .container{
+    .container, .containerStore, .mainContainer{
         .sectionShop{
             width:100vw;
+            .menuCart{
+                .menuCartlist{
+                    .outcomeCard{
+                        width:100%;
+                        .btnCheckout{
+                            width:90%;
+                        }
+                    }
+                }
+            }
         }
         .sectionWishlist{
             width:100vw;
@@ -339,22 +349,6 @@
             .menuFilterSide{
                 .menuFilter{
                     width:100vw;
-                }
-            }
-        }
-        .sectionShop{
-            width:100vw;
-
-            .menuCart{
-                .menuCartlist{
-
-                    .outcomeCard{
-                        width:100%;
-
-                        .btnCheckout{
-                            width:90%;
-                        }
-                    }
                 }
             }
         }
