@@ -6,14 +6,12 @@
     @include display_flex_row_space_between_flex_start();
     margin: 150px auto;
     font-family: $fontJura;
-    column-gap: 70px;
+    gap:50px;
     .leftSide, .rightSide{
         width: 100%;
         height: auto;
     }
     .leftSide{
-        overflow: hidden;
-        position: relative;
         .itemProduct{
             width:100%;
             height: auto;
@@ -23,98 +21,12 @@
             &:hover{
                 filter:contrast(115%);
             }
-            &:hover + .soldOutLabel{
-                background-color: $primaryColor;
-            }
-        }
-        .soldOutLabel{
-            transform: skew(-15deg, 0deg);
-            position: absolute;
-            top:0%;
-            right:-7px;
-            padding:10px 15px;
-            background-color: $blackColor;
-            color:$whiteColor;
-            font-weight: 500;
-            font-size: $MediumTitle;
-            font-family: $fontJura;
-            transition:$transition;
-        }
-        .addToCart{
-            width:100%;
-            @extend .flexRowBetween;
-            gap:20px;
-            margin: 50px auto 0px;
-            position: relative;
-            .btnAddToCart{
-                width:100%;
-                height: 50px;
-                color: $backgroundColor;
-                padding: 15px;
-                font-size: $regularText;
-                font-weight: $ExtraBold;
-                border: 1px solid black;
-                background-color:$blackColor;
-                transition:$transition;
-                &:hover{
-                    color: $blackColor;
-                    border:$btnMenu;
-                    background-color: $whiteColor;
-                }
-            }
-            .wishlistIcon{
-                width:13%;
-                cursor: pointer;
-                padding-top: 11px;
-                padding-right: 11px;
-                padding-left: 11px;
-                padding-bottom: 11px;
-                border: $itemProduct;
-                transition: $transition;
-                &:hover{
-                    border: $btnMenu;
-                }
-                &:hover + .toolTip{
-                    opacity:1;
-                    visibility: visible;
-                    transform: translateY(0%);
-                }
-            }
-            .toolTip{
-                width:auto;
-                height: auto;
-                cursor:pointer;
-                opacity: 0;
-                visibility: hidden;
-                position:absolute;
-                top:-80%;
-                right:0px;
-                background-color:$blackColor;
-                transform: translateY(100%);
-                transition: $transition;
-                .toolTipMessage{
-                    margin: 5px 10px;
-                    font-size:$xxSmallText;
-                    font-weight: $ExtraBold;
-                    color: $whiteColor;
-                    font-family: $fontJura;
-                }
-                .clipPath{
-                    width: 30px;
-                    height: 30px;
-                    background-color: $blackColor;
-                    clip-path: polygon(49% 30%, 20% 0, 80% 0);
-                    position: absolute;
-                    top:25px;
-                    right:15%;
-                }
-            }
         }
     }
     .rightSide{
         display: flex;
         flex-direction: column;
-        gap:20px;
+        gap:30px;
         .infoProduct{
             width: 100%;
             display: flex;
@@ -258,6 +170,7 @@
                     margin-bottom: 20px;
                 }
                 .containerSize{
+                    width:100%;
                     display:flex;
                     flex-direction: row;
                     align-items: flex-start;
@@ -277,6 +190,76 @@
                         &:hover{
                             border: $btnMenu;
                         }
+                    }
+                }
+            }
+            .addToCart{
+                width:100%;
+                @extend .flexRowBetween;
+                gap:20px;
+                margin: 20px auto;
+                position: relative;
+                .btnAddToCart{
+                    width:100%;
+                    height: 50px;
+                    color: $backgroundColor;
+                    padding: 15px;
+                    font-size: $regularText;
+                    font-weight: $ExtraBold;
+                    border: 1px solid black;
+                    background-color:$blackColor;
+                    transition:$transition;
+                    &:hover{
+                        color: $blackColor;
+                        border:$btnMenu;
+                        background-color: $whiteColor;
+                    }
+                }
+                .wishlistIcon{
+                    width:50px;
+                    cursor: pointer;
+                    padding-top: 11px;
+                    padding-right: 11px;
+                    padding-left: 11px;
+                    padding-bottom: 11px;
+                    border: $itemProduct;
+                    transition: $transition;
+                    &:hover{
+                        border: $btnMenu;
+                    }
+                    &:hover + .toolTip{
+                        opacity:1;
+                        visibility: visible;
+                        transform: translateY(0%);
+                    }
+                }
+                .toolTip{
+                    width:auto;
+                    height: auto;
+                    cursor:pointer;
+                    opacity: 0;
+                    visibility: hidden;
+                    position:absolute;
+                    top:-80%;
+                    right:-10px;
+                    background-color:$blackColor;
+                    transform: translateY(100%);
+                    transition: $transition;
+                    .toolTipMessage{
+                        margin: 5px 10px;
+                        font-size:$xxSmallText;
+                        font-weight: $ExtraBold;
+                        color: $whiteColor;
+                        font-family: $fontJura;
+                    }
+                    .clipPath{
+                        width: 30px;
+                        height: 30px;
+                        background-color: $blackColor;
+                        clip-path: polygon(49% 30%, 20% 0, 80% 0);
+                        position: absolute;
+                        top:25px;
+                        left:18px;
                     }
                 }
             }

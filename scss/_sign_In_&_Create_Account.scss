@@ -321,7 +321,7 @@
         position: fixed;
         top:0px;
         right:0%;
-        z-index: 1;
+        z-index: 8;
         background-color: $blackColor;
         animation: getoff 0.5s linear;
         @keyframes getoff{
@@ -394,7 +394,7 @@
     #menuSide{
         display: flex;
         &:checked ~ .menuSide{
-            transform: translate(-225%);
+            transform: translate(0%);
         }
     }
     .menuSide{
@@ -402,13 +402,13 @@
         height: 100vh;
         position: fixed;
         top:0%;
-        left:125%;
+        right:0%;
         @include display_flex_column_space_between_flex_start();
         background-color: $secondaryBackground;
         overflow: hidden;
         box-shadow:$boxShadowMenu;
         z-index: 10;
-        transform: translate(-105%);
+        transform: translate(105%);
         transition: $transition;
         .top{
             width:100%;
@@ -517,49 +517,6 @@
                         }
                     }
                 }
-            }
-        }
-    }
-}
-
-// Tag GetOff
-
-.tagGetOff{
-    position: fixed;
-    top:35%;
-    right:0px;
-    transform: rotate(180deg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 8;
-    text-decoration: none;
-    .discount{
-        animation: getOff 0.5s linear;
-        .title{
-            font-size:$regularText;
-            font-family: $fontJura;
-            color: $whiteColor;
-            text-align: center;
-            writing-mode: vertical-rl;
-            text-orientation: right;
-            transform: rotate(180deg);
-            font-weight: $bold;
-            cursor: pointer;
-            background-color: $blackColor;
-            padding: 40px 15px;
-            transition: $transition;
-            &:hover{
-                background-color: $primaryColor;
-                transform: translateX(15%) rotate(180deg);
-            }
-        }
-        @keyframes getOff{
-            0%{
-                transform: translateX(-100%);
-            }
-            100%{
-                transform: translateX(0%);
             }
         }
     }

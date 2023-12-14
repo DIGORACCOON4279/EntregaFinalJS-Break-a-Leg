@@ -3,6 +3,7 @@
 .bestSellers{
     width:$screenPercentageWidth;
     height: auto;
+    margin: 0px auto;
     .subtitle{
         font-size:$subtitle;
         font-family: $fontRubik;
@@ -11,6 +12,10 @@
         margin-bottom: 100px;
     }
     .sectionCardBlock{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap:30px;
         .cardProducts{
             width:100%;
             height:400px;
@@ -72,3 +77,4 @@
         @extend .ctaStoreFeatures;
     }
 }
+

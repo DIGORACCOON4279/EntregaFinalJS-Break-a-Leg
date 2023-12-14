@@ -11,13 +11,23 @@
         margin-bottom: 100px;
     }
     .sectionCardContainer{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        row-gap:70px;
         margin-bottom: 70px;
         .cardProducts{
-            width: 250%;
+            width: 100%;
             position: relative;
             .article1, .article2, .article3, .article4, .article5, .article6, .article7, .article8, .article9, .article10{
                 .smallCard{
+                    // width: 100%;
+                    // height: 400px;
                     display:none;
+                    .outFit{
+                        width: 100%;
+                        height: 300px;
+                    }
                 }
                 .nameOut{
                     color: $primaryColor;
@@ -31,7 +41,7 @@
                 }
                 #outFit{
                     width: 100%;
-                    height: 100%;
+                    height: 400px;
                     transition:$transition;
                     &:hover{
                         content:"";
@@ -115,3 +125,4 @@
         @extend .ctaStoreFeatures;
     }
 }
+

@@ -30,20 +30,23 @@
             }
             .cta{
                 width:$screenPercentageWidth;
-                margin-top: 45px;
-                margin-bottom: 35px;
+                margin-bottom: 15px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap:15px;
                 .ctaDiscount, .ctaNewArrivals{
+                    text-align: center;
                     padding:$paddingHero ;
                     font-family: $fontJura;
                     font-weight: $bold;
                     font-size: $MediumTitle;
                     color:$tertiaryColor;
                     background-color: $secondaryColor;
-                    margin-right: 5px;
                     text-decoration: none;
                     box-shadow:$btnBoxShadow;
                     transform:scale(100%);
-                    transition: all 0.5s ease;
+                    transition: 0.5s ease;
                     &:hover{
                         color:$whiteColor;
                         background-color: $btnBackgroundColor;
@@ -88,7 +91,7 @@
         }
     }
     .laptop{
-        max-width: 60%;
+        width: 50vw;
         height:auto;
         padding-top: 50px;
         display:block;

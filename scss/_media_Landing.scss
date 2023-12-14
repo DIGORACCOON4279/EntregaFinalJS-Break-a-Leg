@@ -1,3 +1,432 @@
-// Media Landing
 
-// Undefined yet
+// Media - Queries Landing
+
+// Screen 1320px
+
+@media (max-width: 1350px){
+    .mainContainer{
+        .heroSection{
+            .heroSectionCentered{
+                .info{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    margin:50px auto 0px;
+                    .break{
+                        font-size:$sectionSubtitle ;
+                        padding-bottom: 20px;
+                    }
+                    .subtitle{
+                        font-size:$sentence;
+                    }
+                    .cta{
+                        .ctaDiscount, .ctaNewArrivals{
+                            font-size:$regularText;
+                        }
+                    }
+                    .promo{
+                        font-size:$smallText;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Screen 1230px
+
+@media (max-width: 1230px){
+    .header{
+        .menuSide{
+            width:25vw;
+        }
+    }
+    .mainContainer{
+        .heroSection{
+            gap:20px;
+            .heroSectionCentered{
+                .info{
+                    .cta{
+                        .ctaDiscount, .ctaNewArrivals{
+                            width: 45%;
+                            padding:$paddingBreakSmall;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bestSellers{
+        .sectionCardBlock{
+            gap:20px;
+        }
+    }
+}
+
+// Screen 1120px
+
+@media (max-width: 1120px){
+    .header{
+        .menuSide{
+            width:30vw;
+        }
+    }
+    .mainContainer{
+        .heroSection{
+            padding: 0px 50px;
+            .heroSectionCentered{
+                .info{
+                    .break{
+                        font-size:$cardLetter ;
+                    }
+                    .cta{
+                        .ctaDiscount, .ctaNewArrivals{
+                            width: 45%;
+                            font-size:$smallText;
+                        }
+                    }
+                    .promo{
+                        font-size:$xSmallText;
+                    }
+                }
+            }
+        }
+        .sectionShop{
+            width:50vw;
+        }
+        .sectionWishlist{
+            width:35vw;
+        }
+        .bestSellers{
+            .subtitle{
+                font-size:2.5rem ;
+            }
+            .sectionCardBlock{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+                gap:15px;
+            }
+        }
+        .newArrivals, #containerNewArrivals{
+            .sectionCardContainer{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+            }
+        }
+        .getOffHoddy{
+            .containerGetOff{
+                padding-left: 30px;
+                padding-right: 30px;
+                .info{
+                    margin:auto;
+                }
+            }
+        }
+    }
+}
+
+// Screen 1000px
+
+@media (max-width: 1000px){
+    .header{
+        .menuSide{
+            width:35vw;
+        }
+    }
+    .mainContainer{
+        .heroSection{
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            .heroSectionCentered{
+                .info{
+                    .cta{
+                        .ctaDiscount, .ctaNewArrivals{
+                            flex-grow: 1;
+                        }
+                    }
+                }
+            }
+            .laptop{
+                margin-top: 300px;
+                width:70vw;
+            }
+        }
+        .getOffHoddy{
+            .containerGetOff{
+                @include display_flex_column_space_around_flex_start();
+                align-items: center;
+                .info{
+                    margin-top: 0px;
+                    padding-top: 150px;
+                }
+                .hoddy{
+                    width:70vw;
+                }
+            }
+            .ctaSentence{
+                display:none;
+            }
+        }
+        .giftCards{
+            width: 90%;
+            .containerGetOff{
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content:space-between;
+                align-items:center;
+            }
+        }
+    }
+    .footerContainer{
+        width:100%;
+        height:auto;
+        .footer{
+            width:50vw;
+            display: flex;
+            flex-direction:column;
+            justify-content: space-between;
+            align-items: center;
+            gap:20px;
+            .brand{
+                position: static;
+                text-align: center;
+                display:block;
+            }
+            .socialMediaFooter{
+                order:2;
+                text-align: center;
+                display:block;
+                ul{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .payments{
+                order:3;
+                display:block;
+                text-align: center;
+                align-self: center;
+            }
+        }
+    }
+}
+
+// Screen 950px
+
+@media (max-width: 950px){
+    .mainContainer{
+        .heroSection{
+            .heroSectionCentered{
+                .info{
+                    .cta{
+                        .ctaDiscount, .ctaNewArrivals{
+                            flex-grow: 1;
+                        }
+                    }
+                }
+            }
+        }
+        .sectionShop{
+            width:55vw;
+        }
+        .sectionWishlist{
+            width:40vw;
+        }
+        .showRoom{
+            gap:40px;
+            .leftSide{
+                .itemProduct{
+                    width:55%;
+                    display: flex;
+                    margin: 0 auto;
+                 }
+            }
+        }
+    }
+}
+
+// Screen 850px
+
+@media (max-width: 850px){
+    .header{
+        .menuSide{
+            width:40vw;
+        }
+    }
+    .mainContainer{
+        .heroSection{
+            width:100vw;
+        }
+        .bestSellers{
+            .sectionCardBlock{
+                grid-template-columns: repeat(3, 1fr);
+                gap:15px;
+            }
+        }
+        .newArrivals, #containerNewArrivals{
+            .sectionCardContainer{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                row-gap:30px;
+            }
+        }
+        .giftCards{
+            width:100%;
+            .containerGetOff{
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Screen 750px
+
+@media (max-width: 750px){
+    .header{
+        .menuSide{
+            width:50vw;
+        }
+    }
+    .mainContainer{
+        .heroSection{
+            .laptop{
+                width:80vw;
+            }
+        }
+        .sectionShop{
+            width:60vw;
+        }
+        .sectionWishlist{
+            width:60vw;
+        }
+    }
+}
+
+// Screen 600px
+
+@media (max-width: 600px){
+    .header{
+        .menuSide{
+            width:60vw;
+        }
+    }
+    .mainContainer{
+        .bestSellers{
+            .sectionCardBlock{
+                grid-template-columns: repeat(2, 1fr);
+                gap:20px;
+            }
+        }
+        .sectionShop{
+            width:80vw;
+        }
+        .sectionWishlist{
+            width:80vw;
+        }
+        .newArrivals, #containerNewArrivals{
+            .sectionCardContainer{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        .giftCards{
+            width:100%;
+            .containerGetOff{
+                width: 100%;
+            }
+        }
+        .showRoom{
+            .rightSide{
+                .infoProduct{
+                    .size{
+                        .containerSize{
+                            gap:10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Screen 400px
+
+@media (max-width: 400px){
+    .header{
+        .menuSide{
+            width:100vw;
+        }
+    }
+    .header{
+        .logo{
+            .brand{
+                display:none;
+            }
+        }
+    }
+    .mainContainer{
+        .heroSection{
+            padding-left: 30px;
+            padding-right: 30px;
+            .heroSectionCentered{
+                .info{
+                    .cta{
+                        width:100%;
+                        display: flex;
+                        flex-direction: column;
+                        .ctaDiscount, .ctaNewArrivals{
+                            width:100%;
+                        }
+                    }
+                }
+            }
+        }
+        .sectionShop{
+            width:100vw;
+        }
+        .sectionWishlist{
+            width:100vw;
+        }
+        .bestSellers{
+            .sectionCardBlock{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .ctaStore{
+                width:100%;
+            }
+        }
+        .newArrivals, #containerNewArrivals{
+            .sectionCardContainer{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .ctaStore{
+                width:100%;
+            }
+        }
+        .footer{
+            .payments{
+                .paymentCards{
+                    width:203px;
+                }
+            }
+        }
+    }
+}
+
+// Screen 360px
+
+@media (max-width: 360px){
+    .footerContainer{
+        .development{
+            .developer{
+                display:flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
