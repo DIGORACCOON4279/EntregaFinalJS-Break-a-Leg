@@ -3915,12 +3915,18 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     grid-template-rows: repeat(1, 1fr);
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
     width: 100vw;
   }
   .containerStore .sectionShop {
     width: 100vw;
+  }
+  .containerStore .sectionShop .menuCart .menuCartlist .outcomeCard {
+    width: 100%;
+  }
+  .containerStore .sectionShop .menuCart .menuCartlist .outcomeCard .btnCheckout {
+    width: 90%;
   }
   .containerStore .sectionWishlist {
     width: 100vw;

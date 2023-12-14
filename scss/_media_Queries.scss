@@ -333,7 +333,7 @@
 
 // Filter & Shopping Cart
 
-@media (max-width: 400px){
+@media (max-width: 425px){
     .containerStore{
         .sectionFilter{
             .menuFilterSide{
@@ -344,6 +344,19 @@
         }
         .sectionShop{
             width:100vw;
+
+            .menuCart{
+                .menuCartlist{
+
+                    .outcomeCard{
+                        width:100%;
+
+                        .btnCheckout{
+                            width:90%;
+                        }
+                    }
+                }
+            }
         }
         .sectionWishlist{
             width:100vw;
