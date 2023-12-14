@@ -169,7 +169,7 @@ function actualizarTotalCarrito() {
     const totalCarritoElement = document.getElementById('cartTotal');
 
     if (totalCarritoElement) {
-        totalCarritoElement.textContent = `Total.................................  $${totalCarrito}`;
+        totalCarritoElement.textContent = `Total ............  $${totalCarrito}`;
     }
 }
 

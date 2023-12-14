@@ -1344,7 +1344,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .containerStore .sectionStore .sectionCard {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 30px;
 }
@@ -1416,6 +1416,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   background-color: #000000;
   border: 1px solid #000000;
   cursor: pointer;
+}
+.containerStore .sectionStore .sectionCard .cardProducts .article .info .price {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 .containerStore .sectionStore .sectionCard .cardProducts .article .outFit {
   width: 100%;
@@ -3735,6 +3741,13 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .headerSignIn .menuSide {
     width: 25vw;
   }
+  .containerStore .sectionStore {
+    gap: 20px;
+  }
+  .containerStore .sectionStore .sectionCard {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
 }
 @media (max-width: 1230px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
@@ -3783,6 +3796,10 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     display: flex;
     margin: auto;
   }
+  .containerStore .sectionStore .sectionCard {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
 }
 @media (max-width: 1000px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
@@ -3808,6 +3825,10 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 @media (max-width: 850px) {
   .headerSignIn .menuSide {
     width: 40vw;
+  }
+  .containerStore .sectionStore .sectionCard {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
   }
 }
 @media (max-width: 850px) {
@@ -3853,6 +3874,10 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .container .sectionWishlist {
     width: 80vw;
   }
+  .containerStore .sectionStore .sectionCard {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
 }
 @media (max-width: 600px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
@@ -3870,8 +3895,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 100%;
     margin: 0px 0px;
   }
+  .containerStore .sectionStore .sectionCard {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
 }
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   .headerSignIn .menuSide {
     width: 100vw;
   }
@@ -3880,6 +3909,10 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .container .sectionWishlist {
     width: 100vw;
+  }
+  .containerStore .sectionStore .sectionCard {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
   }
 }
 @media (max-width: 400px) {

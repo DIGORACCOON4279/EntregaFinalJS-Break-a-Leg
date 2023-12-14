@@ -136,7 +136,7 @@
     .sectionStore{
         .sectionCard{
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(6, 1fr);
             grid-template-rows: repeat(1, 1fr);
             gap: 30px;
             .cardProducts{
@@ -205,6 +205,12 @@
                                 border: 1px solid $blackColor;
                                 cursor:pointer;
                             }
+                        }
+                        .price{
+                            display:flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            align-items: flex-start;
                         }
                     }
                     .outFit{

@@ -10,6 +10,19 @@
             width:25vw;
         }
     }
+    .containerStore{
+        .sectionStore{
+            gap: 20px;
+        }
+    }
+    .containerStore{
+        .sectionStore{
+            .sectionCard{
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+            }
+        }
+    }
 }
 
 // Filter
@@ -25,7 +38,6 @@
         }
     }
 }
-
 
 // Screen 1120px
 
@@ -94,6 +106,14 @@
             }
         }
     }
+    .containerStore{
+        .sectionStore{
+            .sectionCard{
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+            }
+        }
+    }
 }
 
 // Filter
@@ -140,6 +160,14 @@
     .headerSignIn{
         .menuSide{
             width:40vw;
+        }
+    }
+    .containerStore{
+        .sectionStore{
+            .sectionCard{
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+            }
         }
     }
 }
@@ -224,6 +252,14 @@
             width:80vw;
         }
     }
+    .containerStore{
+        .sectionStore{
+            .sectionCard{
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+            }
+        }
+    }
 }
 
 // Filter & Shopping Cart
@@ -259,11 +295,19 @@
             }
         }
     }
+    .containerStore{
+        .sectionStore{
+            .sectionCard{
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+            }
+        }
+    }
 }
 
-// Screen 400px
+// Screen 410px
 
-@media (max-width: 400px){
+@media (max-width: 425px){
     .headerSignIn{
         .menuSide{
             width:100vw;
@@ -275,6 +319,14 @@
         }
         .sectionWishlist{
             width:100vw;
+        }
+    }
+    .containerStore{
+        .sectionStore{
+            .sectionCard{
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(1, 1fr);
+            }
         }
     }
 }

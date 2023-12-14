@@ -277,7 +277,7 @@ function renderProducts(outfitsArray) {
                             <img class="outFit" src="${outfit.image}" alt="Outfit Image">
                             <div class="info">
                                 <img class="heartIcon" src="../img/wishlist_Icon.svg" alt="Wishlist icon" >
-                                <p class="price">${outfit.category}.......... $${outfit.pricing}</p>
+                                <p class="price">${outfit.category}.... $${outfit.pricing}</p>
                                 <button class="linkStore" type="button" id="${outfitId}"> Add to cart </button>
                             </div>
                         </div>
