@@ -339,7 +339,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  bottom: 20px;
+  bottom: 80px;
   left: 20px;
 }
 .sectionShop .menuCart .menuCartlist .outcomeCard .outcome #cartTotal {
@@ -601,7 +601,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .header .menuSide .contactUs {
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -2083,7 +2083,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .headerSignIn .menuSide .contactUs {
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
