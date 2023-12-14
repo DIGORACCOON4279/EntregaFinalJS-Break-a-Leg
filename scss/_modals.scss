@@ -7,8 +7,8 @@
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
-    top: 80px;
-    right: 30px;
+    top: 10%;
+    right: 3%;
     z-index: 99;
     div{
         .messageWishlist, .stockProduct{
@@ -30,8 +30,8 @@
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
-    bottom: 50px;
-    right: 30px;
+    bottom: 10%;
+    right: 3%;
     z-index: 99;
     div{
         .soldOutProduct{

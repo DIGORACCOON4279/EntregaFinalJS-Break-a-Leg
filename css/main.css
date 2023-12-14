@@ -84,13 +84,13 @@
 }
 
 .toast, #out-of-stock-message div .soldOutProduct, #messageContainer div .messageWishlist, #messageContainer div .stockProduct, #messageNewProduct div .messageWishlist, #messageNewProduct div .stockProduct {
-  width: 10vw;
+  width: 135px;
   height: auto;
   font-size: 0.6rem;
   font-family: "Jura", sans-serif;
   font-weight: 700;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 3px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -2389,7 +2389,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   padding-left: 15px;
   font-size: 0.8rem;
   border: 1px solid #d9d9d9;
-  border-radius: 5px;
+  border-radius: 3px;
   color: #9a9a9a;
 }
 .sectionPlaceOrder .unionOrder .delivery .deliveryContact .contactTitle, .sectionPlaceOrder .unionOrder .delivery .deliveryContact .deliveryTitle {
@@ -2451,7 +2451,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-size: 0.8rem;
   color: #9a9a9a;
   border: 1px solid #d9d9d9;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .sectionPlaceOrder .unionOrder .formPayment fieldset select {
   width: 100%;
@@ -2460,7 +2460,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   padding-left: 10px;
   font-size: 0.8rem;
   border: 1px solid #d9d9d9;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .sectionPlaceOrder .unionOrder .formPayment fieldset .cardNumbers {
   display: flex;
@@ -2518,8 +2518,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
-  top: 80px;
-  right: 30px;
+  top: 10%;
+  right: 3%;
   z-index: 99;
 }
 #messageContainer div .messageWishlist, #messageContainer div .stockProduct, #messageNewProduct div .messageWishlist, #messageNewProduct div .stockProduct {
@@ -2536,8 +2536,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
-  bottom: 50px;
-  right: 30px;
+  bottom: 10%;
+  right: 3%;
   z-index: 99;
   animation: slideUp 11000ms linear 0.4s;
 }
