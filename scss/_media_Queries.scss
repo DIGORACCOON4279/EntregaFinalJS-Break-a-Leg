@@ -314,6 +314,25 @@
                 }
             }
         }
+        #containerNewArrivals{
+            .title{
+                font-size: $nameLogo;
+            }
+            .sectionCardContainer{
+                .cardProducts{
+                    .article1, .article2, .article3, .article4, .article5, .article6, .article7, .article8, .article9, .article10{
+                        .smallCard{
+                            .price{
+                                font-size: $xSmallText;
+                            }
+                        }
+                        .nameOut{
+                            font-size: $MediumTitle;
+                        }
+                    }
+                }
+            }
+        }
     }
     .containerStore{
         .sectionStore{
