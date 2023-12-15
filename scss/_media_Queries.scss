@@ -293,6 +293,17 @@
                     margin: 0px 0px;
                 }
             }
+            .rightSide{
+                .containerAccordion{
+                    .accordionItem{
+                        .accordionCollapse{
+                            .accordionBody{
+                                flex-direction: column;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
     .containerStore{

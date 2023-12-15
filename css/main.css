@@ -3895,6 +3895,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 100%;
     margin: 0px 0px;
   }
+  .mainContainer .showRoom .rightSide .containerAccordion .accordionItem .accordionCollapse .accordionBody {
+    flex-direction: column;
+  }
   .containerStore .sectionStore .sectionCard {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
