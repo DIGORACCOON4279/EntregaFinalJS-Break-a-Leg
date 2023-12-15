@@ -44,6 +44,13 @@ body{
 }
 html{
     scroll-behavior: smooth;
+    .containerStore{
+        .bannerShipping{
+            .shipping{
+                font-size:$xxSmallText;
+            }
+        }
+    }
     .mainContainer{
         width: $screenPercentageWidth;
         height: $screenPercentageHeight;
@@ -55,7 +62,7 @@ html{
                 height: auto;
                 margin: auto;
                 color:$whiteColor;
-                font-size:$xSmallText;
+                font-size:$xxSmallText;
                 font-weight: $ExtraBold;
                 font-family: $fontJura;
                 text-transform: uppercase;
