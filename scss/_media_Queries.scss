@@ -342,6 +342,17 @@
             }
         }
     }
+    .container{
+        .logInCreateAccount{
+            .tags{
+                .formLogIn, .formCreateAccount{
+                    legend{
+                        font-size: $nameLogo;
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Screen 425px

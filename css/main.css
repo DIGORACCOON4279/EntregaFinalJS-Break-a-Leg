@@ -3916,6 +3916,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
   }
+  .container .logInCreateAccount .tags .formLogIn legend, .container .logInCreateAccount .tags .formCreateAccount legend {
+    font-size: 1.8rem;
+  }
 }
 @media (max-width: 425px) {
   .headerSignIn .menuSide {
