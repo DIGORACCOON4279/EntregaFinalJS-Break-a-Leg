@@ -243,6 +243,13 @@
                 }
             }
         }
+        .advertising{
+            .advertisingMood{
+                .subtitle{
+                    font-size: $LargeTitle;
+                }
+            }
+        }
     }
 }
 
@@ -300,6 +307,13 @@
         .sectionWishlist{
             width:60vw;
         }
+        .advertising{
+            .advertisingMood{
+                .subtitle{
+                    font-size: $nameLogo;
+                }
+            }
+        }
     }
 }
 
@@ -347,12 +361,19 @@
                 width:100%;
             }
         }
+        .advertising{
+            .advertisingMood{
+                .subtitle{
+                    font-size: $sentence;
+                }
+            }
+        }
     }
 }
 
 // Screen 500px
 
-@media (max-width: 500px){
+@media (max-width: 510px){
     .mainContainer{
         .bestSellers{
             .subtitle{
@@ -398,8 +419,47 @@
                 }
             }
         }
+        .advertising{
+            .advertisingMood{
+                .subtitle{
+                    font-size: $MediumTitle;
+                }
+            }
+        }
     }
 }
+
+// Screen 460px
+
+@media (max-width: 460px){
+    .mainContainer{
+        .advertising{
+            .advertisingMood{
+                width:100%;
+                .subtitle{
+                    font-size: $regularText;
+                }
+            }
+        }
+    }
+}
+
+// Screen 425px
+
+@media (max-width: 425px){
+    .mainContainer{
+        .advertising{
+            .advertisingMood{
+                width:100%;
+                .subtitle{
+                    font-size: $smallText;
+                }
+            }
+        }
+    }
+}
+
+
 
 // Screen 400px
 
@@ -454,6 +514,14 @@
             }
             .ctaStore{
                 width:100%;
+            }
+        }
+        .advertising{
+            .advertisingMood{
+                width:100%;
+                .subtitle{
+                    font-size: $xxSmallText;
+                }
             }
         }
         .footer{
