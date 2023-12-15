@@ -106,7 +106,7 @@
                 gap:20px;
             }
         }
-        .newArrivals, #containerNewArrivals{
+        #newArrivalsUno, #containerNewArrivals{
             .sectionCardContainer{
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
@@ -250,6 +250,22 @@
                 }
             }
         }
+        #newArrivalsUno, #containerNewArrivals{
+            .sectionCardContainer{
+                .cardProducts{
+                    .article1, .article2, .article3, .article4, .article5, .article6, .article7, .article8, .article9, .article10{
+                        .smallCard{
+                            .price{
+                                font-size: $smallText;
+                            }
+                        }
+                        .nameOut{
+                            font-size: $sentence;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -271,7 +287,7 @@
                 gap:15px;
             }
         }
-        .newArrivals, #containerNewArrivals{
+        #newArrivalsUno, #containerNewArrivals{
             .sectionCardContainer{
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
@@ -314,6 +330,22 @@
                 }
             }
         }
+        #newArrivalsUno, #containerNewArrivals{
+            .sectionCardContainer{
+                .cardProducts{
+                    .article1, .article2, .article3, .article4, .article5, .article6, .article7, .article8, .article9, .article10{
+                        .smallCard{
+                            .price{
+                                font-size: $xSmallText;
+                            }
+                        }
+                        .nameOut{
+                            font-size: $MediumTitle;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -338,7 +370,10 @@
         .sectionWishlist{
             width:80vw;
         }
-        .newArrivals, #containerNewArrivals{
+        #newArrivalsUno, #containerNewArrivals{
+            .title{
+                font-size: $nameLogo;
+            }
             .sectionCardContainer{
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
@@ -509,7 +544,7 @@
                 width:100%;
             }
         }
-        .newArrivals, #containerNewArrivals{
+        #newArrivalsUno, #containerNewArrivals{
             width: 100vw;
             .sectionCardContainer{
                 display: grid;
