@@ -170,6 +170,24 @@
             }
         }
     }
+    .mainContainer{
+        .newArrivals{
+            .sectionCardContainer{
+                .cardProducts{
+                    .article1, .article2, .article3, .article4, .article5, .article6, .article7, .article8, .article9, .article10{
+                        .smallCard{
+                            .price{
+                                font-size: $smallText;
+                            }
+                        }
+                        .nameOut{
+                            font-size: $sentence;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 // // Filter & Shopping Cart
@@ -260,6 +278,27 @@
             }
         }
     }
+    .mainContainer{
+        .newArrivals{
+            .title{
+                font-size: $nameLogo;
+            }
+            .sectionCardContainer{
+                .cardProducts{
+                    .article1, .article2, .article3, .article4, .article5, .article6, .article7, .article8, .article9, .article10{
+                        .smallCard{
+                            .price{
+                                font-size: $xSmallText;
+                            }
+                        }
+                        .nameOut{
+                            font-size: $MediumTitle;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 // Filter & Shopping Cart
@@ -309,25 +348,6 @@
                         align-items: center;
                         .delivery, .creditCard, .return{
                             width:45%;
-                        }
-                    }
-                }
-            }
-        }
-        .newArrivals{
-            .title{
-                font-size: $nameLogo;
-            }
-            .sectionCardContainer{
-                .cardProducts{
-                    .article1, .article2, .article3, .article4, .article5, .article6, .article7, .article8, .article9, .article10{
-                        .smallCard{
-                            .price{
-                                font-size: $xSmallText;
-                            }
-                        }
-                        .nameOut{
-                            font-size: $MediumTitle;
                         }
                     }
                 }

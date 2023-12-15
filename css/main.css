@@ -3859,6 +3859,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
   }
+  .mainContainer .newArrivals .sectionCardContainer .cardProducts .article1 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article2 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article3 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article4 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article5 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article6 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article7 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article8 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article9 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article10 .smallCard .price {
+    font-size: 0.9rem;
+  }
+  .mainContainer .newArrivals .sectionCardContainer .cardProducts .article1 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article2 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article3 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article4 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article5 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article6 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article7 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article8 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article9 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article10 .nameOut {
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 850px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
@@ -3907,6 +3913,15 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
   }
+  .mainContainer .newArrivals .title {
+    font-size: 1.8rem;
+  }
+  .mainContainer .newArrivals .sectionCardContainer .cardProducts .article1 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article2 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article3 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article4 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article5 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article6 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article7 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article8 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article9 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article10 .smallCard .price {
+    font-size: 0.8rem;
+  }
+  .mainContainer .newArrivals .sectionCardContainer .cardProducts .article1 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article2 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article3 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article4 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article5 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article6 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article7 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article8 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article9 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article10 .nameOut {
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 600px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
@@ -3933,15 +3948,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .showRoom .rightSide .infoProduct .complementInfo .delivery, .mainContainer .showRoom .rightSide .infoProduct .complementInfo .creditCard, .mainContainer .showRoom .rightSide .infoProduct .complementInfo .return {
     width: 45%;
-  }
-  .mainContainer .newArrivals .title {
-    font-size: 1.8rem;
-  }
-  .mainContainer .newArrivals .sectionCardContainer .cardProducts .article1 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article2 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article3 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article4 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article5 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article6 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article7 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article8 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article9 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article10 .smallCard .price {
-    font-size: 0.8rem;
-  }
-  .mainContainer .newArrivals .sectionCardContainer .cardProducts .article1 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article2 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article3 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article4 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article5 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article6 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article7 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article8 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article9 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article10 .nameOut {
-    font-size: 1.2rem;
   }
   .containerStore .sectionStore .sectionCard {
     grid-template-columns: repeat(2, 1fr);
