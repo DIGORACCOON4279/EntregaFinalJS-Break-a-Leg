@@ -303,6 +303,15 @@
                         }
                     }
                 }
+                .infoProduct{
+                    .complementInfo{
+                        flex-direction:column;
+                        align-items: center;
+                        .delivery, .creditCard, .return{
+                            width:45%;
+                        }
+                    }
+                }
             }
         }
     }

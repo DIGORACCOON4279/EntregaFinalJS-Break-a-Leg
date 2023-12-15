@@ -3898,6 +3898,13 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .showRoom .rightSide .containerAccordion .accordionItem .accordionCollapse .accordionBody {
     flex-direction: column;
   }
+  .mainContainer .showRoom .rightSide .infoProduct .complementInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainContainer .showRoom .rightSide .infoProduct .complementInfo .delivery, .mainContainer .showRoom .rightSide .infoProduct .complementInfo .creditCard, .mainContainer .showRoom .rightSide .infoProduct .complementInfo .return {
+    width: 45%;
+  }
   .containerStore .sectionStore .sectionCard {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
