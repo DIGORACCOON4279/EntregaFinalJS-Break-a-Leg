@@ -3614,6 +3614,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .heroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
     flex-grow: 1;
   }
+  .mainContainer .bestSellers .sectionCardBlock .cardProducts .article .info .nameOutfit {
+    font-size: 1.5rem;
+  }
+  .mainContainer .bestSellers .sectionCardBlock .cardProducts .article .info .price {
+    font-size: 0.9rem;
+  }
   .mainContainer .sectionShop {
     width: 55vw;
   }
@@ -3676,6 +3682,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .advertising .advertisingMood .subtitle {
     font-size: 1.8rem;
+  }
+  .mainContainer .bestSellers .sectionCardBlock .cardProducts .article .info .nameOutfit {
+    font-size: 1.2rem;
+  }
+  .mainContainer .bestSellers .sectionCardBlock .cardProducts .article .info .price {
+    font-size: 0.8rem;
   }
   .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article1 .smallCard .price, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article2 .smallCard .price, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article3 .smallCard .price, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article4 .smallCard .price, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article5 .smallCard .price, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article6 .smallCard .price, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article7 .smallCard .price, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article8 .smallCard .price, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article9 .smallCard .price, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article10 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article1 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article2 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article3 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article4 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article5 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article6 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article7 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article8 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article9 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article10 .smallCard .price {
     font-size: 0.8rem;

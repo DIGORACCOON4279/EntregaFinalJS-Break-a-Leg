@@ -226,6 +226,22 @@
                 }
             }
         }
+        .bestSellers{
+            .sectionCardBlock{
+                .cardProducts{
+                    .article{
+                        .info{
+                            .nameOutfit{
+                                font-size: $sentence;
+                            }
+                            .price{
+                                font-size: $smallText;
+                            }
+                        }
+                    }
+                }
+            }
+        }
         .sectionShop{
             width:55vw;
         }
@@ -326,6 +342,22 @@
             .advertisingMood{
                 .subtitle{
                     font-size: $nameLogo;
+                }
+            }
+        }
+        .bestSellers{
+            .sectionCardBlock{
+                .cardProducts{
+                    .article{
+                        .info{
+                            .nameOutfit{
+                                font-size: $MediumTitle;
+                            }
+                            .price{
+                                font-size: $xSmallText;
+                            }
+                        }
+                    }
                 }
             }
         }
