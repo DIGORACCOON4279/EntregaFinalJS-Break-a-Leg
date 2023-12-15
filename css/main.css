@@ -3919,6 +3919,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .container .logInCreateAccount .tags .formLogIn legend, .container .logInCreateAccount .tags .formCreateAccount legend {
     font-size: 1.8rem;
   }
+  .container .logInCreateAccount .tags .formCreateAccount .ctaToCreateAccount {
+    margin-top: 15px;
+  }
 }
 @media (max-width: 425px) {
   .headerSignIn .menuSide {
