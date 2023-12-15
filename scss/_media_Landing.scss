@@ -169,7 +169,7 @@
             }
         }
         .giftCards{
-            width: 90%;
+            width: 100%;
             .containerGetOff{
                 display: flex;
                 flex-direction: column-reverse;
@@ -240,7 +240,7 @@
                     width:55%;
                     display: flex;
                     margin: 0 auto;
-                 }
+                }
             }
         }
     }
@@ -330,12 +330,6 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
-        .giftCards{
-            width:100%;
-            .containerGetOff{
-                width: 100%;
-            }
-        }
         .showRoom{
             .rightSide{
                 .infoProduct{
@@ -345,6 +339,12 @@
                         }
                     }
                 }
+            }
+        }
+        .giftCards{
+            width:100%;
+            .containerGetOff{
+                width:100%;
             }
         }
     }
@@ -375,6 +375,25 @@
                         .subtitle, .sentence{
                             font-size: $MediumTitle;
                         }
+                    }
+                }
+            }
+        }
+        .giftCards{
+            .containerGetOff{
+                margin:auto;
+                .containerCards{
+                    .sectionCards{
+                        width: 100%;
+                        padding: 0px;
+                    }
+                }
+                .containerMessage{
+                    .subtitleMessage{
+                        font-size: $nameLogo;
+                    }
+                    .paragraph{
+                        font-size: $sentence;
                     }
                 }
             }

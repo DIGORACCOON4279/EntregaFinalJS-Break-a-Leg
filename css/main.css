@@ -1017,7 +1017,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   width: 50%;
 }
 .giftCards .containerGetOff .containerMessage .subtitleMessage {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-family: "Jura", sans-serif;
   color: #bc2327;
   text-align: left;
@@ -3558,7 +3558,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     display: none;
   }
   .mainContainer .giftCards {
-    width: 90%;
+    width: 100%;
   }
   .mainContainer .giftCards .containerGetOff {
     display: flex;
@@ -3673,14 +3673,14 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  .mainContainer .showRoom .rightSide .infoProduct .size .containerSize {
+    gap: 10px;
+  }
   .mainContainer .giftCards {
     width: 100%;
   }
   .mainContainer .giftCards .containerGetOff {
     width: 100%;
-  }
-  .mainContainer .showRoom .rightSide .infoProduct .size .containerSize {
-    gap: 10px;
   }
 }
 @media (max-width: 500px) {
@@ -3696,6 +3696,19 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .getOffHoddy .containerGetOff .info .paragraph .subtitle, .mainContainer .getOffHoddy .containerGetOff .info .paragraph .sentence {
     font-size: 1.2rem;
+  }
+  .mainContainer .giftCards .containerGetOff {
+    margin: auto;
+  }
+  .mainContainer .giftCards .containerGetOff .containerCards .sectionCards {
+    width: 100%;
+    padding: 0px;
+  }
+  .mainContainer .giftCards .containerGetOff .containerMessage .subtitleMessage {
+    font-size: 1.8rem;
+  }
+  .mainContainer .giftCards .containerGetOff .containerMessage .paragraph {
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 400px) {
