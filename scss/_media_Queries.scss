@@ -339,6 +339,14 @@
             }
         }
     }
+    .mainContainer, .containerStore{
+        .bannerShipping{
+            .shipping{
+                font-size:$BreakTextContent !important;
+                padding: 5px;
+            }
+        }
+    }
 }
 
 // Screen 425px

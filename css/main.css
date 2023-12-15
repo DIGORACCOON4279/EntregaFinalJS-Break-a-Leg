@@ -128,7 +128,6 @@ html .mainContainer .bannerShipping .shipping {
   font-size: 0.8rem;
   font-weight: 700;
   font-family: "Jura", sans-serif;
-  text-align: 700;
   text-transform: uppercase;
   background-color: #000000;
 }
@@ -3998,6 +3997,10 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .container .logInCreateAccount .tags .formCreateAccount .ctaToCreateAccount {
     margin-top: 15px;
+  }
+  .mainContainer .bannerShipping .shipping, .containerStore .bannerShipping .shipping {
+    font-size: 0.6rem !important;
+    padding: 5px;
   }
 }
 @media (max-width: 425px) {
