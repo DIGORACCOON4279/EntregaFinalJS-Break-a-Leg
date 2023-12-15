@@ -2,32 +2,35 @@
 
 .bannerShipping{
     width:100%;
-    height: 25px;
     margin-top:-30px;
     .shipping{
-        color:$primaryColor;
+        width:fit-content;
+        height: auto;
+        margin: auto;
+        color:$whiteColor;
         font-size:$xSmallText;
-        font-weight:$ExtraBold;
+        font-weight: 700;
         font-family: $fontJura;
-        text-align: center;
+        text-align: $ExtraBold;
         text-transform: uppercase;
-        animation: shipping 4s linear;
-        @keyframes shipping {
-            0%{
-                transform: translateX(-100%);
-            }
-            25%{
-                transform: translateX(-75%);
-            }
-            50%{
-                transform: translateX(-50%);
-            }
-            75%{
-                transform: translateX(-25%);
-            }
-            100%{
-                transform: translateX(0%);
-            }
+        background-color:$blackColor;
+    }
+    animation: shipping 4000ms linear;
+    @keyframes shipping {
+        0%{
+            transform: translateX(-100%);
+        }
+        25%{
+            transform: translateX(-75%);
+        }
+        50%{
+            transform: translateX(-50%);
+        }
+        75%{
+            transform: translateX(-25%);
+        }
+        100%{
+            transform: translateX(0%);
         }
     }
 }
