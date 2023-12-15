@@ -3505,9 +3505,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .sectionWishlist {
     width: 35vw;
   }
-  .mainContainer .bestSellers .subtitle {
-    font-size: 2.5rem;
-  }
   .mainContainer .bestSellers .sectionCardBlock {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -3684,6 +3681,21 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .showRoom .rightSide .infoProduct .size .containerSize {
     gap: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .mainContainer .bestSellers .subtitle {
+    font-size: 2.5rem;
+  }
+  .mainContainer .newArrivals .subtitle, .mainContainer .bestSellers .subtitle, .mainContainer .giftCards .subtitle {
+    font-size: 2.5rem;
+  }
+  .mainContainer .getOffHoddy .containerGetOff .info .title {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .mainContainer .getOffHoddy .containerGetOff .info .paragraph .subtitle, .mainContainer .getOffHoddy .containerGetOff .info .paragraph .sentence {
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 400px) {
@@ -3903,13 +3915,13 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .showRoom .rightSide .infoProduct .complementInfo .delivery, .mainContainer .showRoom .rightSide .infoProduct .complementInfo .creditCard, .mainContainer .showRoom .rightSide .infoProduct .complementInfo .return {
     width: 45%;
   }
-  .mainContainer #containerNewArrivals .title {
+  .mainContainer .newArrivals .title {
     font-size: 1.8rem;
   }
-  .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article1 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article2 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article3 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article4 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article5 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article6 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article7 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article8 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article9 .smallCard .price, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article10 .smallCard .price {
+  .mainContainer .newArrivals .sectionCardContainer .cardProducts .article1 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article2 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article3 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article4 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article5 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article6 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article7 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article8 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article9 .smallCard .price, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article10 .smallCard .price {
     font-size: 0.8rem;
   }
-  .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article1 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article2 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article3 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article4 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article5 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article6 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article7 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article8 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article9 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article10 .nameOut {
+  .mainContainer .newArrivals .sectionCardContainer .cardProducts .article1 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article2 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article3 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article4 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article5 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article6 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article7 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article8 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article9 .nameOut, .mainContainer .newArrivals .sectionCardContainer .cardProducts .article10 .nameOut {
     font-size: 1.2rem;
   }
   .containerStore .sectionStore .sectionCard {

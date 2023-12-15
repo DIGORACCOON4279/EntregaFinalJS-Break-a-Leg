@@ -99,9 +99,6 @@
             width:35vw;
         }
         .bestSellers{
-            .subtitle{
-                font-size:2.5rem ;
-            }
             .sectionCardBlock{
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
@@ -345,6 +342,38 @@
                     .size{
                         .containerSize{
                             gap:10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Screen 500px
+
+@media (max-width: 500px){
+    .mainContainer{
+        .bestSellers{
+            .subtitle{
+                font-size: $LargeTitle;
+            }
+        }
+        .newArrivals, .bestSellers, .giftCards{
+            .subtitle{
+                font-size: $LargeTitle;
+            }
+        }
+        .getOffHoddy{
+            .containerGetOff{
+                .info{
+                    .title{
+                        font-size: $LargeTitle;
+                        text-align: center;
+                    }
+                    .paragraph{
+                        .subtitle, .sentence{
+                            font-size: $MediumTitle;
                         }
                     }
                 }
