@@ -3583,7 +3583,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     height: auto;
   }
   .footerContainer .footer {
-    width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
