@@ -943,6 +943,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   margin: 200px 0px;
   padding: 100px;
 }
+.advertising .advertisingMood {
+  width: 100%;
+}
 .advertising .advertisingMood .subtitle {
   font-size: 3.5rem;
   font-family: "Jura", sans-serif;
@@ -3728,6 +3731,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .advertising .advertisingMood .subtitle {
     font-size: 1.2rem;
+    transform: scale(180%);
+    margin: 10px auto;
   }
 }
 @media (max-width: 460px) {
@@ -3777,14 +3782,14 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .bestSellers .ctaStore {
     width: 100%;
   }
+  .mainContainer .newArrivals, .mainContainer #containerNewArrivals {
+    width: 100vw;
+  }
   .mainContainer .newArrivals .sectionCardContainer, .mainContainer #containerNewArrivals .sectionCardContainer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
   .mainContainer .newArrivals .ctaStore, .mainContainer #containerNewArrivals .ctaStore {
-    width: 100%;
-  }
-  .mainContainer .advertising .advertisingMood {
     width: 100%;
   }
   .mainContainer .advertising .advertisingMood .subtitle {

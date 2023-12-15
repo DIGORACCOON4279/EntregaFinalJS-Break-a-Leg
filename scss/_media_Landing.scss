@@ -423,6 +423,8 @@
             .advertisingMood{
                 .subtitle{
                     font-size: $MediumTitle;
+                    transform:scale(180%);
+                    margin: 10px auto;
                 }
             }
         }
@@ -508,6 +510,7 @@
             }
         }
         .newArrivals, #containerNewArrivals{
+            width: 100vw;
             .sectionCardContainer{
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
@@ -518,7 +521,6 @@
         }
         .advertising{
             .advertisingMood{
-                width:100%;
                 .subtitle{
                     font-size: $xxSmallText;
                 }

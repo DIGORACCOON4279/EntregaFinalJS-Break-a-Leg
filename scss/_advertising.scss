@@ -13,6 +13,7 @@
     @extend .flexColumnFlexEnd;
     padding: 100px;
     .advertisingMood{
+        width:100%;
         @extend .flexColumnFlexEnd;
         .subtitle{
             font-size:$sectionSubtitle;
