@@ -2601,7 +2601,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-family: "Jura", sans-serif;
 }
 .swal2-container .swal2-actions {
-  width: 70%;
+  width: 80%;
 }
 .swal2-container .swal2-actions .swal2-confirm {
   width: 100%;
@@ -3887,6 +3887,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 35vw;
   }
 }
+@media (max-width: 1120px) {
+  .swal2-container .swal2-popup {
+    width: 40vw;
+  }
+}
 @media (max-width: 1000px) {
   .headerSignIn .menuSide {
     width: 35vw;
@@ -4014,6 +4019,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 40vw;
   }
 }
+@media (max-width: 850px) {
+  .swal2-container .swal2-popup {
+    width: 50vw;
+  }
+}
 @media (max-width: 750px) {
   .headerSignIn .menuSide {
     width: 50vw;
@@ -4039,6 +4049,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 60vw;
   }
   .containerStore .sectionWishlist {
+    width: 60vw;
+  }
+}
+@media (max-width: 750px) {
+  .swal2-container .swal2-popup {
     width: 60vw;
   }
 }
@@ -4098,6 +4113,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     padding: 5px;
   }
 }
+@media (max-width: 500px) {
+  .swal2-container .swal2-popup {
+    width: 80vw;
+  }
+}
 @media (max-width: 425px) {
   .headerSignIn .menuSide {
     width: 100vw;
@@ -4125,11 +4145,21 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 425px) {
+  .swal2-container .swal2-popup {
+    width: 85vw;
+  }
+}
+@media (max-width: 425px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
     width: 100vw;
   }
   .containerStore .sectionWishlist {
     width: 100vw;
+  }
+}
+@media (max-width: 400px) {
+  .swal2-container .swal2-popup {
+    width: 90vw;
   }
 }
 .containerError {
