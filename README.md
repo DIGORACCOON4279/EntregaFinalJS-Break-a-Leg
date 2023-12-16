@@ -61,12 +61,13 @@ El objetivo en esta tarea es que el usuario sin necesidad de crear cuenta ni log
 
 📲Cellphone [optional]</br>
 ![warning]Esta aun pendiente adaptar el modal de get 25% off & slider de landingPage</br>
-![cell5](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/416dc2b9-1955-48db-81ce-c5a2638494ed)</br>
-![cell1](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/2a0d61f0-1c74-4d58-a9b0-425a4150fddc)</br>
-![cell2](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/186da52b-5273-4c71-ad49-b70e7681e96c)</br>
-![cell3](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/8bb458a5-439a-4b81-81bf-2637bb5ab8c1)</br>
-![cell4](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/e73c85d6-595e-4405-8e97-3b9ccab6d370)</br>
-![cell6](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/707ea5e7-3719-458d-a1da-dbff525eba43)</br>
+
+![cell5](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/fb187c06-4662-4d13-af35-4b6a9c738540)</br>
+![cell1](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/d541c5e5-f235-47ac-bb0a-3dccb88b03a6)</br>
+![cell2](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/56cd6f9d-cb98-47a4-8fdf-d3e6637107ba)</br>
+![cell3](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/1bfd4c5f-3519-42a4-b4ad-dc3f1345840f)</br>
+![cell4](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/92591f70-9239-4f66-afa0-45dcf62d47d5)</br>
+![cell6](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/afbf8bc2-d00a-4afa-8dda-00e8afbf758f)</br>
 
 🗃Archivos JS</br>
 
