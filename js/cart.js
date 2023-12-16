@@ -64,7 +64,6 @@ function renderCart(cartItems) {
 
         const editIcon = cart.querySelector(".edit-icon");
         editIcon.addEventListener('click', () => {
-            // Redirige a la página de error404 con la ruta base
             window.location.href = `${basePath}views/error404.html`;
         });
     });
