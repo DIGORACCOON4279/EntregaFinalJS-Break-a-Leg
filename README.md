@@ -40,7 +40,8 @@ El objetivo en esta tarea es que el usuario sin necesidad de crear cuenta ni log
 👉Links</br>
 
 💻[Prototipo desktop](https://www.figma.com/proto/gRXoq1ASGPhQZxr65ZgDZQ/Break-a-Leg?page-id=1868%3A9069&type=design&node-id=1868-11638&viewport=4929%2C20517%2C0.31&t=SJTlBD9JZ5jP49Mz-1&scaling=scale-down&starting-point-node-id=1868%3A11638&mode=design)</br>
-🚧I´m so sorry📱Cellphone (man at work)</br>
+
+🚧I´m so sorry📱Cellphone (yet workin' on it)</br>
 
 📏📐Maquetacion HTML y los estilos en SASS que se realizaron para esta entrega final son:</br>
 
@@ -51,14 +52,21 @@ El objetivo en esta tarea es que el usuario sin necesidad de crear cuenta ni log
 ✔Pagina Error 404(opcional)</br>
 ✔Desktop - Mediaqueries cellphone(Opcional) y tablet(Opcional)</br>
 
-💻Desktop
+💻Desktop</br>
 
-![BreakaLegSection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/a00b88d6-a94c-4d50-b193-18e48388e053)
-![beakaLegSection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/16e5f401-c60c-4e49-93f5-50699edbb09d)
-![storageSection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/17f50149-daea-4c9f-949e-396af9611d55)
-![hoddySection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/b6325a55-4a4a-4346-87b0-82a21f31a1d2)
+![BreakaLegSection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/a00b88d6-a94c-4d50-b193-18e48388e053)</br>
+![beakaLegSection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/16e5f401-c60c-4e49-93f5-50699edbb09d)</br>
+![storageSection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/17f50149-daea-4c9f-949e-396af9611d55)</br>
+![hoddySection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/b6325a55-4a4a-4346-87b0-82a21f31a1d2)</br>
 
-📲Cellphone [pending-optional]</br>
+📲Cellphone [optional]</br>
+![warning]Esta aun pendiente adaptar el modal de get 25% off & slider de landingPage</br>
+![cell5](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/416dc2b9-1955-48db-81ce-c5a2638494ed)</br>
+![cell1](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/2a0d61f0-1c74-4d58-a9b0-425a4150fddc)</br>
+![cell2](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/186da52b-5273-4c71-ad49-b70e7681e96c)</br>
+![cell3](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/8bb458a5-439a-4b81-81bf-2637bb5ab8c1)</br>
+![cell4](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/e73c85d6-595e-4405-8e97-3b9ccab6d370)</br>
+![cell6](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/707ea5e7-3719-458d-a1da-dbff525eba43)</br>
 
 🗃Archivos JS</br>
 
