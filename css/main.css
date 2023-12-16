@@ -2340,30 +2340,37 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 
 .sectionPlaceOrder {
-  width: 65vw;
-  max-width: 65vw;
+  width: 65%;
+  max-width: fit-content;
   height: auto;
   position: fixed;
   top: -80%;
-  left: 16.5%;
+  left: 16%;
+  right: 16%;
   background-color: rgba(243, 243, 243, 0.1098039216);
   box-shadow: 0 0 4px 2px #525252;
-  margin: 7px auto;
-  padding-top: 35px;
-  padding-bottom: 30px;
+  margin: 50px auto;
+  padding-top: 0px;
+  padding-bottom: 20px;
   font-family: "Jura", sans-serif;
   z-index: 99;
   transform: translateY(0%);
   border-radius: 10px;
   transition: 0.3s ease-in-out;
+  overflow: hidden;
+}
+.sectionPlaceOrder .orderCross {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 0px;
 }
 .sectionPlaceOrder .orderCross .crossCloseWhite {
   width: 25px;
   cursor: pointer;
-  position: absolute;
-  top: -20px;
-  right: -422px;
-  z-index: 8;
+  background-color: black;
+  border-radius: 50%;
   transform: rotate(0deg);
   transition: 0.3s ease-in-out;
 }
@@ -2373,12 +2380,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 .sectionPlaceOrder .unionOrder {
   width: 92%;
   overflow: hidden;
+  gap: 20px;
 }
 .sectionPlaceOrder .unionOrder .delivery {
   width: 60%;
   height: 350px;
   padding: 15px;
-  margin-right: 35px;
   background-color: #ffffff;
   border-radius: 10px;
 }
@@ -3847,6 +3854,13 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 1230px) {
+  .sectionPlaceOrder {
+    width: 100%;
+    left: 10%;
+    right: 10%;
+  }
+}
+@media (max-width: 1230px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
     width: 25vw;
   }
@@ -3899,6 +3913,13 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 1000px) {
+  .sectionPlaceOrder {
+    width: 100%;
+    left: 5%;
+    right: 5%;
+  }
+}
+@media (max-width: 1000px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
     width: 35vw;
   }
@@ -3926,6 +3947,66 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .containerStore .sectionStore .sectionCard {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
+  }
+}
+@media (max-width: 850px) {
+  .sectionPlaceOrder {
+    width: 75%;
+    height: auto;
+    margin: 10px auto;
+    padding: 0px 0px 15px;
+    top: -130%;
+  }
+  .sectionPlaceOrder .unionOrder {
+    flex-wrap: wrap;
+  }
+  .sectionPlaceOrder .unionOrder .delivery, .sectionPlaceOrder .unionOrder .formPayment {
+    width: 100%;
+    height: auto;
+  }
+  .sectionPlaceOrder .unionOrder .delivery .deliveryContact, .sectionPlaceOrder .unionOrder .formPayment .deliveryContact {
+    gap: 1px;
+  }
+  .sectionPlaceOrder .unionOrder .delivery .deliveryContact .contactTitle, .sectionPlaceOrder .unionOrder .delivery .deliveryContact .deliveryTitle, .sectionPlaceOrder .unionOrder .formPayment .deliveryContact .contactTitle, .sectionPlaceOrder .unionOrder .formPayment .deliveryContact .deliveryTitle {
+    font-size: 0.8rem;
+    margin: 0px auto;
+  }
+  .sectionPlaceOrder .unionOrder .delivery .deliveryContact fieldset label input, .sectionPlaceOrder .unionOrder .formPayment .deliveryContact fieldset label input {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 0.6rem;
+  }
+  .sectionPlaceOrder .unionOrder .delivery .creditCards, .sectionPlaceOrder .unionOrder .formPayment .creditCards {
+    margin: 5px 0px 2px 15px;
+  }
+  .sectionPlaceOrder .unionOrder .delivery .creditCards .transactions, .sectionPlaceOrder .unionOrder .formPayment .creditCards .transactions {
+    font-size: 0.7rem;
+  }
+  .sectionPlaceOrder .unionOrder .formPayment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1px;
+  }
+  .sectionPlaceOrder .unionOrder .formPayment .paymentTitle {
+    font-size: 0.8rem;
+    margin: 0px auto;
+  }
+  .sectionPlaceOrder .unionOrder .formPayment fieldset label input {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 0.6rem;
+  }
+  .sectionPlaceOrder .unionOrder .formPayment fieldset select {
+    font-size: 0.6rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  .sectionPlaceOrder .unionOrder .formPayment fieldset .cardNumbers {
+    margin-top: 4px;
+  }
+  .sectionPlaceOrder .unionOrder .formPayment .btnPlaceOnOrder {
+    margin-top: 10px;
   }
 }
 @media (max-width: 850px) {
@@ -4036,6 +4117,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .containerStore .sectionStore .sectionCard {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
+  }
+}
+@media (max-width: 425px) {
+  .sectionPlaceOrder {
+    width: 85%;
   }
 }
 @media (max-width: 425px) {

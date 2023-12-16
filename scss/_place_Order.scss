@@ -8,31 +8,36 @@
     }
 }
 .sectionPlaceOrder{
-    width:65vw;
-    max-width: 65vw;
+    width:65%;
+    max-width: fit-content;
     height:auto;
     position: fixed;
     top:-80%;
-    left:16.5%;
+    left:16%;
+    right:16%;
     @extend .flexColumnBetween;
     background-color:#f3f3f31c;
     box-shadow:$placeOrderShadow;
-    margin:7px auto;
-    padding-top:35px;
-    padding-bottom:30px;
+    margin:50px auto;
+    padding-top:0px;
+    padding-bottom:20px;
     font-family: $fontJura;
     z-index: 99;
     transform: translateY(0%);
     border-radius: 10px;
     transition: $transition;
+    overflow: hidden;
     .orderCross{
+        width:100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-top: 0px;
         .crossCloseWhite{
             width:25px;
             cursor: pointer;
-            position: absolute;
-            top:-20px;
-            right:-422px;
-            z-index: 8;
+            background-color: black;
+            border-radius: 50%;
             transform: rotate(0deg);
             transition: $transition;
             &:hover{
@@ -44,11 +49,11 @@
         width:92%;
         overflow: hidden;
         @extend .flexRowBetween;
+        gap: 20px;
         .delivery{
             width:60%;
             height: 350px;
             padding: 15px ;
-            margin-right:35px;
             background-color:$whiteColor;
             border-radius: $borderRadius;
             @extend .flexColumn;
@@ -67,7 +72,7 @@
                             padding-top: 5px;
                             padding-bottom: 5px;
                             padding-left: 15px;
-                            font-size: 0.8rem;
+                            font-size: $xSmallText;
                             border:$borderForm;
                             border-radius: $borderRadiusInput;
                             color:$secondaryColor;
@@ -158,7 +163,7 @@
                 margin:75px auto 0px;
                 font-size: $regularText;
                 font-family: $fontJura;
-                font-weight: 600;
+                font-weight: $bold;
                 color: $whiteColor;
                 border:$btnMenu;
                 background-color: $blackColor;

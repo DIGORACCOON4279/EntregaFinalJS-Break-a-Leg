@@ -13,15 +13,19 @@
     .containerStore{
         .sectionStore{
             gap: 20px;
-        }
-    }
-    .containerStore{
-        .sectionStore{
             .sectionCard{
                 grid-template-columns: repeat(5, 1fr);
                 grid-template-rows: repeat(1, 1fr);
             }
         }
+    }
+}
+
+@media (max-width: 1230px){
+    .sectionPlaceOrder{
+        width: 100%;
+        left:10%;
+        right:10%;
     }
 }
 
@@ -116,6 +120,14 @@
     }
 }
 
+@media (max-width: 1000px){
+    .sectionPlaceOrder{
+        width: 100%;
+        left:5%;
+        right:5%;
+    }
+}
+
 // Filter
 
 @media (max-width: 1000px){
@@ -172,7 +184,76 @@
     }
 }
 
-// // Filter & Shopping Cart
+@media (max-width: 850px){
+    .sectionPlaceOrder{
+        width: 75%;
+        height: auto;
+        margin:10px auto;
+        padding:0px 0px 15px;
+        top:-130%;
+        .unionOrder{
+            flex-wrap: wrap;
+            .delivery, .formPayment{
+                width: 100%;
+                height: auto;
+                .deliveryContact{
+                    gap:1px;
+                    .contactTitle, .deliveryTitle{
+                        font-size: $xSmallText;
+                        margin:0px auto;
+                    }
+                    fieldset{
+                        label{
+                            input{
+                                padding-top: 2px;
+                                padding-bottom: 2px;
+                                font-size: $BreakTextContent;
+                            }
+                        }
+                    }
+                }
+                .creditCards{
+                    margin:5px 0px 2px 15px;;
+                    .transactions{
+                        font-size: $xxSmallText;
+                    }
+                }
+            }
+            .formPayment{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap:1px;
+                .paymentTitle{
+                    font-size: $xSmallText;
+                    margin:0px auto;
+                }
+                fieldset{
+                    label{
+                        input{
+                            padding-top: 2px;
+                            padding-bottom: 2px;
+                            font-size: $BreakTextContent;
+                        }
+                    }
+                    select{
+                        font-size: $BreakTextContent;
+                        padding-top: 2px;
+                        padding-bottom: 2px;
+                    }
+                    .cardNumbers{
+                        margin-top: 4px;
+                    }
+                }
+                .btnPlaceOnOrder{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+// Filter & Shopping Cart
 
 @media (max-width: 850px){
     .containerStore{
@@ -382,6 +463,12 @@
                 grid-template-rows: repeat(1, 1fr);
             }
         }
+    }
+}
+
+@media (max-width: 425px){
+    .sectionPlaceOrder{
+        width: 85%;
     }
 }
 
