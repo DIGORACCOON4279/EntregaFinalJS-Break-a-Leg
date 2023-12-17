@@ -1,0 +1,221 @@
+{
+    "outfits": [
+      {
+        "id": 1,
+        "category": "Xtreme",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 499,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic1.webp"
+      },
+      {
+        "id": 2,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 599,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic2.webp"
+      },
+      {
+        "id": 3,
+        "category": "Street",
+        "stock": 0,
+        "availability": "Sold-out",
+        "pricing": 999,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic5.webp"
+      },
+      {
+        "id": 4,
+        "category": "Xtreme",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 599,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic6.webp"
+      },
+      {
+        "id": 5,
+        "category": "Street",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 499,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic8.webp"
+      },
+      {
+        "id": 6,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 499,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic11.webp"
+      },
+      {
+        "id": 7,
+        "category": "Street",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 599,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic13.webp"
+      },
+      {
+        "id": 8,
+        "category": "Aggressive",
+        "stock": 0,
+        "availability": "Sold-out",
+        "pricing": 999,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic14.webp"
+      },
+      {
+        "id": 9,
+        "category": "Xtreme",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 999,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic15.webp"
+      },
+      {
+        "id": 10,
+        "category": "Street",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 599,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic16.webp"
+      },
+      {
+        "id": 11,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 499,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic17.webp"
+      },
+      {
+        "id": 12,
+        "category": "Xtreme",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 499,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic18.webp"
+      },
+      {
+        "id": 13,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 999,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic20.webp"
+      },
+      {
+        "id": 14,
+        "category": "Street",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 999,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic22.webp"
+      },
+      {
+        "id": 15,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 499,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic23.webp"
+      },
+      {
+        "id": 16,
+        "category": "Street",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 599,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic24.webp"
+      },
+      {
+        "id": 17,
+        "category": "Xtreme",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 999,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic25.webp"
+      },
+      {
+        "id": 18,
+        "category": "Aggressive",
+        "stock": 0,
+        "availability": "Sold-out",
+        "pricing": 499,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic28.webp"
+      },
+      {
+        "id": 19,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 499,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic29.webp"
+      },
+      {
+        "id": 20,
+        "category": "Street",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 599,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic30.webp"
+      },
+      {
+        "id": 21,
+        "category": "Aggressive",
+        "stock": 0,
+        "availability": "Sold-out",
+        "pricing": 999,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic32.webp"
+      },
+      {
+        "id": 22,
+        "category": "Xtreme",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 999,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic33.webp"
+      },
+      {
+        "id": 23,
+        "category": "Street",
+        "stock": 5,
+        "availability": "Best Sellers",
+        "pricing": 499,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic34.webp"
+      },
+      {
+        "id": 24,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 599,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic35.webp"
+      },
+      {
+        "id": 25,
+        "category": "Street",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 999,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic36.webp"
+      },
+      {
+        "id": 26,
+        "category": "Xtreme",
+        "stock": 0,
+        "availability": "Sold-out",
+        "pricing": 599,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic37.webp"
+      },
+      {
+        "id": 27,
+        "category": "Aggressive",
+        "stock": 5,
+        "availability": "New Arrivals",
+        "pricing": 999,
+        "image": "https://digoraccoon4279.github.io/Gallery/img/pic38.webp"
+      }
+    ]
+  }
+
