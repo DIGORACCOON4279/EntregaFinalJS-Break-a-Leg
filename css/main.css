@@ -867,8 +867,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   background-color: rgba(0, 0, 0, 0.0745098039);
   box-shadow: 0 0 10px 6px #070707;
   position: fixed;
-  top: -340px;
+  top: -55%;
   left: 18%;
+  right: 18%;
   z-index: 8;
   transform: translateY(300%);
   overflow: hidden;
@@ -880,13 +881,18 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   color: #bc2327;
   margin-top: 20px;
 }
+.getOffHoddy .bannerGetOff label {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 .getOffHoddy .bannerGetOff label .crossCloseWhite {
   width: 25px;
-  position: relative;
-  top: -90px;
-  right: -400px;
   cursor: pointer;
   z-index: 3;
+  background-color: #000000;
+  border-radius: 50%;
   transform: rotate(0deg);
   transition: 0.3s ease-in-out;
 }
@@ -1288,17 +1294,22 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   top: -340px;
   left: 18%;
   z-index: 8;
-  transform: translateY(300%);
+  transform: translateY(100%);
   overflow: hidden;
   transition: 0.3s ease-in-out;
 }
+.containerStore .getOffStore .bannerGetOff label {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 .containerStore .getOffStore .bannerGetOff label .crossCloseWhite {
   width: 25px;
-  position: relative;
-  top: 15px;
-  right: -400px;
   cursor: pointer;
   z-index: 10;
+  background-color: #000000;
+  border-radius: 50%;
   transform: rotate(0deg);
   transition: all 0.3s ease-in-out;
 }
@@ -2001,7 +2012,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   right: -30px;
 }
 .headerSignIn #menuSide {
-  display: flex;
+  display: none;
 }
 .headerSignIn #menuSide:checked ~ .menuSide {
   transform: translate(0%);
@@ -2160,7 +2171,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   top: -340px;
   left: 18%;
   z-index: 8;
-  transform: translateY(300%);
+  transform: translateY(100%);
   overflow: hidden;
   transition: 0.3s ease-in-out;
 }
@@ -2170,13 +2181,18 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   color: #bc2327;
   margin-top: 20px;
 }
+.getOffSignIn .bannerGetOff label {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 .getOffSignIn .bannerGetOff label .crossCloseWhite {
   width: 25px;
-  position: relative;
-  top: 15px;
-  right: -400px;
   cursor: pointer;
   z-index: 10;
+  background-color: #000000;
+  border-radius: 50%;
   transform: rotate(0deg);
   transition: 0.3s ease-in-out;
 }
@@ -3294,7 +3310,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   top: -340px;
   left: 18%;
   z-index: 8;
-  transform: translateY(300%);
+  transform: translateY(100%);
   overflow: hidden;
   transition: 0.3s ease-in-out;
 }
@@ -3304,13 +3320,18 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   color: #bc2327;
   margin-top: 20px;
 }
+.getOffShowRoom .bannerGetOff label {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
 .getOffShowRoom .bannerGetOff label .crossCloseWhite {
   width: 25px;
-  position: relative;
-  top: 15px;
-  right: -400px;
   cursor: pointer;
   z-index: 10;
+  background-color: #000000;
+  border-radius: 50%;
   transform: rotate(0deg);
   transition: 0.3s ease-in-out;
 }
@@ -3485,6 +3506,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .heroSection .heroSectionCentered .info .promo {
     font-size: 0.9rem;
   }
+  .mainContainer .getOffHoddy .bannerGetOff {
+    width: auto;
+    left: 10%;
+    right: 10%;
+  }
 }
 @media (max-width: 1230px) {
   .header .menuSide {
@@ -3542,6 +3568,27 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .getOffHoddy .containerGetOff .info {
     margin: auto;
   }
+  .mainContainer .getOffHoddy .bannerGetOff {
+    width: auto;
+    top: -50%;
+    left: 10%;
+    right: 10%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .title {
+    font-size: 4rem;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
+    flex-wrap: wrap;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
+    width: 25%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy h3 {
+    font-size: 0.9rem;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy p {
+    font-size: 0.9rem;
+  }
 }
 @media (max-width: 1000px) {
   .header .menuSide {
@@ -3575,6 +3622,18 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .getOffHoddy .ctaSentence {
     display: none;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff {
+    width: auto;
+    top: -40%;
+    left: 10%;
+    right: 10%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
+    flex-wrap: wrap;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
+    width: 25%;
   }
   .mainContainer .giftCards {
     width: 100%;
@@ -3702,6 +3761,33 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article1 .nameOut, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article2 .nameOut, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article3 .nameOut, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article4 .nameOut, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article5 .nameOut, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article6 .nameOut, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article7 .nameOut, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article8 .nameOut, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article9 .nameOut, .mainContainer #newArrivalsUno .sectionCardContainer .cardProducts .article10 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article1 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article2 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article3 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article4 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article5 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article6 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article7 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article8 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article9 .nameOut, .mainContainer #containerNewArrivals .sectionCardContainer .cardProducts .article10 .nameOut {
     font-size: 1.2rem;
   }
+  .mainContainer .getOffHoddy .bannerGetOff {
+    width: auto;
+    height: fit-content;
+    top: -55%;
+    left: 25%;
+    right: 25%;
+    bottom: -20%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .title {
+    font-size: 1.8rem;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
+    width: 35%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy img {
+    width: 100%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy h3 {
+    font-size: 0.7rem;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy p {
+    font-size: 0.7rem;
+  }
 }
 @media (max-width: 600px) {
   .header .menuSide {
@@ -3736,6 +3822,23 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .advertising .advertisingMood .subtitle {
     font-size: 1.5rem;
   }
+  .mainContainer .getOffHoddy .bannerGetOff {
+    width: auto;
+    height: fit-content;
+    top: -55%;
+    left: 25%;
+    right: 25%;
+    bottom: -20%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
+    flex-wrap: wrap;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
+    width: 42%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy img {
+    width: 100%;
+  }
 }
 @media (max-width: 510px) {
   .mainContainer .bestSellers .subtitle {
@@ -3750,6 +3853,23 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .getOffHoddy .containerGetOff .info .paragraph .subtitle, .mainContainer .getOffHoddy .containerGetOff .info .paragraph .sentence {
     font-size: 1.2rem;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff {
+    width: auto;
+    height: fit-content;
+    top: -55%;
+    left: 15%;
+    right: 15%;
+    bottom: -20%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
+    flex-wrap: wrap;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
+    width: 35%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy img {
+    width: 100%;
   }
   .mainContainer .giftCards .containerGetOff {
     margin: auto;
@@ -3777,6 +3897,33 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .advertising .advertisingMood .subtitle {
     font-size: 1rem;
   }
+  .mainContainer .getOffHoddy .bannerGetOff {
+    width: auto;
+    height: fit-content;
+    top: -55%;
+    left: 15%;
+    right: 15%;
+    bottom: -20%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .title {
+    font-size: 1.2rem;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
+    width: 45%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy img {
+    width: 100%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy h3 {
+    font-size: 0.6rem;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy p {
+    font-size: 0.6rem;
+  }
 }
 @media (max-width: 425px) {
   .mainContainer .advertising .advertisingMood {
@@ -3784,6 +3931,32 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .advertising .advertisingMood .subtitle {
     font-size: 0.9rem;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff {
+    width: auto;
+    height: fit-content;
+    top: -40%;
+    left: 10%;
+    right: 10%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .title {
+    font-size: 1.2rem;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
+    width: 35%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy img {
+    width: 100%;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy h3 {
+    font-size: 0.6rem;
+  }
+  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy p {
+    font-size: 0.6rem;
   }
 }
 @media (max-width: 400px) {

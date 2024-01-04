@@ -1,7 +1,7 @@
 
 // Media - Queries Landing
 
-// Screen 1320px
+// Screen 1350px
 
 @media (max-width: 1350px){
     .mainContainer{
@@ -29,6 +29,13 @@
                         font-size:$smallText;
                     }
                 }
+            }
+        }
+        .getOffHoddy{
+            .bannerGetOff{
+                width: auto;
+                left:10%;
+                right:10%;
             }
         }
     }
@@ -121,6 +128,27 @@
                     margin:auto;
                 }
             }
+            .bannerGetOff{
+                width: auto;
+                top:-50%;
+                left:10%;
+                right:10%;
+                .title{
+                    font-size:$subtitle;
+                }
+                .slideGetOff{
+                    flex-wrap: wrap;
+                    .hoddy{
+                        width:25%;
+                        h3{
+                            font-size:$smallText;
+                        }
+                        p{
+                            font-size:$smallText;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -166,6 +194,18 @@
             }
             .ctaSentence{
                 display:none;
+            }
+            .bannerGetOff{
+                width: auto;
+                top:-40%;
+                left:10%;
+                right:10%;
+                .slideGetOff{
+                    flex-wrap: wrap;
+                    .hoddy{
+                        width:25%;
+                    }
+                }
             }
         }
         .giftCards{
@@ -377,6 +417,35 @@
                 }
             }
         }
+        .getOffHoddy{
+            .bannerGetOff{
+                width: auto;
+                height: fit-content;
+                top:-55%;
+                left:25%;
+                right:25%;
+                bottom:-20%;
+                .title{
+                    font-size:$nameLogo ;
+                }
+                .slideGetOff{
+                    flex-wrap: wrap;
+                    padding:0px;
+                    .hoddy{
+                        width:35%;
+                        img{
+                            width:100%;
+                        }
+                        h3{
+                            font-size: $xxSmallText;
+                        }
+                        p{
+                            font-size: $xxSmallText;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -434,6 +503,25 @@
                 }
             }
         }
+        .getOffHoddy{
+            .bannerGetOff{
+                width: auto;
+                height:fit-content;
+                top:-55%;
+                left:25%;
+                right:25%;
+                bottom:-20%;
+                .slideGetOff{
+                    flex-wrap: wrap;
+                    .hoddy{
+                        width:42%;
+                        img{
+                            width:100%;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -461,6 +549,23 @@
                     .paragraph{
                         .subtitle, .sentence{
                             font-size: $MediumTitle;
+                        }
+                    }
+                }
+            }
+            .bannerGetOff{
+                width: auto;
+                height:fit-content;
+                top:-55%;
+                left:15%;
+                right:15%;
+                bottom:-20%;
+                .slideGetOff{
+                    flex-wrap: wrap;
+                    .hoddy{
+                        width:35%;
+                        img{
+                            width:100%;
                         }
                     }
                 }
@@ -509,6 +614,35 @@
                 }
             }
         }
+        .getOffHoddy{
+            .bannerGetOff{
+                width: auto;
+                height: fit-content;
+                top:-55%;
+                left:15%;
+                right:15%;
+                bottom:-20%;
+                .title{
+                    font-size:$MediumTitle ;
+                }
+                .slideGetOff{
+                    flex-wrap: wrap;
+                    padding:0px;
+                    .hoddy{
+                        width:45%;
+                        img{
+                            width:100%;
+                        }
+                        h3{
+                            font-size: $BreakTextContent;
+                        }
+                        p{
+                            font-size: $BreakTextContent;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -521,6 +655,34 @@
                 width:100%;
                 .subtitle{
                     font-size: $smallText;
+                }
+            }
+        }
+        .getOffHoddy{
+            .bannerGetOff{
+                width: auto;
+                height: fit-content;
+                top:-40%;
+                left:10%;
+                right:10%;
+                .title{
+                    font-size:$MediumTitle ;
+                }
+                .slideGetOff{
+                    flex-wrap: wrap;
+                    padding:0px;
+                    .hoddy{
+                        width:35%;
+                        img{
+                            width:100%;
+                        }
+                        h3{
+                            font-size: $BreakTextContent;
+                        }
+                        p{
+                            font-size: $BreakTextContent;
+                        }
+                    }
                 }
             }
         }

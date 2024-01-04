@@ -26,7 +26,7 @@
 
 // AJAX JSON fetch consumo local
 
-let outfits = [];
+let outfits = []
 
 // Ruta al archivo JSON local
 const jsonFile = '../outfits.json';
@@ -39,8 +39,8 @@ fetch(jsonFile)
     }
     return response.json();
     })
-  . then(data => {
-    outfits = data.outfits; 
+    .then(data => {
+    outfits = data.outfits;
     console.log(outfits);
     renderProducts(outfits);
     })

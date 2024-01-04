@@ -392,7 +392,7 @@
         }
     }
     #menuSide{
-        display: flex;
+        display: none;
         &:checked ~ .menuSide{
             transform: translate(0%);
         }
@@ -545,7 +545,9 @@
         top:-340px;
         left:18%;
         z-index: 8;
-        transform: translateY(300%);
+        // transform: translateY(300%);
+        transform: translateY(100%);
+
         overflow: hidden;
         transition: $transition;
         .title{
@@ -555,13 +557,16 @@
             margin-top:20px;
         }
         label{
+            width:100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
             .crossCloseWhite{
                 width:25px;
-                position: relative;
-                top: 15px;
-                right:-400px;
                 cursor: pointer;
                 z-index: 10;
+                background-color: $blackColor;
+                border-radius: 50%;
                 transform: rotate(0deg);
                 transition: $transition;
                 &:hover{
