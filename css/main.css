@@ -3506,11 +3506,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .heroSection .heroSectionCentered .info .promo {
     font-size: 0.9rem;
   }
-  .mainContainer .getOffHoddy .bannerGetOff {
-    width: auto;
-    left: 10%;
-    right: 10%;
-  }
 }
 @media (max-width: 1230px) {
   .header .menuSide {
@@ -3569,19 +3564,34 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     margin: auto;
   }
   .mainContainer .getOffHoddy .bannerGetOff {
-    width: auto;
-    top: -50%;
-    left: 10%;
-    right: 10%;
+    width: 25vw;
+    height: 100vh;
+    top: -100%;
+    left: 0%;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   .mainContainer .getOffHoddy .bannerGetOff .title {
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
   .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
-    flex-wrap: wrap;
+    width: 100%;
+    height: 80vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
-    width: 25%;
+    width: 100%;
   }
   .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy h3 {
     font-size: 0.9rem;
@@ -3623,17 +3633,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .getOffHoddy .ctaSentence {
     display: none;
   }
-  .mainContainer .getOffHoddy .bannerGetOff {
-    width: auto;
-    top: -40%;
-    left: 10%;
-    right: 10%;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
-    flex-wrap: wrap;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
-    width: 25%;
+  .mainContainer .getOffHoddy .bannerGetOff .title {
+    font-size: 1.8rem;
   }
   .mainContainer .giftCards {
     width: 100%;
@@ -3762,25 +3763,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     font-size: 1.2rem;
   }
   .mainContainer .getOffHoddy .bannerGetOff {
-    width: auto;
-    height: fit-content;
-    top: -55%;
-    left: 25%;
-    right: 25%;
-    bottom: -20%;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .title {
-    font-size: 1.8rem;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
-    flex-wrap: wrap;
-    padding: 0px;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
-    width: 35%;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy img {
-    width: 100%;
+    width: 35vw;
   }
   .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy h3 {
     font-size: 0.7rem;
@@ -3823,21 +3806,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     font-size: 1.5rem;
   }
   .mainContainer .getOffHoddy .bannerGetOff {
-    width: auto;
-    height: fit-content;
-    top: -55%;
-    left: 25%;
-    right: 25%;
-    bottom: -20%;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
-    flex-wrap: wrap;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
-    width: 42%;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy img {
-    width: 100%;
+    width: 40vw;
   }
 }
 @media (max-width: 510px) {
@@ -3855,21 +3824,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     font-size: 1.2rem;
   }
   .mainContainer .getOffHoddy .bannerGetOff {
-    width: auto;
-    height: fit-content;
-    top: -55%;
-    left: 15%;
-    right: 15%;
-    bottom: -20%;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
-    flex-wrap: wrap;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
-    width: 35%;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy img {
-    width: 100%;
+    width: 50vw;
   }
   .mainContainer .giftCards .containerGetOff {
     margin: auto;
@@ -3898,25 +3853,10 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     font-size: 1rem;
   }
   .mainContainer .getOffHoddy .bannerGetOff {
-    width: auto;
-    height: fit-content;
-    top: -55%;
-    left: 15%;
-    right: 15%;
-    bottom: -20%;
+    width: 60vw;
   }
   .mainContainer .getOffHoddy .bannerGetOff .title {
     font-size: 1.2rem;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
-    flex-wrap: wrap;
-    padding: 0px;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
-    width: 45%;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy img {
-    width: 100%;
   }
   .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy h3 {
     font-size: 0.6rem;
@@ -3933,30 +3873,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     font-size: 0.9rem;
   }
   .mainContainer .getOffHoddy .bannerGetOff {
-    width: auto;
-    height: fit-content;
-    top: -40%;
-    left: 10%;
-    right: 10%;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .title {
-    font-size: 1.2rem;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
-    flex-wrap: wrap;
-    padding: 0px;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
-    width: 35%;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy img {
-    width: 100%;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.6rem;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.6rem;
+    width: 100vw;
   }
 }
 @media (max-width: 400px) {

@@ -31,13 +31,6 @@
                 }
             }
         }
-        .getOffHoddy{
-            .bannerGetOff{
-                width: auto;
-                left:10%;
-                right:10%;
-            }
-        }
     }
 }
 
@@ -129,17 +122,31 @@
                 }
             }
             .bannerGetOff{
-                width: auto;
-                top:-50%;
-                left:10%;
-                right:10%;
+                width: 25vw;
+                height: 100vh;
+                top:-100%;
+                left:0%;
+                z-index: 11;
+                display: flex;
+                flex-direction:column;
+                justify-content: space-between;
+                align-items: center;display: flex;
+                flex-direction:column;
+                justify-content: space-between;
+                align-items: center;
                 .title{
-                    font-size:$subtitle;
+                    font-size:$LargeTitle;
                 }
                 .slideGetOff{
-                    flex-wrap: wrap;
+                    width:100%;
+                    height:80vh ;
+                    overflow-y:scroll;
+                    display: flex;
+                    flex-direction:column;
+                    justify-content: space-between;
+                    align-items: center;
                     .hoddy{
-                        width:25%;
+                        width:100%;
                         h3{
                             font-size:$smallText;
                         }
@@ -196,15 +203,8 @@
                 display:none;
             }
             .bannerGetOff{
-                width: auto;
-                top:-40%;
-                left:10%;
-                right:10%;
-                .slideGetOff{
-                    flex-wrap: wrap;
-                    .hoddy{
-                        width:25%;
-                    }
+                .title{
+                    font-size:$nameLogo;
                 }
             }
         }
@@ -419,23 +419,9 @@
         }
         .getOffHoddy{
             .bannerGetOff{
-                width: auto;
-                height: fit-content;
-                top:-55%;
-                left:25%;
-                right:25%;
-                bottom:-20%;
-                .title{
-                    font-size:$nameLogo ;
-                }
+                width:35vw;
                 .slideGetOff{
-                    flex-wrap: wrap;
-                    padding:0px;
                     .hoddy{
-                        width:35%;
-                        img{
-                            width:100%;
-                        }
                         h3{
                             font-size: $xxSmallText;
                         }
@@ -505,21 +491,7 @@
         }
         .getOffHoddy{
             .bannerGetOff{
-                width: auto;
-                height:fit-content;
-                top:-55%;
-                left:25%;
-                right:25%;
-                bottom:-20%;
-                .slideGetOff{
-                    flex-wrap: wrap;
-                    .hoddy{
-                        width:42%;
-                        img{
-                            width:100%;
-                        }
-                    }
-                }
+                width: 40vw;
             }
         }
     }
@@ -554,21 +526,7 @@
                 }
             }
             .bannerGetOff{
-                width: auto;
-                height:fit-content;
-                top:-55%;
-                left:15%;
-                right:15%;
-                bottom:-20%;
-                .slideGetOff{
-                    flex-wrap: wrap;
-                    .hoddy{
-                        width:35%;
-                        img{
-                            width:100%;
-                        }
-                    }
-                }
+                width: 50vw;
             }
         }
         .giftCards{
@@ -616,23 +574,12 @@
         }
         .getOffHoddy{
             .bannerGetOff{
-                width: auto;
-                height: fit-content;
-                top:-55%;
-                left:15%;
-                right:15%;
-                bottom:-20%;
+                width: 60vw;
                 .title{
                     font-size:$MediumTitle ;
                 }
                 .slideGetOff{
-                    flex-wrap: wrap;
-                    padding:0px;
                     .hoddy{
-                        width:45%;
-                        img{
-                            width:100%;
-                        }
                         h3{
                             font-size: $BreakTextContent;
                         }
@@ -660,36 +607,11 @@
         }
         .getOffHoddy{
             .bannerGetOff{
-                width: auto;
-                height: fit-content;
-                top:-40%;
-                left:10%;
-                right:10%;
-                .title{
-                    font-size:$MediumTitle ;
-                }
-                .slideGetOff{
-                    flex-wrap: wrap;
-                    padding:0px;
-                    .hoddy{
-                        width:35%;
-                        img{
-                            width:100%;
-                        }
-                        h3{
-                            font-size: $BreakTextContent;
-                        }
-                        p{
-                            font-size: $BreakTextContent;
-                        }
-                    }
-                }
+                width: 100vw;
             }
         }
     }
 }
-
-
 
 // Screen 400px
 
