@@ -40,7 +40,8 @@ El objetivo en esta tarea es que el usuario sin necesidad de crear cuenta ni log
 👉Links</br>
 
 💻[Prototipo desktop](https://www.figma.com/proto/gRXoq1ASGPhQZxr65ZgDZQ/Break-a-Leg?page-id=1868%3A9069&type=design&node-id=1868-11638&viewport=4929%2C20517%2C0.31&t=SJTlBD9JZ5jP49Mz-1&scaling=scale-down&starting-point-node-id=1868%3A11638&mode=design)</br>
-🚧I´m so sorry📱Cellphone (man at work)</br>
+
+🚧I´m so sorry📱Cellphone (yet workin' on it)</br>
 
 📏📐Maquetacion HTML y los estilos en SASS que se realizaron para esta entrega final son:</br>
 
@@ -51,14 +52,22 @@ El objetivo en esta tarea es que el usuario sin necesidad de crear cuenta ni log
 ✔Pagina Error 404(opcional)</br>
 ✔Desktop - Mediaqueries cellphone(Opcional) y tablet(Opcional)</br>
 
-💻Desktop
+💻Desktop</br>
 
-![BreakaLegSection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/a00b88d6-a94c-4d50-b193-18e48388e053)
-![beakaLegSection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/16e5f401-c60c-4e49-93f5-50699edbb09d)
-![storageSection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/17f50149-daea-4c9f-949e-396af9611d55)
-![hoddySection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/b6325a55-4a4a-4346-87b0-82a21f31a1d2)
+![BreakaLegSection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/a00b88d6-a94c-4d50-b193-18e48388e053)</br>
+![beakaLegSection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/16e5f401-c60c-4e49-93f5-50699edbb09d)</br>
+![storageSection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/17f50149-daea-4c9f-949e-396af9611d55)</br>
+![hoddySection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/b6325a55-4a4a-4346-87b0-82a21f31a1d2)</br>
 
-📲Cellphone [pending-optional]</br>
+📲Cellphone [optional]</br>
+NOTA= Esta aun pendiente adaptar el modal de get 25% off & slider de landingPage</br>
+![pic1](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/1f80b4ef-4505-427a-b009-da31a4b42c63)
+![pic2](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/fd6e6efd-65b0-4176-88da-cd207013c327)
+![pic3](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/c70bad91-8bf2-41fd-aa15-72bdb2222d7f)
+![pic4](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/6751fe78-91f2-4b2a-ae1c-58ba7c290303)</br>
+![pic5](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/58bf8d4c-e026-4d2e-a3d9-85e4e3679388)
+![pic6](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/4aadaf37-7c7d-4bdd-832c-036a8dc66642)
+![pic7](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/1ebb82b6-d8d5-4454-bd8a-99ecf9a075f0)</br>
 
 🗃Archivos JS</br>
 
@@ -92,7 +101,7 @@ Detalles</br>
 ✔Eventos</br>
 ✔Functions</br>
 ✔Conditionales</br>
-✔Storage & JSON</br>
+✔LocalStorage & JSON</br>
 ✔Async & await</br>
 ✔setTimeOut (Toasts)</br>
 ✔AJAX & fetch : Se utilizo para los fetch ![jsonbin](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/f6325c47-216b-412c-a101-7e596e1c29c6) para realizar las peticiones y renderizar los products cards de outfits asincronamente de storage</br>
