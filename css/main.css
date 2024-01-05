@@ -2352,7 +2352,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-family: "Jura", sans-serif;
 }
 #order:checked ~ .sectionPlaceOrder {
-  transform: translateY(150%);
+  transform: translateY(0%);
 }
 
 .sectionPlaceOrder {
@@ -2360,17 +2360,17 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   max-width: fit-content;
   height: auto;
   position: fixed;
-  top: -80%;
+  top: 25%;
   left: 16%;
   right: 16%;
   background-color: rgba(243, 243, 243, 0.1098039216);
   box-shadow: 0 0 4px 2px #525252;
-  margin: 50px auto;
+  margin: 0px auto;
   padding-top: 0px;
   padding-bottom: 20px;
   font-family: "Jura", sans-serif;
   z-index: 99;
-  transform: translateY(0%);
+  transform: translateY(-160%);
   border-radius: 10px;
   transition: 0.3s ease-in-out;
   overflow: hidden;
@@ -2395,11 +2395,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .sectionPlaceOrder .unionOrder {
   width: 92%;
+  height: 100%;
   overflow: hidden;
   gap: 20px;
 }
 .sectionPlaceOrder .unionOrder .delivery {
-  width: 60%;
+  width: 50%;
   height: 350px;
   padding: 15px;
   background-color: #ffffff;
@@ -2453,7 +2454,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   width: 75%;
 }
 .sectionPlaceOrder .unionOrder .formPayment {
-  width: 40%;
+  width: 50%;
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -4168,14 +4169,20 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 @media (max-width: 850px) {
   .sectionPlaceOrder {
-    width: 75%;
-    height: auto;
-    margin: 10px auto;
-    padding: 0px 0px 15px;
-    top: -130%;
+    width: 50vw;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    border-radius: 0%;
   }
   .sectionPlaceOrder .unionOrder {
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  .sectionPlaceOrder .unionOrder .delivery {
+    margin: -30px auto;
   }
   .sectionPlaceOrder .unionOrder .delivery, .sectionPlaceOrder .unionOrder .formPayment {
     width: 100%;
@@ -4292,6 +4299,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 750px) {
+  .sectionPlaceOrder {
+    width: 65vw;
+  }
+}
+@media (max-width: 750px) {
   .swal2-container .swal2-popup {
     width: 60vw;
   }
@@ -4315,6 +4327,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .containerStore .getOffStore .bannerGetOff {
     width: 55vw;
+  }
+}
+@media (max-width: 600px) {
+  .sectionPlaceOrder {
+    width: 80vw;
   }
 }
 @media (max-width: 600px) {
@@ -4373,6 +4390,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 @media (max-width: 500px) {
   .swal2-container .swal2-popup {
     width: 80vw;
+  }
+}
+@media (max-width: 500px) {
+  .sectionPlaceOrder {
+    width: 100vw;
   }
 }
 @media (max-width: 460px) {
@@ -4438,11 +4460,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .getOffShowRoom .bannerGetOff {
     width: 100vw;
-  }
-}
-@media (max-width: 425px) {
-  .sectionPlaceOrder {
-    width: 85%;
   }
 }
 @media (max-width: 425px) {

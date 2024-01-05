@@ -333,13 +333,19 @@
 
 @media (max-width: 850px){
     .sectionPlaceOrder{
-        width: 75%;
-        height: auto;
-        margin:10px auto;
-        padding:0px 0px 15px;
-        top:-130%;
+        width: 50vw;
+        height: 100vh;
+        top:0%;
+        left:0%;
+        right: 0%;
+        border-radius: 0%;
         .unionOrder{
-            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap:10px;
+            .delivery{
+                margin:-30px auto;
+            }
             .delivery, .formPayment{
                 width: 100%;
                 height: auto;
@@ -520,6 +526,12 @@
 }
 
 @media (max-width: 750px){
+    .sectionPlaceOrder{
+        width:65vw;
+    }
+}
+
+@media (max-width: 750px){
     .swal2-container{
         .swal2-popup{
             width:60vw;
@@ -560,6 +572,12 @@
                 width: 55vw;
             }
         }
+    }
+}
+
+@media (max-width: 600px){
+    .sectionPlaceOrder{
+        width:80vw;
     }
 }
 
@@ -680,6 +698,14 @@
     }
 }
 
+@media (max-width: 500px){
+    .sectionPlaceOrder{
+        width:100vw;
+    }
+}
+
+
+
 // Screen 460px
 
 @media (max-width: 460px){
@@ -792,12 +818,6 @@
                 width: 100vw;
             }
         }
-    }
-}
-
-@media (max-width: 425px){
-    .sectionPlaceOrder{
-        width: 85%;
     }
 }
 
