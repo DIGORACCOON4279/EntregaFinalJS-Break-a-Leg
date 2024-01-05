@@ -867,7 +867,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   background-color: rgba(0, 0, 0, 0.0745098039);
   box-shadow: 0 0 10px 6px #070707;
   position: fixed;
-  top: -55%;
+  top: -47%;
   left: 18%;
   right: 18%;
   z-index: 8;
