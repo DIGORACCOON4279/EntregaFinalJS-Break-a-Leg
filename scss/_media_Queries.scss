@@ -78,6 +78,43 @@
         .sectionWishlist{
             width:35vw;
         }
+        .getOffStore{
+            .bannerGetOff{
+                width: 30vw;
+                height: 100vh;
+                top:-100%;
+                left:0%;
+                z-index: 11;
+                display: flex;
+                flex-direction:column;
+                justify-content: space-between;
+                align-items: center;display: flex;
+                flex-direction:column;
+                justify-content: space-between;
+                align-items: center;
+                .title{
+                    font-size:$LargeTitle;
+                }
+                .slideGetOff{
+                    width:100%;
+                    height:80vh ;
+                    overflow-y:scroll;
+                    display: flex;
+                    flex-direction:column;
+                    justify-content: space-between;
+                    align-items: center;
+                    .hoddy{
+                        width:100%;
+                        h3{
+                            font-size:$smallText;
+                        }
+                        p{
+                            font-size:$smallText;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -123,6 +160,13 @@
             .sectionCard{
                 grid-template-columns: repeat(4, 1fr);
                 grid-template-rows: repeat(1, 1fr);
+            }
+        }
+        .getOffStore{
+            .bannerGetOff{
+                .title{
+                    font-size:$nameLogo;
+                }
             }
         }
     }
@@ -330,6 +374,21 @@
         .sectionWishlist{
             width:60vw;
         }
+        .getOffStore{
+            .bannerGetOff{
+                width:45vw;
+                .slideGetOff{
+                    .hoddy{
+                        h3{
+                            font-size: $xxSmallText;
+                        }
+                        p{
+                            font-size: $xxSmallText;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -362,6 +421,11 @@
             .sectionCard{
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(1, 1fr);
+            }
+        }
+        .getOffStore{
+            .bannerGetOff{
+                width: 55vw;
             }
         }
     }
@@ -427,6 +491,11 @@
                 grid-template-rows: repeat(1, 1fr);
             }
         }
+        .getOffStore{
+            .bannerGetOff{
+                width: 65vw;
+            }
+        }
     }
     .container{
         .logInCreateAccount{
@@ -458,6 +527,31 @@
     .swal2-container{
         .swal2-popup{
             width:80vw;
+        }
+    }
+}
+
+// Screen 460px
+
+@media (max-width: 460px){
+    .containerStore{
+        .getOffStore{
+            .bannerGetOff{
+                width: 80vw;
+                .title{
+                    font-size:$MediumTitle ;
+                }
+                .slideGetOff{
+                    .hoddy{
+                        h3{
+                            font-size: $BreakTextContent;
+                        }
+                        p{
+                            font-size: $BreakTextContent;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -526,6 +620,11 @@
         }
         .sectionWishlist{
             width:100vw;
+        }
+        .getOffStore{
+            .bannerGetOff{
+                width: 100vw;
+            }
         }
     }
 }
