@@ -42,7 +42,7 @@
   align-items: center;
 }
 
-.flexColumnEvenlyCenter, .getOffShowRoom .bannerGetOff, .sectionPurchaseOrder, .getOffSignIn .bannerGetOff, .containerStore .getOffStore .bannerGetOff, .getOffHoddy .bannerGetOff {
+.flexColumnEvenlyCenter, .getOffShowRoom .bannerGetOff, .getOffSignIn .bannerGetOff, .containerStore .getOffStore .bannerGetOff, .getOffHoddy .bannerGetOff {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -2236,114 +2236,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   border-radius: 10px;
 }
 .getOffSignIn .bannerGetOff > * {
-  position: relative;
-}
-
-#orderCross {
-  display: none;
-  font-family: "Jura", sans-serif;
-}
-#orderCross:checked ~ .sectionPurchaseOrder {
-  transform: translateY(150%);
-}
-
-.sectionPurchaseOrder {
-  width: 40%;
-  height: auto;
-  border-radius: 10px;
-  background-color: rgba(243, 243, 243, 0.1098039216);
-  box-shadow: 0 0 4px 2px rgb(82, 82, 82);
-  position: fixed;
-  top: -87%;
-  left: 30%;
-  z-index: 8;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  transform: translateY(0%);
-  overflow: hidden;
-  transition: 0.3s ease-in-out;
-}
-.sectionPurchaseOrder #orderCross {
-  display: none;
-}
-.sectionPurchaseOrder label .crossCloseWhite {
-  width: 25px;
-  position: absolute;
-  top: -15px;
-  right: -245px;
-  cursor: pointer;
-  z-index: 10;
-  transform: rotate(0deg);
-  transition: 0.3s ease-in-out;
-}
-.sectionPurchaseOrder label .crossCloseWhite:hover {
-  transform: rotate(90deg);
-}
-.sectionPurchaseOrder .breakaLeg {
-  color: #bc2327;
-  font-size: 1.8rem;
-  font-family: "Rubik Distressed", cursive;
-}
-.sectionPurchaseOrder .brand {
-  width: 35px;
-}
-.sectionPurchaseOrder .confirmation {
-  width: 60%;
-  text-align: center;
-  margin: 20px auto;
-  padding: 20px 40px;
-  background-color: #ffffff;
-  border-radius: 10px;
-}
-.sectionPurchaseOrder .confirmation .done, .sectionPurchaseOrder .confirmation .order, .sectionPurchaseOrder .confirmation .number, .sectionPurchaseOrder .confirmation .close {
-  font-family: "Jura", sans-serif;
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-.sectionPurchaseOrder .confirmation .done {
-  color: #bc2327;
-}
-.sectionPurchaseOrder .confirmation .number {
-  color: #bc2327;
-  padding: -10px;
-}
-.sectionPurchaseOrder .confirmation .order {
-  font-size: 0.8rem;
-  font-weight: 400;
-}
-.sectionPurchaseOrder .confirmation .cartCheck {
-  width: 50px;
-}
-.sectionPurchaseOrder .confirmation .close {
-  width: 100%;
-  height: 40px;
-  color: #ffffff;
-  background-color: #000000;
-  text-decoration: none;
-  border: 1px solid #000000;
-  transition: all 0.3s ease;
-}
-.sectionPurchaseOrder .confirmation .close:hover {
-  background-color: #ffffff;
-  color: #000000;
-  border: 1px solid #000000;
-}
-
-.sectionPurchaseOrder::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5058823529);
-  backdrop-filter: blur(25px);
-  filter: blur(10px);
-  z-index: -1;
-  border-radius: 10px;
-}
-
-.sectionPurchaseOrder > * {
   position: relative;
 }
 
