@@ -996,7 +996,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   border-radius: 10px;
 }
 .giftCards .containerGetOff .containerCards .sectionCards .card1 .subtitleGift, .giftCards .containerGetOff .containerCards .sectionCards .card2 .subtitleGift, .giftCards .containerGetOff .containerCards .sectionCards .card3 .subtitleGift, .giftCards .containerGetOff .containerCards .sectionCards .card4 .subtitleGift {
-  font-size: 3rem;
+  font-size: 2.7rem;
   font-family: "Jura", sans-serif;
   color: #bc2327;
   padding: 25px 0px;
