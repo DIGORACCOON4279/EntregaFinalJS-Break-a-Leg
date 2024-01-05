@@ -2171,7 +2171,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   top: -340px;
   left: 18%;
   z-index: 8;
-  transform: translateY(100%);
+  transform: translateY(300%);
   overflow: hidden;
   transition: 0.3s ease-in-out;
 }
@@ -3965,6 +3965,42 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .container .sectionWishlist {
     width: 35vw;
   }
+  .container .getOffSignIn .bannerGetOff {
+    width: 30vw;
+    height: 100vh;
+    top: -100%;
+    left: 0%;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container .getOffSignIn .bannerGetOff .title {
+    font-size: 2.5rem;
+  }
+  .container .getOffSignIn .bannerGetOff .slideGetOff {
+    width: 100%;
+    height: 80vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy {
+    width: 100%;
+  }
+  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy h3 {
+    font-size: 0.9rem;
+  }
+  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy p {
+    font-size: 0.9rem;
+  }
 }
 @media (max-width: 1120px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
@@ -4021,6 +4057,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 @media (max-width: 1000px) {
   .headerSignIn .menuSide {
     width: 35vw;
+  }
+}
+@media (max-width: 1000px) {
+  .container .getOffSignIn .bannerGetOff .title {
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 1000px) {
@@ -4169,6 +4210,15 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .container .sectionWishlist {
     width: 60vw;
   }
+  .container .getOffSignIn .bannerGetOff {
+    width: 45vw;
+  }
+  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy h3 {
+    font-size: 0.7rem;
+  }
+  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy p {
+    font-size: 0.7rem;
+  }
 }
 @media (max-width: 750px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
@@ -4204,6 +4254,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .container .sectionWishlist {
     width: 80vw;
+  }
+  .container .getOffSignIn .bannerGetOff {
+    width: 55vw;
   }
   .containerStore .sectionStore .sectionCard {
     grid-template-columns: repeat(2, 1fr);
@@ -4252,6 +4305,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .container .logInCreateAccount .tags .formCreateAccount .ctaToCreateAccount {
     margin-top: 15px;
   }
+  .container .getOffSignIn .bannerGetOff {
+    width: 65vw;
+  }
   .mainContainer .bannerShipping .shipping, .containerStore .bannerShipping .shipping {
     font-size: 0.6rem !important;
     padding: 5px;
@@ -4275,6 +4331,18 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy p {
     font-size: 0.6rem;
   }
+  .container .getOffSignIn .bannerGetOff {
+    width: 80vw;
+  }
+  .container .getOffSignIn .bannerGetOff .title {
+    font-size: 1.2rem;
+  }
+  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy h3 {
+    font-size: 0.6rem;
+  }
+  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy p {
+    font-size: 0.6rem;
+  }
 }
 @media (max-width: 425px) {
   .headerSignIn .menuSide {
@@ -4295,6 +4363,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .containerStore .sectionStore .sectionCard {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
+  }
+  .container .getOffSignIn .bannerGetOff {
+    width: 100vw;
   }
 }
 @media (max-width: 425px) {

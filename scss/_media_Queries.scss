@@ -58,6 +58,43 @@
         .sectionWishlist{
             width:35vw;
         }
+        .getOffSignIn{
+            .bannerGetOff{
+                width: 30vw;
+                height: 100vh;
+                top:-100%;
+                left:0%;
+                z-index: 11;
+                display: flex;
+                flex-direction:column;
+                justify-content: space-between;
+                align-items: center;display: flex;
+                flex-direction:column;
+                justify-content: space-between;
+                align-items: center;
+                .title{
+                    font-size:$LargeTitle;
+                }
+                .slideGetOff{
+                    width:100%;
+                    height:80vh ;
+                    overflow-y:scroll;
+                    display: flex;
+                    flex-direction:column;
+                    justify-content: space-between;
+                    align-items: center;
+                    .hoddy{
+                        width:100%;
+                        h3{
+                            font-size:$smallText;
+                        }
+                        p{
+                            font-size:$smallText;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -132,6 +169,18 @@
     .headerSignIn{
         .menuSide{
             width:35vw;
+        }
+    }
+}
+
+@media (max-width: 1000px){
+    .container{
+        .getOffSignIn{
+            .bannerGetOff{
+                .title{
+                    font-size:$nameLogo;
+                }
+            }
         }
     }
 }
@@ -354,6 +403,21 @@
         .sectionWishlist{
             width:60vw;
         }
+        .getOffSignIn{
+            .bannerGetOff{
+                width:45vw;
+                .slideGetOff{
+                    .hoddy{
+                        h3{
+                            font-size: $xxSmallText;
+                        }
+                        p{
+                            font-size: $xxSmallText;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -414,6 +478,11 @@
         }
         .sectionWishlist{
             width:80vw;
+        }
+        .getOffSignIn{
+            .bannerGetOff{
+                width: 55vw;
+            }
         }
     }
     .containerStore{
@@ -512,6 +581,11 @@
                 }
             }
         }
+        .getOffSignIn{
+            .bannerGetOff{
+                width: 65vw;
+            }
+        }
     }
     .mainContainer, .containerStore{
         .bannerShipping{
@@ -536,6 +610,26 @@
 @media (max-width: 460px){
     .containerStore{
         .getOffStore{
+            .bannerGetOff{
+                width: 80vw;
+                .title{
+                    font-size:$MediumTitle ;
+                }
+                .slideGetOff{
+                    .hoddy{
+                        h3{
+                            font-size: $BreakTextContent;
+                        }
+                        p{
+                            font-size: $BreakTextContent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .container{
+        .getOffSignIn{
             .bannerGetOff{
                 width: 80vw;
                 .title{
@@ -587,6 +681,13 @@
             .sectionCard{
                 grid-template-columns: repeat(1, 1fr);
                 grid-template-rows: repeat(1, 1fr);
+            }
+        }
+    }
+    .container{
+        .getOffSignIn{
+            .bannerGetOff{
+                width: 100vw;
             }
         }
     }
