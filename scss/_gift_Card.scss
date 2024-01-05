@@ -1,8 +1,8 @@
 // Gift Cards
 
 .giftCards{
-    width:$screenPercentageWidth;
-    max-width: 1000px;
+    width:100vw;
+    max-width: 80%;
     height: auto;
     margin: 0px auto 150px;
     .subtitle{
@@ -17,7 +17,8 @@
         .containerCards{
             width:80%;
             height: auto;
-            .sectionCards{padding:35px;
+            .sectionCards{
+                padding:35px;
                 .card1, .card2, .card3, .card4{
                     width: 100%;
                     padding-top:20px;

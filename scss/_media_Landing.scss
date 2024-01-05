@@ -157,6 +157,13 @@
                 }
             }
         }
+        .giftCards{
+            width:90vw;
+            max-width: 100%;
+            .containerGetOff{
+                width: 100%;
+            }
+        }
     }
 }
 
@@ -209,7 +216,6 @@
             }
         }
         .giftCards{
-            width: 100%;
             .containerGetOff{
                 display: flex;
                 flex-direction: column-reverse;
@@ -350,7 +356,8 @@
             }
         }
         .giftCards{
-            width:100%;
+            width:100vw;
+            max-width: 100%;
             .containerGetOff{
                 width: 100%;
             }
@@ -432,6 +439,32 @@
                 }
             }
         }
+        .giftCards{
+            width:100vw;
+            max-width: 100%;
+            .containerGetOff{
+                width:100% ;
+            }
+        }
+    }
+}
+
+// Screen 650px
+
+@media (max-width: 650px){
+    .mainContainer{
+        .giftCards{
+            width:100vw;
+            .containerGetOff{
+                .containerCards{
+                    width:100% ;
+                }
+                .containerMessage{
+                    width:80% ;
+                    text-align: center;
+                }
+            }
+        }
     }
 }
 
@@ -476,12 +509,6 @@
                 }
             }
         }
-        .giftCards{
-            width:100%;
-            .containerGetOff{
-                width:100%;
-            }
-        }
         .advertising{
             .advertisingMood{
                 .subtitle{
@@ -493,15 +520,11 @@
             .bannerGetOff{
                 width: 55vw;
             }
-        }.getOffHoddy{
-            .bannerGetOff{
-                width: 55vw;
-            }
         }
     }
 }
 
-// Screen 500px
+// Screen 510px
 
 @media (max-width: 510px){
     .mainContainer{
@@ -540,6 +563,24 @@
                     .sectionCards{
                         width: 100%;
                         padding: 0px;
+                        .card1, .card2, .card3, .card4{
+                            #icon{
+                                width:35%;
+                                height: auto;
+                            }
+                            .subtitleGift{
+                                font-size:2rem;
+                            }
+                            .socialMedia{
+                                .itemSocial{
+                                    width:5%;
+                                    height:auto;
+                                }
+                            }
+                            .paragraph{
+                                font-size:$BreakTextContent;
+                            }
+                        }
                     }
                 }
                 .containerMessage{
@@ -547,7 +588,7 @@
                         font-size: $nameLogo;
                     }
                     .paragraph{
-                        font-size: $sentence;
+                        font-size: $MediumTitle;
                     }
                 }
             }

@@ -971,8 +971,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 
 .giftCards {
-  width: 100%;
-  max-width: 1000px;
+  width: 100vw;
+  max-width: 80%;
   height: auto;
   margin: 0px auto 150px;
 }
@@ -3492,6 +3492,13 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy p {
     font-size: 0.9rem;
   }
+  .mainContainer .giftCards {
+    width: 90vw;
+    max-width: 100%;
+  }
+  .mainContainer .giftCards .containerGetOff {
+    width: 100%;
+  }
 }
 @media (max-width: 1000px) {
   .header .menuSide {
@@ -3528,9 +3535,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .getOffHoddy .bannerGetOff .title {
     font-size: 1.8rem;
-  }
-  .mainContainer .giftCards {
-    width: 100%;
   }
   .mainContainer .giftCards .containerGetOff {
     display: flex;
@@ -3621,7 +3625,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     row-gap: 30px;
   }
   .mainContainer .giftCards {
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
   }
   .mainContainer .giftCards .containerGetOff {
     width: 100%;
@@ -3664,6 +3669,25 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy p {
     font-size: 0.7rem;
   }
+  .mainContainer .giftCards {
+    width: 100vw;
+    max-width: 100%;
+  }
+  .mainContainer .giftCards .containerGetOff {
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .mainContainer .giftCards {
+    width: 100vw;
+  }
+  .mainContainer .giftCards .containerGetOff .containerCards {
+    width: 100%;
+  }
+  .mainContainer .giftCards .containerGetOff .containerMessage {
+    width: 80%;
+    text-align: center;
+  }
 }
 @media (max-width: 600px) {
   .header .menuSide {
@@ -3689,17 +3713,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .showRoom .rightSide .infoProduct .size .containerSize {
     gap: 10px;
   }
-  .mainContainer .giftCards {
-    width: 100%;
-  }
-  .mainContainer .giftCards .containerGetOff {
-    width: 100%;
-  }
   .mainContainer .advertising .advertisingMood .subtitle {
     font-size: 1.5rem;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff {
-    width: 55vw;
   }
   .mainContainer .getOffHoddy .bannerGetOff {
     width: 55vw;
@@ -3729,11 +3744,25 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 100%;
     padding: 0px;
   }
+  .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card1 #icon, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card2 #icon, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card3 #icon, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card4 #icon {
+    width: 35%;
+    height: auto;
+  }
+  .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card1 .subtitleGift, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card2 .subtitleGift, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card3 .subtitleGift, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card4 .subtitleGift {
+    font-size: 2rem;
+  }
+  .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card1 .socialMedia .itemSocial, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card2 .socialMedia .itemSocial, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card3 .socialMedia .itemSocial, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card4 .socialMedia .itemSocial {
+    width: 5%;
+    height: auto;
+  }
+  .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card1 .paragraph, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card2 .paragraph, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card3 .paragraph, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card4 .paragraph {
+    font-size: 0.6rem;
+  }
   .mainContainer .giftCards .containerGetOff .containerMessage .subtitleMessage {
     font-size: 1.8rem;
   }
   .mainContainer .giftCards .containerGetOff .containerMessage .paragraph {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .mainContainer .advertising .advertisingMood .subtitle {
     font-size: 1.2rem;
