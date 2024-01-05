@@ -508,9 +508,7 @@
         top:-340px;
         left:18%;
         z-index: 8;
-        // transform: translateY(300%);
-        transform: translateY(100%);
-
+        transform: translateY(300%);
         overflow: hidden;
         transition: $transition;
         .title{

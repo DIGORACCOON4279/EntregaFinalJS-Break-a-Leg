@@ -3310,7 +3310,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   top: -340px;
   left: 18%;
   z-index: 8;
-  transform: translateY(100%);
+  transform: translateY(300%);
   overflow: hidden;
   transition: 0.3s ease-in-out;
 }
@@ -3808,6 +3808,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .getOffHoddy .bannerGetOff {
     width: 55vw;
   }
+  .mainContainer .getOffHoddy .bannerGetOff {
+    width: 55vw;
+  }
 }
 @media (max-width: 510px) {
   .mainContainer .bestSellers .subtitle {
@@ -4001,6 +4004,42 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy p {
     font-size: 0.9rem;
   }
+  .mainContainer .getOffShowRoom .bannerGetOff {
+    width: 30vw;
+    height: 100vh;
+    top: -100%;
+    left: 0%;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff .title {
+    font-size: 2.5rem;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff {
+    width: 100%;
+    height: 80vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy {
+    width: 100%;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy h3 {
+    font-size: 0.9rem;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy p {
+    font-size: 0.9rem;
+  }
 }
 @media (max-width: 1120px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
@@ -4078,6 +4117,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     height: auto;
     display: flex;
     margin: auto;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff .title {
+    font-size: 1.8rem;
   }
   .containerStore .sectionStore .sectionCard {
     grid-template-columns: repeat(4, 1fr);
@@ -4239,6 +4281,15 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy p {
     font-size: 0.7rem;
   }
+  .mainContainer .getOffShowRoom .bannerGetOff {
+    width: 45vw;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy h3 {
+    font-size: 0.7rem;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy p {
+    font-size: 0.7rem;
+  }
 }
 @media (max-width: 750px) {
   .swal2-container .swal2-popup {
@@ -4276,6 +4327,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .containerStore .sectionWishlist {
     width: 80vw;
   }
+  .mainContainer .getOffShowRoom .bannerGetOff {
+    width: 55vw;
+  }
 }
 @media (max-width: 500px) {
   .mainContainer .showRoom .leftSide .itemProduct {
@@ -4291,6 +4345,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .showRoom .rightSide .infoProduct .complementInfo .delivery, .mainContainer .showRoom .rightSide .infoProduct .complementInfo .creditCard, .mainContainer .showRoom .rightSide .infoProduct .complementInfo .return {
     width: 45%;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff {
+    width: 65vw;
   }
   .containerStore .sectionStore .sectionCard {
     grid-template-columns: repeat(2, 1fr);
@@ -4343,6 +4400,18 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy p {
     font-size: 0.6rem;
   }
+  .mainContainer .getOffShowRoom .bannerGetOff {
+    width: 80vw;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff .title {
+    font-size: 1.2rem;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy h3 {
+    font-size: 0.6rem;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy p {
+    font-size: 0.6rem;
+  }
 }
 @media (max-width: 425px) {
   .headerSignIn .menuSide {
@@ -4365,6 +4434,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     grid-template-rows: repeat(1, 1fr);
   }
   .container .getOffSignIn .bannerGetOff {
+    width: 100vw;
+  }
+  .mainContainer .getOffShowRoom .bannerGetOff {
     width: 100vw;
   }
 }
