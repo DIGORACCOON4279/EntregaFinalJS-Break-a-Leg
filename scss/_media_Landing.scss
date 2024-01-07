@@ -665,11 +665,10 @@
         .menuSide{
             width:100vw;
         }
-    }
-    .header{
         .logo{
             .brand{
-                display:none;
+                // display:none;
+                left:-10px;
             }
         }
     }

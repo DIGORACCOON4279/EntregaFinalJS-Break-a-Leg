@@ -3806,7 +3806,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 100vw;
   }
   .header .logo .brand {
-    display: none;
+    left: -10px;
   }
   .mainContainer .heroSection {
     padding-left: 30px;
