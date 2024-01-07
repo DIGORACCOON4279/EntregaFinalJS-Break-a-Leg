@@ -28,11 +28,8 @@
     transition: $transition;
     overflow: hidden;
     .orderCross{
-        width:100%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: flex-end;
-        margin-top: 0px;
+        width:auto;
+        align-self: self-end;
         .crossCloseWhite{
             width:25px;
             cursor: pointer;

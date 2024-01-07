@@ -882,10 +882,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   margin-top: 20px;
 }
 .getOffHoddy .bannerGetOff label {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  width: auto;
+  align-self: self-end;
 }
 .getOffHoddy .bannerGetOff label .crossCloseWhite {
   width: 25px;
@@ -1299,10 +1297,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transition: 0.3s ease-in-out;
 }
 .containerStore .getOffStore .bannerGetOff label {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  width: auto;
+  align-self: self-end;
 }
 .containerStore .getOffStore .bannerGetOff label .crossCloseWhite {
   width: 25px;
@@ -2182,10 +2178,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   margin-top: 20px;
 }
 .getOffSignIn .bannerGetOff label {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  width: auto;
+  align-self: self-end;
 }
 .getOffSignIn .bannerGetOff label .crossCloseWhite {
   width: 25px;
@@ -2268,11 +2262,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   overflow: hidden;
 }
 .sectionPlaceOrder .orderCross {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin-top: 0px;
+  width: auto;
+  align-self: self-end;
 }
 .sectionPlaceOrder .orderCross .crossCloseWhite {
   width: 25px;
@@ -3214,10 +3205,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   margin-top: 20px;
 }
 .getOffShowRoom .bannerGetOff label {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  width: auto;
+  align-self: self-end;
 }
 .getOffShowRoom .bannerGetOff label .crossCloseWhite {
   width: 25px;
