@@ -3457,7 +3457,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     margin: auto;
   }
   .mainContainer .getOffHoddy .bannerGetOff {
-    width: 30vw;
+    width: 40vw;
     height: 100vh;
     top: -100%;
     left: 0%;
@@ -3485,12 +3485,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
     width: 100%;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.9rem;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.9rem;
   }
   .mainContainer .giftCards {
     width: 90vw;
@@ -3532,9 +3526,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .getOffHoddy .ctaSentence {
     display: none;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .title {
-    font-size: 1.8rem;
   }
   .mainContainer .giftCards .containerGetOff {
     display: flex;
@@ -3663,12 +3654,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .getOffHoddy .bannerGetOff {
     width: 45vw;
   }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.7rem;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.7rem;
-  }
   .mainContainer .giftCards {
     width: 100vw;
     max-width: 100%;
@@ -3780,15 +3765,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .getOffHoddy .bannerGetOff {
     width: 80vw;
   }
-  .mainContainer .getOffHoddy .bannerGetOff .title {
-    font-size: 1.2rem;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.6rem;
-  }
-  .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.6rem;
-  }
 }
 @media (max-width: 425px) {
   .mainContainer .advertising .advertisingMood {
@@ -3891,7 +3867,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 35vw;
   }
   .container .getOffSignIn .bannerGetOff {
-    width: 30vw;
+    width: 40vw;
     height: 100vh;
     top: -100%;
     left: 0%;
@@ -3920,14 +3896,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy {
     width: 100%;
   }
-  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.9rem;
-  }
-  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.9rem;
-  }
   .mainContainer .getOffShowRoom .bannerGetOff {
-    width: 30vw;
+    width: 40vw;
     height: 100vh;
     top: -100%;
     left: 0%;
@@ -3956,12 +3926,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy {
     width: 100%;
   }
-  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.9rem;
-  }
-  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.9rem;
-  }
 }
 @media (max-width: 1120px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
@@ -3974,7 +3938,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 35vw;
   }
   .containerStore .getOffStore .bannerGetOff {
-    width: 30vw;
+    width: 40vw;
     height: 100vh;
     top: -100%;
     left: 0%;
@@ -4003,12 +3967,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy {
     width: 100%;
   }
-  .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.9rem;
-  }
-  .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.9rem;
-  }
 }
 @media (max-width: 1120px) {
   .swal2-container .swal2-popup {
@@ -4018,11 +3976,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 @media (max-width: 1000px) {
   .headerSignIn .menuSide {
     width: 35vw;
-  }
-}
-@media (max-width: 1000px) {
-  .container .getOffSignIn .bannerGetOff .title {
-    font-size: 1.8rem;
   }
 }
 @media (max-width: 1000px) {
@@ -4040,15 +3993,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     display: flex;
     margin: auto;
   }
-  .mainContainer .getOffShowRoom .bannerGetOff .title {
-    font-size: 1.8rem;
-  }
   .containerStore .sectionStore .sectionCard {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
-  }
-  .containerStore .getOffStore .bannerGetOff .title {
-    font-size: 1.8rem;
   }
 }
 @media (max-width: 1000px) {
@@ -4183,12 +4130,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .container .getOffSignIn .bannerGetOff {
     width: 45vw;
   }
-  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.7rem;
-  }
-  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.7rem;
-  }
 }
 @media (max-width: 750px) {
   .containerStore .sectionFilter .menuFilterSide .menuFilter {
@@ -4203,20 +4144,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .containerStore .getOffStore .bannerGetOff {
     width: 45vw;
   }
-  .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.7rem;
-  }
-  .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.7rem;
-  }
   .mainContainer .getOffShowRoom .bannerGetOff {
     width: 45vw;
-  }
-  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.7rem;
-  }
-  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.7rem;
   }
 }
 @media (max-width: 750px) {
@@ -4322,38 +4251,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .containerStore .getOffStore .bannerGetOff {
     width: 80vw;
   }
-  .containerStore .getOffStore .bannerGetOff .title {
-    font-size: 1.2rem;
-  }
-  .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.6rem;
-  }
-  .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.6rem;
-  }
   .container .getOffSignIn .bannerGetOff {
     width: 80vw;
   }
-  .container .getOffSignIn .bannerGetOff .title {
-    font-size: 1.2rem;
-  }
-  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.6rem;
-  }
-  .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.6rem;
-  }
   .mainContainer .getOffShowRoom .bannerGetOff {
     width: 80vw;
-  }
-  .mainContainer .getOffShowRoom .bannerGetOff .title {
-    font-size: 1.2rem;
-  }
-  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy h3 {
-    font-size: 0.6rem;
-  }
-  .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy p {
-    font-size: 0.6rem;
   }
 }
 @media (max-width: 425px) {

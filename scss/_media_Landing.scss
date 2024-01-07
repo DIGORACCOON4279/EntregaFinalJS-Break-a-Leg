@@ -122,7 +122,7 @@
                 }
             }
             .bannerGetOff{
-                width: 30vw;
+                width: 40vw;
                 height: 100vh;
                 top:-100%;
                 left:0%;
@@ -147,12 +147,6 @@
                     align-items: center;
                     .hoddy{
                         width:100%;
-                        h3{
-                            font-size:$smallText;
-                        }
-                        p{
-                            font-size:$smallText;
-                        }
                     }
                 }
             }
@@ -208,11 +202,6 @@
             }
             .ctaSentence{
                 display:none;
-            }
-            .bannerGetOff{
-                .title{
-                    font-size:$nameLogo;
-                }
             }
         }
         .giftCards{
@@ -427,16 +416,6 @@
         .getOffHoddy{
             .bannerGetOff{
                 width:45vw;
-                .slideGetOff{
-                    .hoddy{
-                        h3{
-                            font-size: $xxSmallText;
-                        }
-                        p{
-                            font-size: $xxSmallText;
-                        }
-                    }
-                }
             }
         }
         .giftCards{
@@ -620,19 +599,6 @@
         .getOffHoddy{
             .bannerGetOff{
                 width: 80vw;
-                .title{
-                    font-size:$MediumTitle ;
-                }
-                .slideGetOff{
-                    .hoddy{
-                        h3{
-                            font-size: $BreakTextContent;
-                        }
-                        p{
-                            font-size: $BreakTextContent;
-                        }
-                    }
-                }
             }
         }
     }
