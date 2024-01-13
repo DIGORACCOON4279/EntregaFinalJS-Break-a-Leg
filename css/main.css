@@ -329,14 +329,18 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   border: none;
 }
 .sectionShop .menuCart .menuCartlist .choiceCartlist .cart .containerArticles .cartList .itemNumber .counter .counterValue {
+  width: 40px;
   padding: 2px;
   font-weight: 700;
 }
 .sectionShop .menuCart .menuCartlist .choiceCartlist .cart .containerArticles .cartList .total {
+  width: 50px;
   font-size: 0.9rem;
   font-family: "Jura", sans-serif;
   color: #bc2327;
   font-weight: 600;
+  overflow: hidden;
+  background-color: aqua;
 }
 .sectionShop .menuCart .menuCartlist .outcomeCard {
   width: 65%;

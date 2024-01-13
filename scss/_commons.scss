@@ -233,16 +233,20 @@ html{
                                         border:none;
                                     }
                                     .counterValue{
+                                        width:40px;
                                         padding: 2px;
                                         font-weight: $ExtraBold;
                                     }
                                 }
                             }
                             .total{
+                                width:50px;
                                 font-size: $smallText;
                                 font-family: $fontJura;
                                 color:$primaryColor;
                                 font-weight: $bold;
+                                overflow:hidden;
+                                background-color: aqua;
                             }
                         }
                     }
