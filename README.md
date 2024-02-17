@@ -60,7 +60,7 @@ El objetivo en esta tarea es que el usuario sin necesidad de crear cuenta ni log
 ![hoddySection](https://github.com/DIGORACCOON4279/PreEntrega3/assets/88150970/b6325a55-4a4a-4346-87b0-82a21f31a1d2)</br>
 
 📲Cellphone [optional]</br>
-NOTA= Esta aun pendiente adaptar el modal de get 25% off & slider de landingPage</br>
+
 ![pic1](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/1f80b4ef-4505-427a-b009-da31a4b42c63)
 ![pic2](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/fd6e6efd-65b0-4176-88da-cd207013c327)
 ![pic3](https://github.com/DIGORACCOON4279/EntregaFinalJS-Break-a-Leg/assets/88150970/c70bad91-8bf2-41fd-aa15-72bdb2222d7f)
