@@ -932,7 +932,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: rotate(90deg);
 }
 .getOffHoddy .bannerGetOff .slideGetOff {
-  padding: 15px 20px 0px;
+  padding: 20px 20px 0px;
   backdrop-filter: blur(10px);
 }
 .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
@@ -1375,7 +1375,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   margin-top: 20px;
 }
 .containerStore .getOffStore .bannerGetOff .slideGetOff {
-  padding: 15px 20px 0px;
+  padding: 20px 20px 0px;
   backdrop-filter: blur(10px);
 }
 .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy {
@@ -2271,7 +2271,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: rotate(90deg);
 }
 .getOffSignIn .bannerGetOff .slideGetOff {
-  padding: 15px 20px 0px;
+  padding: 20px 20px 0px;
   backdrop-filter: blur(10px);
 }
 .getOffSignIn .bannerGetOff .slideGetOff .hoddy {
@@ -3314,7 +3314,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: rotate(90deg);
 }
 .getOffShowRoom .bannerGetOff .slideGetOff {
-  padding: 15px 20px 0px;
+  padding: 20px 20px 0px;
   backdrop-filter: blur(10px);
 }
 .getOffShowRoom .bannerGetOff .slideGetOff .hoddy {
@@ -3563,6 +3563,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 20px 0px;
   }
   .mainContainer .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
     width: 100%;
@@ -4057,6 +4058,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 20px 0px;
   }
   .container .getOffSignIn .bannerGetOff .slideGetOff .hoddy {
     width: 100%;
@@ -4088,6 +4090,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 20px 0px;
   }
   .mainContainer .getOffShowRoom .bannerGetOff .slideGetOff .hoddy {
     width: 100%;
@@ -4132,6 +4135,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 20px 0px;
   }
   .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy {
     width: 100%;
