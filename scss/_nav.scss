@@ -9,144 +9,150 @@
     background-color:$secondaryBackground;
     box-shadow: $boxShadowMenu;
     @extend .flexRowBetween;
-    padding:0px 30px;
-    z-index: 10;
-    label{
-        .drawerIcon{
-            width:30px;
-            cursor: pointer;
-        }
-    }
-    .logo{
-        position: relative;
-        .brand{
-            position:absolute;
-            top:-22px;
-            left:53px;
-            width:45px;
-            border-radius: 50%;
-            transition: $transition;
-            &:hover{
-                transform: translateY(0%) scale(105%);
-                filter:drop-shadow(0 0 6px #696061);
-            }
-            animation: skull 1s linear;
-            @keyframes skull{
-                0%{
-                    filter:drop-shadow(0 0 2px #696061);
-                }
-                100%{
-                    filter:drop-shadow(0 0 6px #696061);
-                }
-            }
-        }
-    }
+    z-index: 9;
     #menuSide{
         display: none;
         &:checked ~ .menuSide{
             transform: translate(0%);
         }
     }
-    .menuIcons{
-        ul{
-            display: flex;
-            flex-direction: row;
-            margin: 0px;
-            li{
-                list-style-type: none;
-                a{
-                    padding: 0px 5px;
-                    .icon{
-                        cursor: pointer;
-                        transform: scale(100%);
-                        transition: $transition;
-                        &:hover{
-                            transform: scale(120%);
-                            filter:drop-shadow(0 0 10px #696061);
+    .headerContainer{
+        width:95%;
+        max-width: 1300px;
+        @extend .flexRowBetween;
+        margin:auto;
+        label{
+            .drawerIcon{
+                width:30px;
+                cursor: pointer;
+            }
+        }
+        .logo{
+            position: relative;
+            .brand{
+                position:absolute;
+                top:-22px;
+                left:50px;
+                width:45px;
+                border-radius: 50%;
+                transition: $transition;
+                &:hover{
+                    transform: translateY(0%) scale(105%);
+                    filter:drop-shadow(0 0 6px #696061);
+                    animation: skull 1s linear;
+                    @keyframes skull{
+                        0%{
+                            filter:drop-shadow(0 0 2px #696061);
+                        }
+                        100%{
+                            filter:drop-shadow(0 0 6px #696061);
                         }
                     }
                 }
             }
-            .menuSection{
-                @extend .flexColumn;
-                align-items: none;
-                position:relative;
-                #newMenu{
-                    display: none;
-                    &:checked ~ .landingMenu{
-                        visibility: visible;
-                        opacity: 1;
-                        clip-path: circle(141.2% at 100% 0);
+        }
+
+        .menuIcons{
+            ul{
+                display: flex;
+                flex-direction: row;
+                margin: 0px;
+                li{
+                    list-style-type: none;
+                    a{
+                        padding: 0px 5px;
+                        .icon{
+                            cursor: pointer;
+                            transform: scale(100%);
+                            transition: $transition;
+                            &:hover{
+                                transform: scale(120%);
+                                filter:drop-shadow(0 0 10px #696061);
+                            }
+                        }
                     }
                 }
-                .landingIcon{
-                    .menuLandingIcon{
-                        width:25px;
-                        margin: 0px 0px 0px 5px;
-                        cursor: pointer;
+                .menuSection{
+                    @extend .flexColumn;
+                    align-items: none;
+                    position:relative;
+                    #newMenu{
+                        display: none;
+                        &:checked ~ .landingMenu{
+                            visibility: visible;
+                            opacity: 1;
+                            clip-path: circle(141.2% at 100% 0);
+                        }
                     }
-                }
-                .landingMenu{
-                    width:140px;
-                    height: auto;
-                    position:absolute;
-                    top:40px;
-                    right:0px;
-                    filter: $filterShadow;
-                    opacity: 0;
-                    visibility: hidden;
-                    background-color: $secondaryBackground;
-                    overflow: hidden;
-                    clip-path: circle(1.0% at 99% 0);
-                    transition: $transition;
-                    ul{
-                        @extend .flexColumn;
-                        margin-left:-32px;
-                        li{
-                            width: 100%;
-                            .linksLanding{
+                    .landingIcon{
+                        .menuLandingIcon{
+                            width:25px;
+                            margin: 0px 0px 0px 5px;
+                            cursor: pointer;
+                        }
+                    }
+                    .landingMenu{
+                        width:140px;
+                        height: auto;
+                        position:absolute;
+                        top:40px;
+                        right:0px;
+                        filter: $filterShadow;
+                        opacity: 0;
+                        visibility: hidden;
+                        background-color: $secondaryBackground;
+                        overflow: hidden;
+                        clip-path: circle(1.0% at 99% 0);
+                        transition: $transition;
+                        ul{
+                            @extend .flexColumn;
+                            margin-left:-32px;
+                            li{
                                 width: 100%;
-                                height:auto;
-                                display: block;
-                                font-size:$xSmallText;
-                                font-family: $fontJura;
-                                color:$whiteColor;
-                                font-weight:$bold;
-                                padding:0px;
-                                margin: 0px;
-                                text-decoration: none;
-                                transition: $transition;
-                                &:hover{
-                                    background-color: $backgroundColorMenu;
-                                }
-                                p{
-                                    @extend .flexRowBetween;
-                                    padding: 10px;
-                                    margin:0;
+                                .linksLanding{
+                                    width: 100%;
+                                    height:auto;
+                                    display: block;
+                                    font-size:$xSmallText;
+                                    font-family: $fontJura;
+                                    color:$whiteColor;
+                                    font-weight:$bold;
+                                    padding:0px;
+                                    margin: 0px;
+                                    text-decoration: none;
                                     transition: $transition;
-                                    span{
-                                        opacity: 0;
-                                        visibility:hidden;
+                                    &:hover{
+                                        background-color: $backgroundColorMenu;
                                     }
-                                    &:hover > span{
-                                        opacity: 1;
-                                        visibility:visible;
+                                    p{
+                                        @extend .flexRowBetween;
+                                        padding: 10px;
+                                        margin:0;
+                                        transition: $transition;
+                                        span{
+                                            opacity: 0;
+                                            visibility:hidden;
+                                        }
+                                        &:hover > span{
+                                            opacity: 1;
+                                            visibility:visible;
+                                        }
                                     }
                                 }
                             }
                         }
                     }
                 }
-            }
-            .wishHeadLine, .cartShop{
-                .wishlistIcon, .cartIcon{
-                    cursor: pointer;
-                    margin: 0px 5px;
-                    transform: scale(100%);
-                    transition: $transition;
-                    &:hover{
-                        transform: scale(120%);
-                        filter:drop-shadow(0 0 10px #696061);
+                .wishHeadLine, .cartShop{
+                    .wishlistIcon, .cartIcon{
+                        cursor: pointer;
+                        margin: 0px 5px;
+                        transform: scale(100%);
+                        transition: $transition;
+                        &:hover{
+                            transform: scale(120%);
+                            filter:drop-shadow(0 0 10px #696061);
+                        }
                     }
                 }
             }

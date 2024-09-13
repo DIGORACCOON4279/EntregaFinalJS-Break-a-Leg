@@ -7,16 +7,17 @@
 }
 body{
     background-color: #ffffff;
+    overflow-x: hidden;
 }
 html{
     scroll-behavior: smooth;
-    .containerStore{
-        .bannerShipping{
-            .shipping{
-                font-size:$xxSmallText;
-            }
-        }
-    }
+    // .containerStore{
+    //     // .bannerShipping{
+    //     //     .shipping{
+    //     //         font-size:$xxSmallText;
+    //     //     }
+    //     // }
+    // }
     .mainContainer{
         width: $screenPercentageWidth;
         height: $screenPercentageHeight;
@@ -33,23 +34,26 @@ html{
                 font-family: $fontJura;
                 text-transform: uppercase;
                 background-color:$blackColor;
-            }
-            animation: shipping 4000ms linear;
-            @keyframes shipping {
-                0%{
-                    transform: translateX(-100%);
-                }
-                25%{
-                    transform: translateX(-75%);
-                }
-                50%{
-                    transform: translateX(-50%);
-                }
-                75%{
-                    transform: translateX(-25%);
-                }
-                100%{
-                    transform: translateX(0%);
+                animation: shipping 4000ms linear;
+                @keyframes shipping {
+                    0%{
+                        transform: translateX(-250%);
+                    }
+                    20%{
+                        transform: translateX(-200%);
+                    }
+                    40%{
+                        transform: translateX(-150%);
+                    }
+                    60%{
+                        transform: translateX(-100%);
+                    }
+                    80%{
+                        transform: translateX(-50%);
+                    }
+                    100%{
+                        transform: translateX(0%);
+                    }
                 }
             }
         }

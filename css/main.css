@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Rubik+Distressed&display=swap");
 /******************* Mixin ********************/
 /******************* Extend ******************/
-.flexColumn, .showRoom .rightSide .infoProduct .color, .sectionPlaceOrder .unionOrder .delivery .deliveryContact, .sectionPlaceOrder .unionOrder .delivery, .containerStore .sectionStore .sectionCard .cardProducts .article .info, .sectionWishlist, .bestSellers .sectionCardBlock .cardProducts .article .info, .header .menuIcons ul .menuSection .landingMenu ul, .header .menuIcons ul .menuSection {
+.flexColumn, .showRoom .rightSide .infoProduct .color, .sectionPlaceOrder .unionOrder .delivery .deliveryContact, .sectionPlaceOrder .unionOrder .delivery, .containerStore .sectionStore .sectionCard .cardProducts .article .info, .sectionWishlist, .bestSellers .sectionCardBlock .cardProducts .article .info, .header .headerContainer .menuIcons ul .menuSection .landingMenu ul, .header .headerContainer .menuIcons ul .menuSection {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.flexRowBetween, .footerContainer .footer, .showRoom .rightSide .containerAccordion .accordionItem .accordionCollapse .accordionBody:nth-child(1) .case .opinion, .showRoom .rightSide .infoProduct .addToCart, .showRoom .rightSide .infoProduct .productRating, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .labelThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .labelThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .labelThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .labelThree, .sectionFilter .menuFilterSide, .sectionPlaceOrder .unionOrder .delivery .deliveryContact .fullName, .sectionPlaceOrder .unionOrder, .headerSignIn .menuSide .top, .sectionWishlist .menuWishlist .choiceWishlist .wish .containerWishlist .wishlist .blockProduct, .giftCards .containerGetOff, .heroSection, .header .menuSide .top, .header .menuIcons ul .menuSection .landingMenu ul li .linksLanding p, .header, .sectionShop .menuCart .menuCartlist .choiceCartlist .cart .containerArticles .cartList, .sectionShop .menuCart .menuCartlist .choiceCartlist .cart .category {
+.flexRowBetween, .footerContainer .containerFooter .footer, .showRoom .rightSide .containerAccordion .accordionItem .accordionCollapse .accordionBody:nth-child(1) .case .opinion, .showRoom .rightSide .infoProduct .addToCart, .showRoom .rightSide .infoProduct .productRating, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .priceOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .priceTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .priceThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .availability .labelThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionAvailability .pricing .labelThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .availability .labelThree, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .labelOne, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .labelTwo, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .sectionPricing .pricing .labelThree, .sectionFilter .menuFilterSide, .sectionPlaceOrder .unionOrder .delivery .deliveryContact .fullName, .sectionPlaceOrder .unionOrder, .headerSignIn .menuSide .top, .sectionWishlist .menuWishlist .choiceWishlist .wish .containerWishlist .wishlist .blockProduct, .heroSection .containerHeroSection .heroSectionCentered, .header .menuSide .top, .header .headerContainer .menuIcons ul .menuSection .landingMenu ul li .linksLanding p, .header .headerContainer, .header, .sectionShop .menuCart .menuCartlist .choiceCartlist .cart .containerArticles .cartList, .sectionShop .menuCart .menuCartlist .choiceCartlist .cart .category {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,14 +28,14 @@
   align-items: center;
 }
 
-.flexColumnCenter, .footerContainer .footer .payments, .footerContainer .footer .socialMediaFooter, .sectionFilter .menuFilterSide .menuFilter, .container .logInCreateAccount .tags .formCreateAccount .formFloating, .container .logInCreateAccount .tags .formLogIn .formFloating, .giftCards .containerGetOff .containerMessage {
+.flexColumnCenter, .footerContainer .containerFooter .footer .payments, .footerContainer .containerFooter .footer .socialMediaFooter, .sectionFilter .menuFilterSide .menuFilter, .container .logInCreateAccount .tags .formCreateAccount .formFloating, .container .logInCreateAccount .tags .formLogIn .formFloating, .giftCards .containerGetOff .containerMessage, .giftCards {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
 
-.flexColumnCenterCenter, .containerError .pageError, .footerContainer .footer .brand, .footerContainer, .showRoom .rightSide .containerAccordion .accordionItem .accordionCollapse .accordionBodyDos, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .btnFilter, .sectionPlaceOrder .unionOrder .formPayment .btnPlaceOnOrder, .headerSignIn .menuIcons ul, .container .logInCreateAccount .tags .formLogIn, .container .logInCreateAccount .tags .formCreateAccount, .getOffHoddy, .sectionShop .menuCart .menuCartlist .outcomeCard .btnCheckout {
+.flexColumnCenterCenter, .containerError .pageError, .footerContainer .containerFooter .footer .brand, .footerContainer, .showRoom .rightSide .containerAccordion .accordionItem .accordionCollapse .accordionBodyDos, .sectionFilter .menuFilterSide .menuFilter .choiceFilter .btnFilter, .sectionPlaceOrder .unionOrder .formPayment .btnPlaceOnOrder, .headerSignIn .menuIcons ul, .container .logInCreateAccount .tags .formLogIn, .container .logInCreateAccount .tags .formCreateAccount, .heroSection, .sectionShop .menuCart .menuCartlist .outcomeCard .btnCheckout {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,13 +106,11 @@
 
 body {
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 html {
   scroll-behavior: smooth;
-}
-html .containerStore .bannerShipping .shipping {
-  font-size: 0.7rem;
 }
 html .mainContainer {
   width: 100%;
@@ -121,7 +119,6 @@ html .mainContainer {
 html .mainContainer .bannerShipping {
   width: 100%;
   margin-top: 70px;
-  animation: shipping 4000ms linear;
 }
 html .mainContainer .bannerShipping .shipping {
   width: fit-content;
@@ -133,19 +130,23 @@ html .mainContainer .bannerShipping .shipping {
   font-family: "Jura", sans-serif;
   text-transform: uppercase;
   background-color: #000000;
+  animation: shipping 4000ms linear;
 }
 @keyframes shipping {
   0% {
+    transform: translateX(-250%);
+  }
+  20% {
+    transform: translateX(-200%);
+  }
+  40% {
+    transform: translateX(-150%);
+  }
+  60% {
     transform: translateX(-100%);
   }
-  25% {
-    transform: translateX(-75%);
-  }
-  50% {
+  80% {
     transform: translateX(-50%);
-  }
-  75% {
-    transform: translateX(-25%);
   }
   100% {
     transform: translateX(0%);
@@ -388,28 +389,38 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   left: 0;
   background-color: #1b1b1b;
   box-shadow: 0 0 10px 6px #070707;
-  padding: 0px 30px;
-  z-index: 10;
+  z-index: 9;
 }
-.header label .drawerIcon {
+.header #menuSide {
+  display: none;
+}
+.header #menuSide:checked ~ .menuSide {
+  transform: translate(0%);
+}
+.header .headerContainer {
+  width: 95%;
+  max-width: 1300px;
+  margin: auto;
+}
+.header .headerContainer label .drawerIcon {
   width: 30px;
   cursor: pointer;
 }
-.header .logo {
+.header .headerContainer .logo {
   position: relative;
 }
-.header .logo .brand {
+.header .headerContainer .logo .brand {
   position: absolute;
   top: -22px;
-  left: 53px;
+  left: 50px;
   width: 45px;
   border-radius: 50%;
   transition: 0.3s ease-in-out;
-  animation: skull 1s linear;
 }
-.header .logo .brand:hover {
+.header .headerContainer .logo .brand:hover {
   transform: translateY(0%) scale(105%);
   filter: drop-shadow(0 0 6px #696061);
+  animation: skull 1s linear;
 }
 @keyframes skull {
   0% {
@@ -419,50 +430,44 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     filter: drop-shadow(0 0 6px #696061);
   }
 }
-.header #menuSide {
-  display: none;
-}
-.header #menuSide:checked ~ .menuSide {
-  transform: translate(0%);
-}
-.header .menuIcons ul {
+.header .headerContainer .menuIcons ul {
   display: flex;
   flex-direction: row;
   margin: 0px;
 }
-.header .menuIcons ul li {
+.header .headerContainer .menuIcons ul li {
   list-style-type: none;
 }
-.header .menuIcons ul li a {
+.header .headerContainer .menuIcons ul li a {
   padding: 0px 5px;
 }
-.header .menuIcons ul li a .icon {
+.header .headerContainer .menuIcons ul li a .icon {
   cursor: pointer;
   transform: scale(100%);
   transition: 0.3s ease-in-out;
 }
-.header .menuIcons ul li a .icon:hover {
+.header .headerContainer .menuIcons ul li a .icon:hover {
   transform: scale(120%);
   filter: drop-shadow(0 0 10px #696061);
 }
-.header .menuIcons ul .menuSection {
+.header .headerContainer .menuIcons ul .menuSection {
   align-items: none;
   position: relative;
 }
-.header .menuIcons ul .menuSection #newMenu {
+.header .headerContainer .menuIcons ul .menuSection #newMenu {
   display: none;
 }
-.header .menuIcons ul .menuSection #newMenu:checked ~ .landingMenu {
+.header .headerContainer .menuIcons ul .menuSection #newMenu:checked ~ .landingMenu {
   visibility: visible;
   opacity: 1;
   clip-path: circle(141.2% at 100% 0);
 }
-.header .menuIcons ul .menuSection .landingIcon .menuLandingIcon {
+.header .headerContainer .menuIcons ul .menuSection .landingIcon .menuLandingIcon {
   width: 25px;
   margin: 0px 0px 0px 5px;
   cursor: pointer;
 }
-.header .menuIcons ul .menuSection .landingMenu {
+.header .headerContainer .menuIcons ul .menuSection .landingMenu {
   width: 140px;
   height: auto;
   position: absolute;
@@ -476,13 +481,13 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   clip-path: circle(1% at 99% 0);
   transition: 0.3s ease-in-out;
 }
-.header .menuIcons ul .menuSection .landingMenu ul {
+.header .headerContainer .menuIcons ul .menuSection .landingMenu ul {
   margin-left: -32px;
 }
-.header .menuIcons ul .menuSection .landingMenu ul li {
+.header .headerContainer .menuIcons ul .menuSection .landingMenu ul li {
   width: 100%;
 }
-.header .menuIcons ul .menuSection .landingMenu ul li .linksLanding {
+.header .headerContainer .menuIcons ul .menuSection .landingMenu ul li .linksLanding {
   width: 100%;
   height: auto;
   display: block;
@@ -495,29 +500,29 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   text-decoration: none;
   transition: 0.3s ease-in-out;
 }
-.header .menuIcons ul .menuSection .landingMenu ul li .linksLanding:hover {
+.header .headerContainer .menuIcons ul .menuSection .landingMenu ul li .linksLanding:hover {
   background-color: rgba(188, 35, 40, 0.3490196078);
 }
-.header .menuIcons ul .menuSection .landingMenu ul li .linksLanding p {
+.header .headerContainer .menuIcons ul .menuSection .landingMenu ul li .linksLanding p {
   padding: 10px;
   margin: 0;
   transition: 0.3s ease-in-out;
 }
-.header .menuIcons ul .menuSection .landingMenu ul li .linksLanding p span {
+.header .headerContainer .menuIcons ul .menuSection .landingMenu ul li .linksLanding p span {
   opacity: 0;
   visibility: hidden;
 }
-.header .menuIcons ul .menuSection .landingMenu ul li .linksLanding p:hover > span {
+.header .headerContainer .menuIcons ul .menuSection .landingMenu ul li .linksLanding p:hover > span {
   opacity: 1;
   visibility: visible;
 }
-.header .menuIcons ul .wishHeadLine .wishlistIcon, .header .menuIcons ul .wishHeadLine .cartIcon, .header .menuIcons ul .cartShop .wishlistIcon, .header .menuIcons ul .cartShop .cartIcon {
+.header .headerContainer .menuIcons ul .wishHeadLine .wishlistIcon, .header .headerContainer .menuIcons ul .wishHeadLine .cartIcon, .header .headerContainer .menuIcons ul .cartShop .wishlistIcon, .header .headerContainer .menuIcons ul .cartShop .cartIcon {
   cursor: pointer;
   margin: 0px 5px;
   transform: scale(100%);
   transition: 0.3s ease-in-out;
 }
-.header .menuIcons ul .wishHeadLine .wishlistIcon:hover, .header .menuIcons ul .wishHeadLine .cartIcon:hover, .header .menuIcons ul .cartShop .wishlistIcon:hover, .header .menuIcons ul .cartShop .cartIcon:hover {
+.header .headerContainer .menuIcons ul .wishHeadLine .wishlistIcon:hover, .header .headerContainer .menuIcons ul .wishHeadLine .cartIcon:hover, .header .headerContainer .menuIcons ul .cartShop .wishlistIcon:hover, .header .headerContainer .menuIcons ul .cartShop .cartIcon:hover {
   transform: scale(120%);
   filter: drop-shadow(0 0 10px #696061);
 }
@@ -656,43 +661,56 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 
 .heroSection {
   width: 100%;
-  height: 1000px;
+  height: auto;
   background-image: url(../img/background_Hero.webp);
-  background-position: center;
+  background-position: cover;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: visible;
-  margin: -250px 0px 100px 0px;
-  padding: 0px 100px;
+  overflow: hidden;
+  margin: 0px auto;
+  padding-bottom: 150px;
 }
-.heroSection .heroSectionCentered {
+.heroSection .containerHeroSection {
+  width: 90%;
+  max-width: 1300px;
+  margin: 50px auto 300px;
+}
+.heroSection .containerHeroSection .heroSectionCentered {
+  height: 100%;
   z-index: 1;
 }
-.heroSection .heroSectionCentered .info {
+.heroSection .containerHeroSection .heroSectionCentered .info {
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
   animation: info 0.75s linear;
   text-align: left;
+  z-index: 2;
 }
-.heroSection .heroSectionCentered .info .break {
+.heroSection .containerHeroSection .heroSectionCentered .info .break {
   font-size: 4.5rem;
   font-family: "Rubik Distressed", cursive;
   color: #bc2327;
+  margin: 0;
 }
-.heroSection .heroSectionCentered .info .subtitle {
+.heroSection .containerHeroSection .heroSectionCentered .info .subtitle {
   font-size: 2.5rem;
   font-family: "Jura", sans-serif;
   color: #6b6b6b;
   font-weight: 600;
-  margin-top: -45px;
 }
-.heroSection .heroSectionCentered .info .cta {
+.heroSection .containerHeroSection .heroSectionCentered .info .cta {
   width: 100%;
-  margin-bottom: 15px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 15px;
 }
-.heroSection .heroSectionCentered .info .cta .ctaDiscount, .heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
+.heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaDiscount, .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaNewArrivals {
   text-align: center;
   padding: 25px 55px;
   font-family: "Jura", sans-serif;
@@ -705,13 +723,13 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: scale(100%);
   transition: 0.5s ease;
 }
-.heroSection .heroSectionCentered .info .cta .ctaDiscount:hover, .heroSection .heroSectionCentered .info .cta .ctaNewArrivals:hover {
+.heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaDiscount:hover, .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaNewArrivals:hover {
   color: #ffffff;
   background-color: #3d3d3d;
   box-shadow: 0 0 6px 2px #BC2327;
   text-decoration: underline;
 }
-.heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
+.heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaNewArrivals {
   color: #ffffff;
   background-color: #bc2327;
 }
@@ -729,25 +747,24 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     opacity: 1;
   }
 }
-.heroSection .heroSectionCentered .info .promo {
+.heroSection .containerHeroSection .heroSectionCentered .info .promo {
   font-size: 1rem;
   font-family: "Jura", sans-serif;
   font-weight: 600;
   color: #9a9a9a;
 }
-.heroSection .heroSectionCentered .info .promo .ctaShowRoom {
+.heroSection .containerHeroSection .heroSectionCentered .info .promo .ctaShowRoom {
   color: #bc2327;
   text-decoration: none;
   transition: all 0.3s ease;
 }
-.heroSection .heroSectionCentered .info .promo .ctaShowRoom:hover {
+.heroSection .containerHeroSection .heroSectionCentered .info .promo .ctaShowRoom:hover {
   color: #9a9a9a;
   text-decoration: underline;
 }
-.heroSection .laptop {
-  width: 50vw;
+.heroSection .containerHeroSection .laptop {
+  width: 55%;
   height: auto;
-  padding-top: 50px;
   display: block;
   -webkit-max-width: 100%;
   -moz-max-width: 100%;
@@ -767,12 +784,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   50% {
     filter: drop-shadow(0 0 75px #bc2327) blur(5px) brightness(550%);
-    transform: translate(-700px, -300px) scale(35%, 45%);
+    transform: translate(-800px, -100px) scale(35%, 45%);
     opacity: 0.3;
   }
   75% {
     filter: drop-shadow(0 0 25px rgb(0, 0, 0)) blur(4px) brightness(200%);
-    transform: translate(-200px, -100px) scale(70%, 70%);
+    transform: translate(-300px, 0px) scale(70%, 70%);
     opacity: 0.7;
   }
   100% {
@@ -791,10 +808,15 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   background-size: cover;
   background-attachment: fixed;
   background-color: #131313;
-  margin: 200px 0px;
+  margin: 200px auto;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .getOffHoddy .containerGetOff {
+  width: 90%;
+  max-width: 1300px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -803,11 +825,15 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.getOffHoddy .containerGetOff .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .getOffHoddy .containerGetOff .info .title {
   font-size: 4rem;
   font-family: "Rubik Distressed", cursive;
   color: #bc2327;
-  margin-top: -150px;
 }
 .getOffHoddy .containerGetOff .info .paragraph {
   margin-top: 50px;
@@ -820,6 +846,23 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .getOffHoddy .containerGetOff .info .paragraph .sentence {
   font-size: 1.5rem;
+}
+.getOffHoddy .containerGetOff .info label {
+  align-self: self-end;
+}
+.getOffHoddy .containerGetOff .info label .ctaSentence {
+  text-align: right;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-family: "Jura", sans-serif;
+  font-weight: 600;
+  color: #f1f1f1;
+  transition: color 0.3s ease-in-out;
+}
+.getOffHoddy .containerGetOff .info label .ctaSentence:hover {
+  color: #bc2327;
+  text-decoration: underline;
 }
 .getOffHoddy .containerGetOff .hoddy {
   width: fit-content;
@@ -842,39 +885,26 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     filter: drop-shadow(0 4px 6px #BC2327);
   }
 }
-.getOffHoddy .ctaSentence {
-  position: relative;
-  top: -280px;
-  right: 150px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-family: "Jura", sans-serif;
-  font-weight: 600;
-  color: #f1f1f1;
-  transition: color 0.3s ease-in-out;
-}
-.getOffHoddy .ctaSentence:hover {
-  color: #bc2327;
-  text-decoration: underline;
-}
 .getOffHoddy #cross {
   display: none;
 }
 .getOffHoddy #cross:checked ~ .bannerGetOff {
-  transform: translateY(100%);
+  transform: translateY(0%);
 }
 .getOffHoddy .bannerGetOff {
   width: 65vw;
+  max-width: fit-content;
   height: auto;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.0745098039);
   box-shadow: 0 0 10px 6px #070707;
   position: fixed;
-  top: -340px;
-  left: 18%;
-  right: 18%;
-  z-index: 8;
-  transform: translateY(300%);
+  top: 20%;
+  left: 0%;
+  right: 0px;
+  margin: auto;
+  z-index: 2;
+  transform: translateY(500%);
   overflow: hidden;
   transition: 0.3s ease-in-out;
 }
@@ -901,7 +931,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: rotate(90deg);
 }
 .getOffHoddy .bannerGetOff .slideGetOff {
-  padding: 20px;
+  padding: 20px 20px 0px;
   backdrop-filter: blur(10px);
 }
 .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
@@ -909,7 +939,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .getOffHoddy .bannerGetOff .slideGetOff .hoddy img {
   width: 100%;
-  height: auto;
+  height: fit-content;
+  object-fit: cover;
 }
 .getOffHoddy .bannerGetOff .slideGetOff .hoddy h3 {
   margin-top: 30px;
@@ -954,6 +985,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .advertising .advertisingMood {
   width: 100%;
+  max-width: 1300px;
 }
 .advertising .advertisingMood .subtitle {
   font-size: 3.5rem;
@@ -972,28 +1004,36 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 
 .giftCards {
-  width: 100vw;
-  max-width: 80%;
+  width: 80%;
+  max-width: 1300px;
   height: auto;
   margin: 0px auto 150px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .giftCards .subtitle {
   font-size: 4rem;
   font-family: "Rubik Distressed", cursive;
   color: #bc2327;
-  text-align: center;
   margin-bottom: 100px;
 }
+.giftCards .containerGetOff {
+  display: flex;
+  flex-direction: row;
+}
 .giftCards .containerGetOff .containerCards {
-  width: 80%;
+  width: 60%;
   height: auto;
 }
 .giftCards .containerGetOff .containerCards .sectionCards {
-  padding: 35px;
+  padding: 35px 15px;
 }
 .giftCards .containerGetOff .containerCards .sectionCards .card1, .giftCards .containerGetOff .containerCards .sectionCards .card2, .giftCards .containerGetOff .containerCards .sectionCards .card3, .giftCards .containerGetOff .containerCards .sectionCards .card4 {
   width: 100%;
-  padding-top: 20px;
+  padding: 20px 20px 0px;
   border-radius: 10px;
 }
 .giftCards .containerGetOff .containerCards .sectionCards .card1 .subtitleGift, .giftCards .containerGetOff .containerCards .sectionCards .card2 .subtitleGift, .giftCards .containerGetOff .containerCards .sectionCards .card3 .subtitleGift, .giftCards .containerGetOff .containerCards .sectionCards .card4 .subtitleGift {
@@ -1029,7 +1069,13 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-weight: 500;
 }
 .giftCards .containerGetOff .containerMessage {
-  width: 50%;
+  width: 40%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto 50px auto 50px;
 }
 .giftCards .containerGetOff .containerMessage .subtitleMessage {
   font-size: 2.5rem;
@@ -1052,6 +1098,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 
 .bestSellers {
   width: 100%;
+  max-width: 1300px;
   height: auto;
   margin: 0px auto;
 }
@@ -1063,10 +1110,12 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   margin-bottom: 100px;
 }
 .bestSellers .sectionCardBlock {
+  width: 100%;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  gap: 30px;
+  gap: 20px;
 }
 .bestSellers .sectionCardBlock .cardProducts {
   width: 100%;
@@ -1283,19 +1332,22 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   display: none;
 }
 .containerStore .getOffStore #cross:checked ~ .bannerGetOff {
-  transform: translateY(100%);
+  transform: translateY(0%);
 }
 .containerStore .getOffStore .bannerGetOff {
   width: 65vw;
+  max-width: fit-content;
   height: auto;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.0745098039);
   box-shadow: 0 0 6px 4px black;
   position: fixed;
-  top: -340px;
-  left: 18%;
+  top: 20%;
+  left: 0%;
+  right: 0px;
+  margin: auto;
   z-index: 8;
-  transform: translateY(300%);
+  transform: translateY(500%);
   overflow: hidden;
   transition: 0.3s ease-in-out;
 }
@@ -1322,7 +1374,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   margin-top: 20px;
 }
 .containerStore .getOffStore .bannerGetOff .slideGetOff {
-  padding: 20px;
+  padding: 20px 20px 0px;
   backdrop-filter: blur(10px);
 }
 .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy {
@@ -1330,7 +1382,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy img {
   width: 100%;
-  height: auto;
+  height: fit-content;
+  object-fit: cover;
 }
 .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy h3 {
   margin-top: 30px;
@@ -1360,11 +1413,19 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 .containerStore .getOffStore .bannerGetOff > * {
   position: relative;
 }
+.containerStore .sectionStore {
+  width: 100%;
+  max-width: 1225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
 .containerStore .sectionStore .sectionCard {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  gap: 30px;
+  gap: 20px;
 }
 .containerStore .sectionStore .sectionCard .cardProducts {
   width: 100%;
@@ -1522,6 +1583,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 
 .newArrivals {
   width: 100%;
+  max-width: 1300px;
   height: auto;
 }
 .newArrivals .subtitle {
@@ -1532,6 +1594,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   margin-bottom: 100px;
 }
 .newArrivals .sectionCardContainer {
+  width: 100%;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(1, 1fr);
@@ -1747,6 +1811,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .container .logInCreateAccount .tags .formLogIn .formFloating {
   width: 60%;
+  max-width: 426px;
   color: #000000;
   font-family: "Jura", sans-serif;
   font-size: 0.9rem;
@@ -1766,7 +1831,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   border-bottom: 1px solid #9c9c9c;
 }
 .container .logInCreateAccount .tags .formLogIn .ctaToSignIn {
-  width: 100%;
+  width: 60%;
+  max-width: 426px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1774,7 +1840,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   gap: 10px;
 }
 .container .logInCreateAccount .tags .formLogIn .ctaToSignIn .btnSignIn {
-  width: 60%;
+  width: 100%;
   font-size: 1rem;
   font-weight: 700;
   color: #ffffff;
@@ -1796,6 +1862,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-weight: 500;
   margin-top: 15px;
   margin-bottom: -25px;
+  text-align: center;
 }
 .container .logInCreateAccount .tags .formLogIn label .ctaFormCreateAccount {
   font-size: 0.8rem;
@@ -1821,6 +1888,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .container .logInCreateAccount .tags .formCreateAccount .formFloating {
   width: 60%;
+  max-width: 426px;
   color: #000000;
   font-size: 0.9rem;
   font-weight: 400;
@@ -1840,7 +1908,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   border-bottom: 1px solid #9c9c9c;
 }
 .container .logInCreateAccount .tags .formCreateAccount .ctaToCreateAccount {
-  width: 100%;
+  width: 60%;
+  max-width: 426px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1848,7 +1917,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   gap: 10px;
 }
 .container .logInCreateAccount .tags .formCreateAccount .ctaToCreateAccount .btnCreateAccount {
-  width: 60%;
+  width: 100%;
   font-size: 1rem;
   font-weight: 700;
   color: #ffffff;
@@ -1870,6 +1939,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-weight: 500;
   margin-top: 15px;
   margin-bottom: -10px;
+  text-align: center;
 }
 .container .logInCreateAccount .tags .formCreateAccount label .ctaFormLogIn {
   font-size: 0.8rem;
@@ -2158,19 +2228,22 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   display: none;
 }
 .getOffSignIn #cross:checked ~ .bannerGetOff {
-  transform: translateY(100%);
+  transform: translateY(0%);
 }
 .getOffSignIn .bannerGetOff {
   width: 65vw;
+  max-width: fit-content;
   height: auto;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.0745098039);
   box-shadow: 0 0 10px 6px #070707;
   position: fixed;
-  top: -340px;
-  left: 18%;
+  top: 20%;
+  left: 0%;
+  right: 0px;
+  margin: auto;
   z-index: 8;
-  transform: translateY(300%);
+  transform: translateY(500%);
   overflow: hidden;
   transition: 0.3s ease-in-out;
 }
@@ -2197,7 +2270,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: rotate(90deg);
 }
 .getOffSignIn .bannerGetOff .slideGetOff {
-  padding: 20px;
+  padding: 20px 20px 0px;
   backdrop-filter: blur(10px);
 }
 .getOffSignIn .bannerGetOff .slideGetOff .hoddy {
@@ -2205,19 +2278,20 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .getOffSignIn .bannerGetOff .slideGetOff .hoddy img {
   width: 100%;
-  height: auto;
+  height: fit-content;
+  object-fit: cover;
 }
 .getOffSignIn .bannerGetOff .slideGetOff .hoddy h3 {
   margin-top: 30px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Jura", sans-serif;
-  color: #bc2327;
+  color: #BC2327;
 }
 .getOffSignIn .bannerGetOff .slideGetOff .hoddy p {
   padding: 10px auto;
   font-size: 1rem;
   font-family: "Jura", sans-serif;
-  color: #f1f1f1;
+  color: #d9d9d9;
 }
 .getOffSignIn .bannerGetOff::before {
   content: "";
@@ -2245,21 +2319,21 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 
 .sectionPlaceOrder {
-  width: 65%;
+  width: 65vw;
   max-width: fit-content;
   height: auto;
   position: fixed;
-  top: 25%;
-  left: 16%;
-  right: 16%;
+  top: 22%;
+  left: 0%;
+  right: 0px;
+  margin: auto;
   background-color: rgba(243, 243, 243, 0.1098039216);
   box-shadow: 0 0 4px 2px #525252;
-  margin: 0px auto;
   padding-top: 0px;
   padding-bottom: 20px;
   font-family: "Jura", sans-serif;
   z-index: 99;
-  transform: translateY(-160%);
+  transform: translateY(-260%);
   border-radius: 10px;
   transition: 0.3s ease-in-out;
   overflow: hidden;
@@ -2461,11 +2535,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   bottom: 10%;
   right: 3%;
   z-index: 99;
-  animation: slideUp 11000ms linear 0.4s;
 }
 #out-of-stock-message div .soldOutProduct {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.8196078431);
+  animation: slideUp 11000ms linear 0.4s;
 }
 @keyframes slideUp {
   0% {
@@ -2673,7 +2747,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 .bannerShipping {
   width: 100%;
   margin-top: -30px;
-  animation: shipping 4000ms linear;
 }
 .bannerShipping .shipping {
   width: fit-content;
@@ -2686,19 +2759,23 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   text-align: 700;
   text-transform: uppercase;
   background-color: #000000;
+  animation: shipping 4000ms linear;
 }
 @keyframes shipping {
   0% {
+    transform: translateX(-250%);
+  }
+  20% {
+    transform: translateX(-200%);
+  }
+  40% {
+    transform: translateX(-150%);
+  }
+  60% {
     transform: translateX(-100%);
   }
-  25% {
-    transform: translateX(-75%);
-  }
-  50% {
+  80% {
     transform: translateX(-50%);
-  }
-  75% {
-    transform: translateX(-25%);
   }
   100% {
     transform: translateX(0%);
@@ -2706,31 +2783,38 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 
 .showRoom {
-  width: 80%;
+  width: 90%;
+  max-width: 1225px;
   height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 150px auto;
+  margin: 50px auto 150px;
   font-family: "Jura", sans-serif;
-  gap: 50px;
+  gap: 20px;
 }
 .showRoom .leftSide, .showRoom .rightSide {
   width: 100%;
   height: auto;
 }
+.showRoom .leftSide {
+  width: 40%;
+  position: sticky;
+  top: 80px;
+  left: 0;
+}
 .showRoom .leftSide .itemProduct {
   width: 100%;
   height: auto;
   object-fit: cover;
-  cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 .showRoom .leftSide .itemProduct:hover {
   filter: contrast(115%);
 }
 .showRoom .rightSide {
+  width: 60%;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -3125,6 +3209,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 
 #containerNewArrivals {
+  width: 95%;
+  max-width: 1300px;
   margin-bottom: 150px;
 }
 #containerNewArrivals .title {
@@ -3185,19 +3271,22 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   display: none;
 }
 .getOffShowRoom #cross:checked ~ .bannerGetOff {
-  transform: translateY(100%);
+  transform: translateY(0%);
 }
 .getOffShowRoom .bannerGetOff {
   width: 65vw;
+  max-width: fit-content;
   height: auto;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.0745098039);
   box-shadow: 0 0 10px 6px #070707;
   position: fixed;
-  top: -340px;
-  left: 18%;
+  top: 20%;
+  left: 0%;
+  right: 0px;
+  margin: auto;
   z-index: 8;
-  transform: translateY(300%);
+  transform: translateY(500%);
   overflow: hidden;
   transition: 0.3s ease-in-out;
 }
@@ -3224,7 +3313,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: rotate(90deg);
 }
 .getOffShowRoom .bannerGetOff .slideGetOff {
-  padding: 20px;
+  padding: 20px 20px 0px;
   backdrop-filter: blur(10px);
 }
 .getOffShowRoom .bannerGetOff .slideGetOff .hoddy {
@@ -3232,19 +3321,20 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .getOffShowRoom .bannerGetOff .slideGetOff .hoddy img {
   width: 100%;
-  height: auto;
+  height: fit-content;
+  object-fit: cover;
 }
 .getOffShowRoom .bannerGetOff .slideGetOff .hoddy h3 {
   margin-top: 30px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: "Jura", sans-serif;
-  color: #bc2327;
+  color: #BC2327;
 }
 .getOffShowRoom .bannerGetOff .slideGetOff .hoddy p {
   padding: 10px auto;
   font-size: 1rem;
   font-family: "Jura", sans-serif;
-  color: #f1f1f1;
+  color: #d9d9d9;
 }
 .getOffShowRoom .bannerGetOff::before {
   content: "";
@@ -3269,12 +3359,16 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   background-color: #1b1b1b;
   box-shadow: 0 0 10px 6px #070707;
 }
-.footerContainer .footer {
+.footerContainer .containerFooter {
+  width: 95%;
+  max-width: 1300px;
+}
+.footerContainer .containerFooter .footer {
   width: 100%;
-  padding: 50px 30px;
+  padding: 50px 0px;
   position: relative;
 }
-.footerContainer .footer .socialMediaFooter .contactUs {
+.footerContainer .containerFooter .footer .socialMediaFooter .contactUs {
   font-family: "Jura", sans-serif;
   font-weight: 600;
   font-size: 0.9rem;
@@ -3282,7 +3376,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   padding: 0px 0px;
   align-items: flex-start;
 }
-.footerContainer .footer .socialMediaFooter ul {
+.footerContainer .containerFooter .footer .socialMediaFooter ul {
   display: flex;
   margin-bottom: 0px;
   padding-top: 10px;
@@ -3290,37 +3384,37 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   border-top: 1px solid #3d3d3d;
   gap: 10px;
 }
-.footerContainer .footer .socialMediaFooter ul li {
+.footerContainer .containerFooter .footer .socialMediaFooter ul li {
   list-style-type: none;
   align-items: flex-start;
 }
-.footerContainer .footer .socialMediaFooter ul li .item {
+.footerContainer .containerFooter .footer .socialMediaFooter ul li .item {
   text-decoration: none;
 }
-.footerContainer .footer .socialMediaFooter ul li .item .itemSocial {
+.footerContainer .containerFooter .footer .socialMediaFooter ul li .item .itemSocial {
   width: 32px;
   filter: grayscale(0%);
   transform: scale(100%, 100%);
   transition: 0.3s ease-in-out;
 }
-.footerContainer .footer .socialMediaFooter ul li .item .itemSocial:hover {
+.footerContainer .containerFooter .footer .socialMediaFooter ul li .item .itemSocial:hover {
   transform: scale(110%, 110%);
   filter: drop-shadow(0 0 10px #000000) grayscale(100%);
 }
-.footerContainer .footer .brand {
+.footerContainer .containerFooter .footer .brand {
   position: absolute;
   top: 50px;
   left: 43.5%;
 }
-.footerContainer .footer .brand .nameLogo {
+.footerContainer .containerFooter .footer .brand .nameLogo {
   font-size: 1.8rem;
   font-family: "Rubik Distressed", cursive;
   color: #bc2327;
 }
-.footerContainer .footer .brand .skull {
+.footerContainer .containerFooter .footer .brand .skull {
   width: 32px;
 }
-.footerContainer .footer .payments h3 {
+.footerContainer .containerFooter .footer .payments h3 {
   font-family: "Jura", sans-serif;
   font-weight: 600;
   font-size: 0.9rem;
@@ -3328,23 +3422,23 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   padding: 0px 0px;
   align-self: flex-start;
 }
-.footerContainer .footer .payments .paymentCards {
+.footerContainer .containerFooter .footer .payments .paymentCards {
   width: 303px;
   align-self: flex-start;
   padding-top: 10px;
   border-top: 1px solid #3d3d3d;
 }
-.footerContainer .development {
+.footerContainer .containerFooter .development {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 10px;
 }
-.footerContainer .development .raccoon {
+.footerContainer .containerFooter .development .raccoon {
   width: 35px;
   padding-bottom: 5px;
 }
-.footerContainer .development .developer {
+.footerContainer .containerFooter .development .developer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -3353,18 +3447,18 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   padding-bottom: 5px;
   border-top: 1px solid #3d3d3d;
 }
-.footerContainer .development .developer .em-flag-co, .footerContainer .development .developer .em-flag-ca {
+.footerContainer .containerFooter .development .developer .em-flag-co, .footerContainer .containerFooter .development .developer .em-flag-ca {
   width: 12px;
   margin: 0px 5px;
 }
-.footerContainer .development .developer p {
+.footerContainer .containerFooter .development .developer p {
   font-family: "Jura", sans-serif;
   font-weight: 400;
   font-size: 0.5rem;
   color: #9a9a9a;
   margin: 0px 0px;
 }
-.footerContainer .development .developer p .raccoon {
+.footerContainer .containerFooter .development .developer p .raccoon {
   color: #bc2327;
   font-weight: 600;
   font-family: "Jura", sans-serif;
@@ -3374,13 +3468,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .heroSection .heroSectionCentered .info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
-    margin: 50px auto 0px;
   }
   .mainContainer .heroSection .heroSectionCentered .info .break {
     font-size: 3.5rem;
-    padding-bottom: 20px;
   }
   .mainContainer .heroSection .heroSectionCentered .info .subtitle {
     font-size: 1.5rem;
@@ -3396,9 +3488,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .header .menuSide {
     width: 25vw;
   }
-  .mainContainer .heroSection {
-    gap: 20px;
-  }
   .mainContainer .heroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
     width: 45%;
     padding: 20px !important;
@@ -3410,9 +3499,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 @media (max-width: 1120px) {
   .header .menuSide {
     width: 30vw;
-  }
-  .mainContainer .heroSection {
-    padding: 0px 50px;
   }
   .mainContainer .heroSection .heroSectionCentered .info .break {
     font-size: 3rem;
@@ -3441,18 +3527,15 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
   }
-  .mainContainer .getOffHoddy .containerGetOff {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
   .mainContainer .getOffHoddy .containerGetOff .info {
     margin: auto;
   }
   .mainContainer .getOffHoddy .bannerGetOff {
     width: 40vw;
     height: 100vh;
-    top: -100%;
+    top: 0%;
     left: 0%;
+    margin-left: 0;
     z-index: 11;
     display: flex;
     flex-direction: column;
@@ -3465,6 +3548,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .getOffHoddy .bannerGetOff .title {
     font-size: 2.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
     width: 100%;
@@ -3492,14 +3577,19 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .heroSection {
     height: auto;
+  }
+  .mainContainer .heroSection .heroSectionCentered {
     display: flex;
     flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .mainContainer .heroSection .heroSectionCentered .info {
+    width: 60%;
   }
   .mainContainer .heroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
     flex-grow: 1;
   }
   .mainContainer .heroSection .laptop {
-    margin-top: 300px;
     width: 70vw;
   }
   .mainContainer .getOffHoddy .containerGetOff {
@@ -3511,7 +3601,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .getOffHoddy .containerGetOff .info {
     margin-top: 0px;
-    padding-top: 150px;
+    text-align: left;
+  }
+  .mainContainer .getOffHoddy .containerGetOff .info .title {
+    width: 100%;
+    text-align: center;
   }
   .mainContainer .getOffHoddy .containerGetOff .hoddy {
     width: 70vw;
@@ -3520,37 +3614,41 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     display: none;
   }
   .mainContainer .giftCards .containerGetOff {
+    width: 100vw;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
   }
-  .footerContainer {
+  .mainContainer .giftCards .containerGetOff .containerMessage {
+    width: 50%;
+  }
+  .footerContainer .containerFooter {
     width: 100%;
     height: auto;
   }
-  .footerContainer .footer {
+  .footerContainer .containerFooter .footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
   }
-  .footerContainer .footer .brand {
+  .footerContainer .containerFooter .footer .brand {
     position: static;
     text-align: center;
     display: block;
   }
-  .footerContainer .footer .socialMediaFooter {
+  .footerContainer .containerFooter .footer .socialMediaFooter {
     order: 2;
     text-align: center;
     display: block;
   }
-  .footerContainer .footer .socialMediaFooter ul {
+  .footerContainer .containerFooter .footer .socialMediaFooter ul {
     display: flex;
     justify-content: center;
   }
-  .footerContainer .footer .payments {
+  .footerContainer .containerFooter .footer .payments {
     order: 3;
     display: block;
     text-align: center;
@@ -3558,6 +3656,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 950px) {
+  .mainContainer .heroSection .heroSectionCentered .info {
+    width: 70%;
+  }
   .mainContainer .heroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
     flex-grow: 1;
   }
@@ -3607,19 +3708,27 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 30px;
   }
-  .mainContainer .giftCards {
-    width: 100vw;
-    max-width: 100%;
-  }
   .mainContainer .giftCards .containerGetOff {
     width: 100%;
+  }
+  .mainContainer .giftCards .containerGetOff .containerCards {
+    width: 80%;
+  }
+  .mainContainer .giftCards .containerGetOff .containerCards .card1, .mainContainer .giftCards .containerGetOff .containerCards .card2, .mainContainer .giftCards .containerGetOff .containerCards .card3, .mainContainer .giftCards .containerGetOff .containerCards .card4 {
+    width: 100%;
+  }
+  .mainContainer .giftCards .containerGetOff .containerMessage {
+    width: 70%;
   }
 }
 @media (max-width: 750px) {
   .header .menuSide {
     width: 50vw;
   }
-  .mainContainer .heroSection .laptop {
+  .mainContainer .heroSection .heroSectionCentered .info {
+    width: 100%;
+  }
+  .mainContainer .heroSection .heroSectionCentered .laptop {
     width: 80vw;
   }
   .mainContainer .sectionShop {
@@ -3659,10 +3768,10 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 100vw;
   }
   .mainContainer .giftCards .containerGetOff .containerCards {
-    width: 100%;
+    width: 90%;
   }
   .mainContainer .giftCards .containerGetOff .containerMessage {
-    width: 80%;
+    width: 75%;
     text-align: center;
   }
 }
@@ -3698,6 +3807,35 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 510px) {
+  .header .logo {
+    left: -50px;
+  }
+  .mainContainer .heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .mainContainer .heroSection .heroSectionCentered {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+  }
+  .mainContainer .heroSection .heroSectionCentered .info {
+    width: 100%;
+  }
+  .mainContainer .heroSection .heroSectionCentered .info .cta {
+    width: 100%;
+  }
+  .mainContainer .heroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
+    width: auto;
+  }
+  .mainContainer .heroSection .heroSectionCentered .laptop {
+    width: 100%;
+  }
   .mainContainer .bestSellers .subtitle {
     font-size: 2.5rem;
   }
@@ -3706,7 +3844,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .getOffHoddy .containerGetOff .info .title {
     font-size: 2.5rem;
-    text-align: center;
+    place-self: center;
   }
   .mainContainer .getOffHoddy .containerGetOff .info .paragraph .subtitle, .mainContainer .getOffHoddy .containerGetOff .info .paragraph .sentence {
     font-size: 1.2rem;
@@ -3715,7 +3853,13 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 65vw;
   }
   .mainContainer .giftCards .containerGetOff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
+  }
+  .mainContainer .giftCards .containerGetOff .containerCards {
+    width: 100%;
   }
   .mainContainer .giftCards .containerGetOff .containerCards .sectionCards {
     width: 100%;
@@ -3735,6 +3879,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card1 .paragraph, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card2 .paragraph, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card3 .paragraph, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card4 .paragraph {
     font-size: 0.6rem;
   }
+  .mainContainer .giftCards .containerGetOff .containerMessage {
+    width: 90%;
+  }
   .mainContainer .giftCards .containerGetOff .containerMessage .subtitleMessage {
     font-size: 1.8rem;
   }
@@ -3748,6 +3895,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 460px) {
+  .mainContainer .heroSection .heroSectionCentered {
+    width: 87vw;
+  }
   .mainContainer .advertising .advertisingMood {
     width: 100%;
   }
@@ -3765,6 +3915,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .advertising .advertisingMood .subtitle {
     font-size: 0.9rem;
   }
+  .mainContainer .getOffHoddy .containerGetOff .hoddy {
+    width: 95%;
+  }
   .mainContainer .getOffHoddy .bannerGetOff {
     width: 100vw;
   }
@@ -3773,12 +3926,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .header .menuSide {
     width: 100vw;
   }
-  .header .logo .brand {
-    left: -10px;
-  }
-  .mainContainer .heroSection {
-    padding-left: 30px;
-    padding-right: 30px;
+  .mainContainer .heroSection .heroSectionCentered {
+    width: 85vw;
   }
   .mainContainer .heroSection .heroSectionCentered .info .cta {
     width: 100%;
@@ -3813,12 +3962,24 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .advertising .advertisingMood .subtitle {
     font-size: 0.7rem;
   }
+  .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card1 .subtitleGift, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card2 .subtitleGift, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card3 .subtitleGift, .mainContainer .giftCards .containerGetOff .containerCards .sectionCards .card4 .subtitleGift {
+    font-size: 1.5rem;
+  }
+  .mainContainer .giftCards .containerGetOff .containerMessage {
+    width: 90%;
+  }
+  .mainContainer .giftCards .containerGetOff .containerMessage .subtitleMessage {
+    font-size: 1.8rem;
+  }
+  .mainContainer .giftCards .containerGetOff .containerMessage .paragraph {
+    font-size: 1.2rem;
+  }
   .mainContainer .footer .payments .paymentCards {
     width: 203px;
   }
 }
 @media (max-width: 360px) {
-  .footerContainer .development .developer {
+  .footerContainer .containerFooter .development .developer {
     display: flex;
     flex-direction: column;
   }
@@ -3861,8 +4022,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .container .getOffSignIn .bannerGetOff {
     width: 40vw;
     height: 100vh;
-    top: -100%;
+    top: 0%;
     left: 0%;
+    margin-left: 0px;
     z-index: 11;
     display: flex;
     flex-direction: column;
@@ -3891,8 +4053,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .getOffShowRoom .bannerGetOff {
     width: 40vw;
     height: 100vh;
-    top: -100%;
+    top: 0%;
     left: 0%;
+    margin-left: 0px;
     z-index: 11;
     display: flex;
     flex-direction: column;
@@ -3932,8 +4095,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .containerStore .getOffStore .bannerGetOff {
     width: 40vw;
     height: 100vh;
-    top: -100%;
+    top: 0%;
     left: 0%;
+    margin-left: 0;
     z-index: 11;
     display: flex;
     flex-direction: column;
@@ -3946,6 +4110,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .containerStore .getOffStore .bannerGetOff .title {
     font-size: 2.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .containerStore .getOffStore .bannerGetOff .slideGetOff {
     width: 100%;
@@ -3971,19 +4137,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 1000px) {
-  .mainContainer .showRoom {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0 30px;
-  }
   .mainContainer .showRoom .leftSide .itemProduct {
-    width: auto;
-    height: auto;
-    display: flex;
-    margin: auto;
+    width: 100%;
   }
   .containerStore .sectionStore .sectionCard {
     grid-template-columns: repeat(4, 1fr);
@@ -4003,17 +4158,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 950px) {
-  .container .sectionShop {
-    width: 55vw;
-  }
   .container .sectionWishlist {
     width: 40vw;
   }
 }
 @media (max-width: 950px) {
-  .containerStore .sectionShop {
-    width: 55vw;
-  }
   .containerStore .sectionWishlist {
     width: 40vw;
   }
@@ -4103,6 +4252,18 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 50vw;
   }
 }
+@media (max-width: 850px) {
+  .mainContainer .showRoom .rightSide .containerAccordion .accordionItem .accordionCollapse .accordionBody {
+    flex-direction: column;
+  }
+  .mainContainer .showRoom .rightSide .infoProduct .complementInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainContainer .showRoom .rightSide .infoProduct .complementInfo .delivery, .mainContainer .showRoom .rightSide .infoProduct .complementInfo .creditCard, .mainContainer .showRoom .rightSide .infoProduct .complementInfo .return {
+    width: 45%;
+  }
+}
 @media (max-width: 750px) {
   .headerSignIn .menuSide {
     width: 50vw;
@@ -4135,6 +4296,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .containerStore .getOffStore .bannerGetOff {
     width: 45vw;
+  }
+  .mainContainer .showRoom .rightSide .infoProduct .size .containerSize {
+    gap: 5px;
   }
   .mainContainer .getOffShowRoom .bannerGetOff {
     width: 45vw;
@@ -4195,16 +4359,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     width: 100%;
     margin: 0px 0px;
   }
-  .mainContainer .showRoom .rightSide .containerAccordion .accordionItem .accordionCollapse .accordionBody {
-    flex-direction: column;
-  }
-  .mainContainer .showRoom .rightSide .infoProduct .complementInfo {
-    flex-direction: column;
-    align-items: center;
-  }
-  .mainContainer .showRoom .rightSide .infoProduct .complementInfo .delivery, .mainContainer .showRoom .rightSide .infoProduct .complementInfo .creditCard, .mainContainer .showRoom .rightSide .infoProduct .complementInfo .return {
-    width: 45%;
-  }
   .mainContainer .getOffShowRoom .bannerGetOff {
     width: 65vw;
   }
@@ -4246,8 +4400,28 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .container .getOffSignIn .bannerGetOff {
     width: 80vw;
   }
+  .mainContainer .showRoom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .mainContainer .showRoom .leftSide {
+    position: static;
+    width: 85vw;
+  }
+  .mainContainer .showRoom .leftSide .itemProduct {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+  }
+  .mainContainer .showRoom .rightSide {
+    width: 85vw;
+  }
   .mainContainer .getOffShowRoom .bannerGetOff {
-    width: 80vw;
+    width: 85vw;
   }
 }
 @media (max-width: 425px) {
@@ -4340,6 +4514,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .containerError .pageError .imgBreakALeg .tag .tagBreakALeg {
   width: 85%;
+  min-width: 600px;
   height: auto;
   margin: 0px auto;
   display: flex;
@@ -4420,6 +4595,28 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   padding: 12px 5px;
   transform: scale(0%, 0%);
   transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .containerError {
+    width: 100vw;
+    height: 100vh;
+  }
+  .containerError .pageError .sentenceBreakALeg .returnSentence {
+    font-size: 1rem;
+  }
+  .containerError .pageError .sentenceBreakALeg .returnSentence span,
+  .containerError .pageError .sentenceBreakALeg .returnSentence span.intro {
+    font-size: 1.2rem;
+  }
+  .containerError .pageError .btnBreakALeg .btnReturn {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px 25px;
+  }
+  .containerError .pageError .btnBreakALeg .skullBrand {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

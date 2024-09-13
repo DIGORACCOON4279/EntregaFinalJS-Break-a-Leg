@@ -34,52 +34,54 @@
     <!-- Header -->
 
     <header class="header">
-
         <input id="menuSide" type="checkbox">
-        <label for="menuSide">
-            <img class="drawerIcon" src="img/menu_Icon.svg" alt="Menu icon">
-        </label>
+        <div class="headerContainer">
+            <label for="menuSide">
+                <img class="drawerIcon" src="img/menu_Icon.svg" alt="Menu icon">
+            </label>
+            <a class="logo" href="index.html">
+                <img class="brand" src="img/skullLogo.svg" alt="Break a Leg brand">
+            </a>
+            <section class="menuIcons">
+                <ul>
+                    <li>
+                        <a href="views/sign_In_&_Create_Account.html">
+                            <img class="icon" src="img/user_Icon.svg" alt="User icon">
+                        </a>
+                    </li>
+                    <li>
+                        <label for="wishlistSide" class="wishHeadLine">
+                            <img class="wishlistIcon" src="img/wishlist_White_Icon.svg" alt="Heart icon">
+                        </label>
+                    </li>
+                    <li>
+                        <label for="cart" class="cartShop">
+                            <img class="cartIcon" src="img/empty_Shopping_Cart.svg" alt="Cart icon">
+                        </label>
+                    </li>
+                    <li class="menuSection">
+                        <input type="checkbox" id="newMenu">
+                        <label for="newMenu" class="landingIcon">
+                            <img class="menuLandingIcon" src="img/menu_Landing_Icon.svg" alt="Menu landing icon">
+                        </label>
+                        <nav class="landingMenu">
+                            <ul>
+                                <li><a class="linksLanding" href="index.html#bestSellersSection"><p>Best sellers<span>👈</span></p></a></li>
+                                <li><a class="linksLanding" href="index.html#newArrivalsUno"><p>New arrivals<span>👈</span></p></a></li>
+                                <li><a class="linksLanding" href="index.html#getOffSection"><p>Get off<span>👈</span></p></a></li>
+                                <li><a class="linksLanding" href="index.html#giftCards"><p>Gift cards<span>👈</span></p></a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                </ul>
+            </section>
+        </div>
 
-        <a class="logo" href="index.html">
-            <img class="brand" src="img/skullLogo.svg" alt="Break a Leg brand">
-        </a>
-        <section class="menuIcons">
-            <ul>
-                <li>
-                    <a href="views/sign_In_&_Create_Account.html">
-                        <img class="icon" src="img/user_Icon.svg" alt="User icon">
-                    </a>
-                </li>
-                <li>
-                    <label for="wishlistSide" class="wishHeadLine">
-                        <img class="wishlistIcon" src="img/wishlist_White_Icon.svg" alt="Heart icon">
-                    </label>
-                </li>
-                <li>
-                    <label for="cart" class="cartShop">
-                        <img class="cartIcon" src="img/empty_Shopping_Cart.svg" alt="Cart icon">
-                    </label>
-                </li>
-                <li class="menuSection">
-                    <input type="checkbox" id="newMenu">
-                    <label for="newMenu" class="landingIcon">
-                        <img class="menuLandingIcon" src="img/menu_Landing_Icon.svg" alt="Menu landing icon">
-                    </label>
-                    <nav class="landingMenu">
-                        <ul>
-                            <li><a class="linksLanding" href="index.html#bestSellersSection"><p>Best sellers<span>👈</span></p></a></li>
-                            <li><a class="linksLanding" href="index.html#newArrivalsUno"><p>New arrivals<span>👈</span></p></a></li>
-                            <li><a class="linksLanding" href="index.html#getOffSection"><p>Get off<span>👈</span></p></a></li>
-                            <li><a class="linksLanding" href="index.html#giftCards"><p>Gift cards<span>👈</span></p></a></li>
-                        </ul>
-                    </nav>
-                </li>
-            </ul>
-        </section>
 
         <!-- MenuSide -->
 
         <nav class="menuSide">
+
             <section class="top">
 
                 <img class="brand" src="img/skullLogo.svg" alt="Break a Leg brand">
@@ -119,31 +121,34 @@
 
     <main class="mainContainer">
 
-        <!-- Banner Shipping -->
-
-        <section class="bannerShipping">
-            <p class="shipping">
-                ⚡ "Free shipping on orders over $5000" 🛹⚡
-            </p>
-        </section>
-
         <!-- Hero Section -->
 
         <section class="heroSection" id="heroSection">
-            <div class="heroSectionCentered">
-                <article class="info">
-                    <h1 class="break">Break a Leg</h1>
-                    <h2 class="subtitle">¡Where your passion is just beginning!</h2>
-                    <div class="cta">
-                        <a class="ctaDiscount" href="index.html#getOffSection">Discount</a>
-                        <a class="ctaNewArrivals" href="index.html#newArrivalsUno" >New Arrivals</a>
-                    </div>
-                    <p class="promo">"Don't forget to visit our showroom to check out
-                        <a class="ctaShowRoom" href="views/show_Room.html"> new outfits!!!"</a> 👈
-                    </p>
-                </article>
+
+            <!-- Banner Shipping -->
+
+            <section class="bannerShipping">
+                <p class="shipping">
+                    ⚡ "Free shipping on orders over $5000" 🛹⚡
+                </p>
+            </section>
+
+            <div class="containerHeroSection">
+                <section class="heroSectionCentered">
+                    <article class="info">
+                        <h1 class="break">Break a Leg</h1>
+                        <h2 class="subtitle">¡Where your passion is just beginning!</h2>
+                        <div class="cta">
+                            <a class="ctaDiscount" href="index.html#getOffSection">Discount</a>
+                            <a class="ctaNewArrivals" href="index.html#newArrivalsUno" >New Arrivals</a>
+                        </div>
+                        <p class="promo">"Don't forget to visit our showroom to check out
+                            <a class="ctaShowRoom" href="views/show_Room.html"> new outfits!!!"</a> 👈
+                        </p>
+                    </article>
+                    <img src="img/laptop1.webp" alt="Laptop Image" class="laptop">
+                </section>
             </div>
-            <img src="img/laptop1.webp" alt="Laptop Image" class="laptop">
         </section>
 
         <!-- ArrowUp -->
@@ -562,22 +567,23 @@
         <!-- Get 25% Off -->
 
         <section class="getOffHoddy" id="getOffSection">
+            <input type="checkbox" id="cross">
             <article class="containerGetOff">
                 <div class="info">
                     <h2 class="title">Get 25% off</h2>
                     <div class="paragraph">
                         <p class="subtitle">For purchases over $5000</p>
                         <p class="sentence">You get 25% off on one of our
-                        hoddies
+                            hoddies
                         </p>
                     </div>
+                    <label for="cross">
+                        <p class="ctaSentence">See more in detail...</p>
+                    </label>
                 </div>
                 <img src="img/hoddy_White.webp" alt="Hoddy pic" class="hoddy">
             </article>
-            <input type="checkbox" id="cross">
-            <label for="cross">
-                <p class="ctaSentence">See more in detail...</p>
-            </label>
+
             <article class="bannerGetOff">
                 <label for="cross">
                     <img src="img/close_Cross_White.svg" alt="Cross Icon" class="crossCloseWhite">
@@ -776,34 +782,36 @@
 
     <!-- Footer -->
 
-    <footer class="footerContainer" id="sectioncontactUs">
-        <section class="footer">
-            <aricle class="payments">
-                <h3>Payments</h3>
-                <img class="paymentCards" src="img/payments.webp" alt="Credit cards">
-            </aricle>
-            <article class="brand">
-                <h3 class="nameLogo">Break a Leg</h3>
-                <img src="img/skull.svg" alt="Skull logo" class="skull">
-            </article>
-            <article class="socialMediaFooter">
-                <h3 class="contactUs">Contact us..</h3>
-                <ul>
-                    <li><a href="https://www.instagram.com/" target="_blank" class="item"><img src="img/instagram.svg" alt="Instagram icon" class="itemSocial"></a></li>
-                    <li><a href="https://www.youtube.com/" target="_blank" class="item"><img src="img/youtube.svg" alt="Youtube icon" class="itemSocial"></a></li>
-                    <li><a href="https://www.facebook.com/" target="_blank" class="item"><img src="img/facebook.svg" alt="Facebook icon" class="itemSocial"></a></li>
-                    <li><a href="https://twitter.com/?lang=es" target="_blank" class="item"><img src="img/twitter.svg" alt="Twitter icon" class="itemSocial"></a></li>
-                    <li><a href="https://co.pinterest.com/" target="_blank" class="item"><img src="img/pinterest.svg" alt="Pinterest icon" class="itemSocial"></a></li>
-                </ul>
-            </article>
-        </section>
-        <section class="development">
-            <img class="raccoon" src="img/logo_Raccoon.svg" alt="Raccoon brand">
-            <div class="developer">
-                <p>Developed and made with 💖 by Diego Marin | © 2023 |</p>
-                <p><span class="raccoonBrand"> Raccoon </span>. All rights reserved | <i class="em em-flag-co" aria-role="presentation" aria-label="Colombia Flag"></i> <i class="em em-flag-ca" aria-role="presentation" aria-label="Canada Flag"></i></p>
-            </div>
-        </section>
+    <footer class="footerContainer" id="sectionContactUs">
+        <div class="containerFooter">
+            <section class="footer">
+                <aricle class="payments">
+                    <h3>Payments</h3>
+                    <img class="paymentCards" src="img/payments.webp" alt="Credit cards">
+                </aricle>
+                <article class="brand">
+                    <h3 class="nameLogo">Break a Leg</h3>
+                    <img src="img/skull.svg" alt="Skull logo" class="skull">
+                </article>
+                <article class="socialMediaFooter">
+                    <h3 class="contactUs">Contact us..</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/" target="_blank" class="item"><img src="img/instagram.svg" alt="Instagram icon" class="itemSocial"></a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank" class="item"><img src="img/youtube.svg" alt="Youtube icon" class="itemSocial"></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" class="item"><img src="img/facebook.svg" alt="Facebook icon" class="itemSocial"></a></li>
+                        <li><a href="https://twitter.com/?lang=es" target="_blank" class="item"><img src="img/twitter.svg" alt="Twitter icon" class="itemSocial"></a></li>
+                        <li><a href="https://co.pinterest.com/" target="_blank" class="item"><img src="img/pinterest.svg" alt="Pinterest icon" class="itemSocial"></a></li>
+                    </ul>
+                </article>
+            </section>
+            <section class="development">
+                <img class="raccoon" src="img/logo_Raccoon.svg" alt="Raccoon brand">
+                <div class="developer">
+                    <p>Developed and made with 💖 by Diego Marin | © 2023 |</p>
+                    <p><span class="raccoonBrand"> Raccoon </span>. All rights reserved | <i class="em em-flag-co" aria-role="presentation" aria-label="Colombia Flag"></i> <i class="em em-flag-ca" aria-role="presentation" aria-label="Canada Flag"></i></p>
+                </div>
+            </section>
+        </div>
     </footer>
 
     <!-- Bootstrap -->

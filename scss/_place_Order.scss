@@ -8,22 +8,22 @@
     }
 }
 .sectionPlaceOrder{
-    width:65%;
+    width:65vw;
     max-width: fit-content;
     height:auto;
     position: fixed;
-    top:25%;
-    left:16%;
-    right:16%;
+    top:22%;
+    left:0%;
+    right:0px;
+    margin:auto;
     @extend .flexColumnBetween;
     background-color:#f3f3f31c;
     box-shadow:$placeOrderShadow;
-    margin:0px auto;
     padding-top:0px;
     padding-bottom:20px;
     font-family: $fontJura;
     z-index: 99;
-    transform: translateY(-160%);
+    transform: translateY(-260%);
     border-radius: 10px;
     transition: $transition;
     overflow: hidden;

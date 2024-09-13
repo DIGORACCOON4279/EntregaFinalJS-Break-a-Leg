@@ -38,24 +38,24 @@
             @extend .toast;
             color: $whiteColor;
             background-color:#000000d1;
-        }
-    }
-    animation:slideUp 11000ms linear 0.4s;
-    @keyframes slideUp {
-        0% {
-            transform:translateY(0%);
-        }
-        25%{
-            transform:translateY(-150%);
-        }
-        50% {
-            transform:translateY(-350%);
-        }
-        75%{
-            transform:translateY(-550%);
-        }
-        100% {
-            transform:translateY(-750%);
+            animation:slideUp 11000ms linear 0.4s;
+            @keyframes slideUp {
+                0% {
+                    transform:translateY(0%);
+                }
+                25%{
+                    transform:translateY(-150%);
+                }
+                50% {
+                    transform:translateY(-350%);
+                }
+                75%{
+                    transform:translateY(-550%);
+                }
+                100% {
+                    transform:translateY(-750%);
+                }
+            }
         }
     }
 }

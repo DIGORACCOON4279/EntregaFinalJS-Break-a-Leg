@@ -7,107 +7,111 @@
     background-color:$secondaryBackground;
     @extend .flexColumnCenterCenter;
     box-shadow: $boxShadowMenu;
-    .footer{
-        width:100%;
-        @extend .flexRowBetween;
-        padding: 50px 30px;
-        position: relative;
-        .socialMediaFooter{
-            @extend .flexColumnCenter;
-            .contactUs{
-                font-family: $fontJura;
-                font-weight: $bold;
-                font-size: $smallText;
-                color: $secondaryColor;
-                padding: 0px 0px;
-                align-items: flex-start;
-            }
-            ul{
-                display: flex;
-                margin-bottom: 0px;
-                padding-top: 10px;
-                padding-left: 0px;
-                border-top: $borderTop;
-                gap:10px;
-                li{
-                    list-style-type: none;
+    .containerFooter{
+        width:95%;
+        max-width: 1300px;
+        .footer{
+            width:100%;
+            @extend .flexRowBetween;
+            padding: 50px 0px;
+            position: relative;
+            .socialMediaFooter{
+                @extend .flexColumnCenter;
+                .contactUs{
+                    font-family: $fontJura;
+                    font-weight: $bold;
+                    font-size: $smallText;
+                    color: $secondaryColor;
+                    padding: 0px 0px;
                     align-items: flex-start;
-                    .item{
-                        text-decoration: none;
-                        .itemSocial{
-                            width:32px;
-                            filter:  grayscale(0%);
-                            transform: scale(100%, 100%);
-                            transition:$transition;
-                            &:hover{
-                                transform: scale(110%, 110%);
-                                filter:drop-shadow(0 0 10px $blackColor) grayscale(100%);
+                }
+                ul{
+                    display: flex;
+                    margin-bottom: 0px;
+                    padding-top: 10px;
+                    padding-left: 0px;
+                    border-top: $borderTop;
+                    gap:10px;
+                    li{
+                        list-style-type: none;
+                        align-items: flex-start;
+                        .item{
+                            text-decoration: none;
+                            .itemSocial{
+                                width:32px;
+                                filter:  grayscale(0%);
+                                transform: scale(100%, 100%);
+                                transition:$transition;
+                                &:hover{
+                                    transform: scale(110%, 110%);
+                                    filter:drop-shadow(0 0 10px $blackColor) grayscale(100%);
+                                }
                             }
                         }
                     }
                 }
             }
-        }
-        .brand{
-            @extend .flexColumnCenterCenter;
-            position: absolute;
-            top:50px;
-            left:43.5%;
-            .nameLogo{
-                font-size: $nameLogo;
-                font-family: $fontRubik;
-                color:$primaryColor;
+            .brand{
+                @extend .flexColumnCenterCenter;
+                position: absolute;
+                top:50px;
+                left:43.5%;
+                .nameLogo{
+                    font-size: $nameLogo;
+                    font-family: $fontRubik;
+                    color:$primaryColor;
+                }
+                .skull{
+                    width:32px;
+                }
             }
-            .skull{
-                width:32px;
-            }
-        }
-        .payments{
-            @extend .flexColumnCenter;
-            h3{
-                font-family: $fontJura;
-                font-weight: $bold;
-                font-size: $smallText;
-                color: $secondaryColor;
-                padding: 0px 0px;
-                align-self: flex-start;
-            }
-            .paymentCards{
-                width:303px;
-                align-self: flex-start;
-                padding-top: 10px;
-                border-top: $borderTop;
-            }
-        }
-    }
-    .development{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 10px;
-        .raccoon{
-            width:35px;
-            padding-bottom: 5px;
-        }
-        .developer{
-            @include display_flex_row_center_center();
-            flex-wrap: nowrap;
-            padding-bottom: 5px;
-            border-top: $borderTop;
-            .em-flag-co, .em-flag-ca{
-                width:12px;
-                margin:0px 5px;
-            }
-            p{
-                font-family: $fontJura;
-                font-weight: $mediumBold;
-                font-size: $breakText;
-                color:$secondaryColor;
-                margin: 0px 0px;
-                .raccoon{
-                    color: $primaryColor;
-                    font-weight: $bold;
+            .payments{
+                @extend .flexColumnCenter;
+                h3{
                     font-family: $fontJura;
+                    font-weight: $bold;
+                    font-size: $smallText;
+                    color: $secondaryColor;
+                    padding: 0px 0px;
+                    align-self: flex-start;
+                }
+                .paymentCards{
+                    width:303px;
+                    align-self: flex-start;
+                    padding-top: 10px;
+                    border-top: $borderTop;
+                }
+            }
+        }
+        .development{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 10px;
+            .raccoon{
+                width:35px;
+                padding-bottom: 5px;
+            }
+            .developer{
+                @include display_flex_row_center_center();
+                flex-wrap: nowrap;
+                padding-bottom: 5px;
+                border-top: $borderTop;
+                .em-flag-co, .em-flag-ca{
+                    width:12px;
+                    margin:0px 5px;
+                }
+                p{
+                    font-family: $fontJura;
+                    font-weight: $mediumBold;
+                    font-size: $breakText;
+                    color:$secondaryColor;
+                    margin: 0px 0px;
+                    .raccoon{
+                        color: $primaryColor;
+                        font-weight: $bold;
+                        font-family: $fontJura;
+                    }
                 }
             }
         }

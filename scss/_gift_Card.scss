@@ -1,27 +1,33 @@
 // Gift Cards
 
 .giftCards{
-    width:100vw;
-    max-width: 80%;
+    width:80%;
+    max-width: 1300px;
     height: auto;
     margin: 0px auto 150px;
+    overflow: hidden;
+    @extend .flexColumnCenter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .subtitle{
         font-size:$subtitle;
         font-family: $fontRubik;
         color: $primaryColor;
-        text-align: center;
         margin-bottom: 100px;
     }
     .containerGetOff{
-        @extend .flexRowBetween;
+        display: flex;
+        flex-direction: row;
         .containerCards{
-            width:80%;
+            width:60%;
             height: auto;
             .sectionCards{
-                padding:35px;
+                padding:35px 15px;
                 .card1, .card2, .card3, .card4{
                     width: 100%;
-                    padding-top:20px;
+                    padding:20px 20px 0px;
                     border-radius: $borderRadius;
                     .subtitleGift{
                         font-size:2.7rem;
@@ -59,7 +65,13 @@
             }
         }
         .containerMessage{
-            width: 50%;
+            width: 40%;
+            height:max-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin: auto 50px auto 50px;
             @extend .flexColumnCenter;
             .subtitleMessage{
                 font-size:$LargeTitle;

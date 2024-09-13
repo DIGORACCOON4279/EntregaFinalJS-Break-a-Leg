@@ -2,128 +2,141 @@
 
 .heroSection{
     width:$screenPercentageWidth;
-    height: 1000px;
+    height:auto;
     background-image: url(../img/background_Hero.webp);
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    @extend .flexRowBetween;
-    overflow: visible;
-    margin: -250px 0px 100px 0px;
-    padding: 0px 100px;
-    .heroSectionCentered{
-        z-index: 1;
-        .info{
-            animation: info 0.75s linear;
-            text-align: left;
-            .break{
-                font-size: $mainTitle;
-                font-family: $fontRubik;
-                color: $primaryColor;
-            }
-            .subtitle{
-                font-size: $LargeTitle;
-                font-family: $fontJura;
-                color: $lineColor;
-                font-weight:$bold;
-                margin-top: -45px;
-            }
-            .cta{
-                width:$screenPercentageWidth;
-                margin-bottom: 15px;
+    overflow:hidden;
+    @extend .flexColumnCenterCenter;
+    margin: 0px auto;
+    padding-bottom: 150px;
+    .containerHeroSection{
+        width:90%;
+        max-width: 1300px;
+        margin: 50px auto 300px;
+        .heroSectionCentered{
+            height:100%;
+            z-index: 1;
+            @extend .flexRowBetween;
+            .info{
+                width:45%;
+                height: auto;
                 display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                gap:15px;
-                .ctaDiscount, .ctaNewArrivals{
-                    text-align: center;
-                    padding:$paddingHero ;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                gap:20px;
+                animation: info 0.75s linear;
+                text-align: left;
+                z-index: 2;
+                .break{
+                    font-size: $mainTitle;
+                    font-family: $fontRubik;
+                    color: $primaryColor;
+                    margin:0;
+                }
+                .subtitle{
+                    font-size: $LargeTitle;
                     font-family: $fontJura;
-                    font-weight: $bold;
-                    font-size: $MediumTitle;
-                    color:$tertiaryColor;
-                    background-color: $secondaryColor;
-                    text-decoration: none;
-                    box-shadow:$btnBoxShadow;
-                    transform:scale(100%);
-                    transition: 0.5s ease;
-                    &:hover{
+                    color: $lineColor;
+                    font-weight:$bold;
+                }
+                .cta{
+                    width:$screenPercentageWidth;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    gap:15px;
+                    .ctaDiscount, .ctaNewArrivals{
+                        text-align: center;
+                        padding:$paddingHero ;
+                        font-family: $fontJura;
+                        font-weight: $bold;
+                        font-size: $MediumTitle;
+                        color:$tertiaryColor;
+                        background-color: $secondaryColor;
+                        text-decoration: none;
+                        box-shadow:$btnBoxShadow;
+                        transform:scale(100%);
+                        transition: 0.5s ease;
+                        &:hover{
+                            color:$whiteColor;
+                            background-color: $btnBackgroundColor;
+                            box-shadow: $btnBoxShadowHover;
+                            text-decoration: underline;
+                        }
+                    }
+                    .ctaNewArrivals{
                         color:$whiteColor;
-                        background-color: $btnBackgroundColor;
-                        box-shadow: $btnBoxShadowHover;
-                        text-decoration: underline;
+                        background-color: $primaryColor;
                     }
                 }
-                .ctaNewArrivals{
-                    color:$whiteColor;
-                    background-color: $primaryColor;
+                @keyframes info{
+                    0%{
+                        transform: translateX(-30%);
+                        opacity: 0;
+                    }
+                    25%{
+                        transform: translateX(-15%);
+                        opacity: 0.5;
+                    }
+                    100%{
+                        transform: translateX(0%);
+                        opacity: 1;
+                    }
                 }
-            }
-            @keyframes info{
-                0%{
-                    transform: translateX(-30%);
-                    opacity: 0;
-                }
-                25%{
-                    transform: translateX(-15%);
-                    opacity: 0.5;
-                }
-                100%{
-                    transform: translateX(0%);
-                    opacity: 1;
-                }
-            }
-            .promo{
-                font-size: $regularText;
-                font-family: $fontJura;
-                font-weight: $bold;
-                color: $secondaryColor;
-                .ctaShowRoom{
-                    color: $primaryColor;
-                    text-decoration: none;
-                    transition:all 0.3s ease;
-                    &:hover{
-                        color: $secondaryColor;
-                        text-decoration: underline;
+                .promo{
+                    font-size: $regularText;
+                    font-family: $fontJura;
+                    font-weight: $bold;
+                    color: $secondaryColor;
+                    .ctaShowRoom{
+                        color: $primaryColor;
+                        text-decoration: none;
+                        transition:all 0.3s ease;
+                        &:hover{
+                            color: $secondaryColor;
+                            text-decoration: underline;
+                        }
                     }
                 }
             }
         }
-    }
-    .laptop{
-        width: 50vw;
-        height:auto;
-        padding-top: 50px;
-        display:block;
-        -webkit-max-width: 100%;
-        -moz-max-width: 100%;
-        filter:drop-shadow(2px 9px 5px rgb(44, 44, 44) ) blur(0px);
-        animation:motion 1.3s linear alternate;
-        @keyframes motion{
-            0%{
-                filter: drop-shadow(0 0 95px $primaryColor ) blur(8px) brightness(0%);
-                transform: translate(-1800px, -1100px) scale(0%) ;
-                opacity: 0;
-            }
-            25%{
-                filter:drop-shadow(0 0 85px $primaryColor )  blur(6px) brightness(250%);
-                transform: translate(-900px, -500px) scale(0%, 10%);
-                opacity: 0.2;
-            }
-            50%{
-                filter: drop-shadow(0 0 75px $primaryColor ) blur(5px) brightness(550%);
-                transform: translate(-700px, -300px) scale(35%, 45%);
-                opacity: 0.3;
-            }
-            75%{
-                filter: drop-shadow(0 0 25px rgb(0, 0, 0) ) blur(4px) brightness(200%);
-                transform: translate(-200px, -100px)scale(70%, 70%);
-                opacity: 0.7;
-            }
-            100%{
-                filter:drop-shadow(0 0 5px rgb(44,44,44) ) blur(0px) brightness(100%)  ;
-                transform: scale(100%, 100%);
-                opacity: 1;
+        .laptop{
+            width: 55%;
+            height:auto;
+            display:block;
+            -webkit-max-width: 100%;
+            -moz-max-width: 100%;
+            filter:drop-shadow(2px 9px 5px rgb(44, 44, 44) ) blur(0px);
+            animation:motion 1.3s linear alternate;
+            @keyframes motion{
+                0%{
+                    filter: drop-shadow(0 0 95px $primaryColor ) blur(8px) brightness(0%);
+                    transform: translate(-1800px, -1100px) scale(0%) ;
+                    opacity: 0;
+                }
+                25%{
+                    filter:drop-shadow(0 0 85px $primaryColor )  blur(6px) brightness(250%);
+                    transform: translate(-900px, -500px) scale(0%, 10%);
+                    opacity: 0.2;
+                }
+                50%{
+                    filter: drop-shadow(0 0 75px $primaryColor ) blur(5px) brightness(550%);
+                    transform: translate(-800px, -100px) scale(35%, 45%);
+                    opacity: 0.3;
+                }
+                75%{
+                    filter: drop-shadow(0 0 25px rgb(0, 0, 0) ) blur(4px) brightness(200%);
+                    transform: translate(-300px, 0px) scale(70%, 70%);
+                    opacity: 0.7;
+                }
+                100%{
+                    filter:drop-shadow(0 0 5px rgb(44,44,44) ) blur(0px) brightness(100%)  ;
+                    transform: scale(100%, 100%);
+                    opacity: 1;
+                }
             }
         }
     }

@@ -1,7 +1,8 @@
 // New Arrivals
 
 .newArrivals{
-    width:100%;
+    width:$screenPercentageWidth;
+    max-width: 1300px;
     height: auto;
     .subtitle{
         font-size:4rem;
@@ -11,6 +12,8 @@
         margin-bottom: 100px;
     }
     .sectionCardContainer{
+        width:100%;
+        margin:auto;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(1, 1fr);

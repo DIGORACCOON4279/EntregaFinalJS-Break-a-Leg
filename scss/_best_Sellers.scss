@@ -2,6 +2,7 @@
 
 .bestSellers{
     width:$screenPercentageWidth;
+    max-width: 1300px;
     height: auto;
     margin: 0px auto;
     .subtitle{
@@ -12,10 +13,12 @@
         margin-bottom: 100px;
     }
     .sectionCardBlock{
+        width:100%;
+        margin:auto;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(1, 1fr);
-        gap:30px;
+        gap:20px;
         .cardProducts{
             width:100%;
             height:400px;

@@ -62,8 +62,9 @@
             .bannerGetOff{
                 width: 40vw;
                 height: 100vh;
-                top:-100%;
+                top:0%;
                 left:0%;
+                margin-left:0px;
                 z-index: 11;
                 display: flex;
                 flex-direction:column;
@@ -95,8 +96,9 @@
             .bannerGetOff{
                 width: 40vw;
                 height: 100vh;
-                top:-100%;
+                top:0%;
                 left:0%;
+                margin-left:0px;
                 z-index: 11;
                 display: flex;
                 flex-direction:column;
@@ -146,8 +148,9 @@
             .bannerGetOff{
                 width: 40vw;
                 height: 100vh;
-                top:-100%;
+                top:0%;
                 left:0%;
+                margin-left: 0;
                 z-index: 11;
                 display: flex;
                 flex-direction:column;
@@ -158,6 +161,8 @@
                 align-items: center;
                 .title{
                     font-size:$LargeTitle;
+                    padding-left: 30px;
+                    padding-right: 30px;
                 }
                 .slideGetOff{
                     width:100%;
@@ -197,18 +202,10 @@
 @media (max-width: 1000px){
     .mainContainer{
         .showRoom{
-            width:100%;
-            display:flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-            padding: 0 30px;
             .leftSide{
                 .itemProduct{
-                    width:auto;
-                    height: auto;
-                    display:flex;
-                    margin:auto;
+                    width:100%;
+
                 }
             }
         }
@@ -249,9 +246,9 @@
 
 @media (max-width: 950px){
     .container{
-        .sectionShop{
-            width:55vw;
-        }
+        // .sectionShop{
+        //     width:55vw;
+        // }
         .sectionWishlist{
             width:40vw;
         }
@@ -260,9 +257,9 @@
 
 @media (max-width: 950px){
     .containerStore{
-        .sectionShop{
-            width:55vw;
-        }
+        // .sectionShop{
+        //     width:55vw;
+        // }
         .sectionWishlist{
             width:40vw;
         }
@@ -384,6 +381,36 @@
     }
 }
 
+// Insights Accordion
+
+@media (max-width: 850px){
+    .mainContainer{
+        .showRoom{
+            .rightSide{
+                .containerAccordion{
+                    .accordionItem{
+                        .accordionCollapse{
+                            .accordionBody{
+                                flex-direction: column;
+                            }
+                        }
+                    }
+                }
+                .infoProduct{
+                    .complementInfo{
+                        flex-direction:column;
+                        align-items: center;
+                        .delivery, .creditCard, .return{
+                            width:45%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 // Screen 750px
 
 @media (max-width: 750px){
@@ -443,6 +470,18 @@
         }
     }
     .mainContainer{
+        .showRoom{
+            .rightSide{
+                .infoProduct{
+                    .size{
+                        .containerSize{
+                            gap:5px;
+                        }
+                    }
+
+                }
+            }
+        }
         .getOffShowRoom{
             .bannerGetOff{
                 width:45vw;
@@ -534,6 +573,18 @@
     }
 }
 
+// Screen 550px
+
+@media (max-width: 550px){
+    // .mainContainer{
+    //     .showRoom{
+    //         .rightSide{
+
+    //         }
+    //     }
+    // }
+}
+
 // Screen 500px
 
 @media (max-width: 500px){
@@ -543,26 +594,6 @@
                 .itemProduct{
                     width: 100%;
                     margin: 0px 0px;
-                }
-            }
-            .rightSide{
-                .containerAccordion{
-                    .accordionItem{
-                        .accordionCollapse{
-                            .accordionBody{
-                                flex-direction: column;
-                            }
-                        }
-                    }
-                }
-                .infoProduct{
-                    .complementInfo{
-                        flex-direction:column;
-                        align-items: center;
-                        .delivery, .creditCard, .return{
-                            width:45%;
-                        }
-                    }
                 }
             }
         }
@@ -631,7 +662,6 @@
 }
 
 
-
 // Screen 460px
 
 @media (max-width: 460px){
@@ -650,9 +680,29 @@
         }
     }
     .mainContainer{
+        .showRoom{
+            width:100%;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            .leftSide{
+                position:static;
+                width:85vw;
+                .itemProduct{
+                    width:100%;
+                    height: auto;
+                    display:flex;
+                    margin:auto;
+                }
+            }
+            .rightSide{
+                width:85vw;
+            }
+        }
         .getOffShowRoom{
             .bannerGetOff{
-                width: 80vw;
+                width: 85vw;
             }
         }
     }

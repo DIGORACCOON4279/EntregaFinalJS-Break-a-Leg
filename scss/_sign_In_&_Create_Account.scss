@@ -111,6 +111,7 @@
                     }
                     .formFloating{
                         width:60%;
+                        max-width:426px ;
                         color:$blackColor;
                         font-family: $fontJura;
                         font-size: $smallText;
@@ -131,14 +132,15 @@
                         }
                     }
                     .ctaToSignIn {
-                        width: 100%;
+                        width: 60%;
+                        max-width:426px ;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
                         margin-top: 30px;
                         gap:10px;
                         .btnSignIn{
-                            width: 60%;
+                            width: 100%;
                             font-size:$regularText;
                             font-weight: $ExtraBold;
                             color: $whiteColor;
@@ -160,6 +162,7 @@
                             font-weight:$semiBold;
                             margin-top:15px ;
                             margin-bottom:-25px;
+                            text-align: center;
                         }
                     }
                     label {
@@ -190,6 +193,7 @@
                     }
                     .formFloating{
                         width:60%;
+                        max-width:426px ;
                         color: $blackColor;
                         font-size:$smallText;
                         font-weight: $mediumBold;
@@ -210,14 +214,15 @@
                         }
                     }
                     .ctaToCreateAccount{
-                        width: 100%;
+                        width: 60%;
+                        max-width:426px ;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
                         margin-top: 30px;
                         gap:10px;
                         .btnCreateAccount{
-                            width: 60%;
+                            width: 100%;
                             font-size: $regularText;
                             font-weight:$ExtraBold;
                             color: $whiteColor;
@@ -239,6 +244,7 @@
                             font-weight: $semiBold;
                             margin-top: 15px;
                             margin-bottom:-10px;
+                            text-align: center;
                         }
                     }
                     label {
@@ -531,21 +537,24 @@
     #cross{
         display: none;
         &:checked ~ .bannerGetOff{
-            transform: translateY(100%);
+            transform: translateY(0%);
         }
     }
     .bannerGetOff{
         width: 65vw;
+        max-width: fit-content;
         height: auto;
         @extend .flexColumnEvenlyCenter;
         border-radius: 10px;
         background-color:#00000013;
         box-shadow: $boxShadowMenu;
         position: fixed;
-        top:-340px;
-        left:18%;
+        top:20%;
+        left:0%;
+        right:0px;
+        margin:auto;
         z-index: 8;
-        transform: translateY(300%);
+        transform: translateY(500%);
         overflow: hidden;
         transition: $transition;
         .title{
@@ -572,25 +581,26 @@
         }
         .slideGetOff{
             @extend .flexRowEvenlyCenter;
-            padding: 20px;
+            padding: 20px 20px 0px;
             backdrop-filter: blur(10px);
             .hoddy{
                 padding:10px;
                 img{
                     width:100%;
-                    height:auto;
+                    height:fit-content;
+                    object-fit: cover;
                 }
                 h3{
                     margin-top: 30px;
-                    font-size:$regularText;
+                    font-size:1.1rem;
                     font-family: $fontJura;
-                    color: $primaryColor;
+                    color: #BC2327;
                 }
                 p{
                     padding: 10px auto;
-                    font-size:$regularText;
+                    font-size:1rem;
                     font-family: $fontJura;
-                    color: $backgroundColor;
+                    color: #d9d9d9;
                 }
             }
         }

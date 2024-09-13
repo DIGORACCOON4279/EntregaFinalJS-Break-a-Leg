@@ -41,6 +41,7 @@
                 .tag{
                     .tagBreakALeg{
                         width:85%;
+                        min-width: 600px;
                         height:auto;
                         margin: 0px auto;
                         display: flex;
@@ -127,3 +128,34 @@
         }
     }
 
+    // MediaQueries
+
+    // Screen 600px
+
+@media (max-width: 600px){
+    .containerError{
+        width:100vw;
+        height:100vh;
+        .pageError{
+            .sentenceBreakALeg{
+                .returnSentence{
+                    font-size:$regularText ;
+                    span,
+                    span.intro{
+                        font-size:$MediumTitle;
+                    }
+                }
+            }
+            .btnBreakALeg{
+                .btnReturn{
+                    width:100%;
+                    font-size:$regularText;
+                    padding:10px 25px;
+                }
+                .skullBrand{
+                    width:100%;
+                }
+            }
+        }
+    }
+}

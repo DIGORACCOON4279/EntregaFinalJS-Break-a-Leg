@@ -10,12 +10,10 @@
                 .info{
                     display: flex;
                     flex-direction: column;
-                    justify-content: space-between;
+                    justify-content: space-around;
                     align-items: flex-start;
-                    margin:50px auto 0px;
                     .break{
                         font-size:$sectionSubtitle ;
-                        padding-bottom: 20px;
                     }
                     .subtitle{
                         font-size:$sentence;
@@ -44,7 +42,6 @@
     }
     .mainContainer{
         .heroSection{
-            gap:20px;
             .heroSectionCentered{
                 .info{
                     .cta{
@@ -74,7 +71,6 @@
     }
     .mainContainer{
         .heroSection{
-            padding: 0px 50px;
             .heroSectionCentered{
                 .info{
                     .break{
@@ -115,8 +111,6 @@
         }
         .getOffHoddy{
             .containerGetOff{
-                padding-left: 30px;
-                padding-right: 30px;
                 .info{
                     margin:auto;
                 }
@@ -124,8 +118,9 @@
             .bannerGetOff{
                 width: 40vw;
                 height: 100vh;
-                top:-100%;
+                top:0%;
                 left:0%;
+                margin-left: 0;
                 z-index: 11;
                 display: flex;
                 flex-direction:column;
@@ -136,6 +131,8 @@
                 align-items: center;
                 .title{
                     font-size:$LargeTitle;
+                    padding-left: 30px;
+                    padding-right: 30px;
                 }
                 .slideGetOff{
                     width:100%;
@@ -147,6 +144,10 @@
                     align-items: center;
                     .hoddy{
                         width:100%;
+                        // .img{
+                        //     width:auto;
+                        //     height:100px;
+                        // }
                     }
                 }
             }
@@ -172,10 +173,12 @@
     .mainContainer{
         .heroSection{
             height: auto;
-            display: flex;
-            flex-direction: column-reverse;
             .heroSectionCentered{
+                display: flex;
+                flex-direction: column-reverse;
+                gap:50px;
                 .info{
+                    width:60%;
                     .cta{
                         .ctaDiscount, .ctaNewArrivals{
                             flex-grow: 1;
@@ -184,7 +187,6 @@
                 }
             }
             .laptop{
-                margin-top: 300px;
                 width:70vw;
             }
         }
@@ -194,7 +196,11 @@
                 align-items: center;
                 .info{
                     margin-top: 0px;
-                    padding-top: 150px;
+                    text-align: left;
+                    .title{
+                        width:100%;
+                        text-align: center;
+                    }
                 }
                 .hoddy{
                     width:70vw;
@@ -206,14 +212,18 @@
         }
         .giftCards{
             .containerGetOff{
+                width:100vw;
                 display: flex;
                 flex-direction: column-reverse;
                 justify-content:space-between;
                 align-items:center;
+                .containerMessage{
+                    width:50%;
+                }
             }
         }
     }
-    .footerContainer{
+    .footerContainer .containerFooter{
         width:100%;
         height:auto;
         .footer{
@@ -253,6 +263,7 @@
         .heroSection{
             .heroSectionCentered{
                 .info{
+                    width:70%;
                     .cta{
                         .ctaDiscount, .ctaNewArrivals{
                             flex-grow: 1;
@@ -345,10 +356,17 @@
             }
         }
         .giftCards{
-            width:100vw;
-            max-width: 100%;
             .containerGetOff{
                 width: 100%;
+                .containerCards{
+                    width:80%;
+                    .card1, .card2, .card3, .card4{
+                        width:100%;
+                    }
+                }
+                .containerMessage{
+                    width: 70%;
+                }
             }
         }
     }
@@ -364,8 +382,13 @@
     }
     .mainContainer{
         .heroSection{
-            .laptop{
-                width:80vw;
+            .heroSectionCentered{
+                .info{
+                    width:100%;
+                }
+                .laptop{
+                    width:80vw;
+                }
             }
         }
         .sectionShop{
@@ -436,10 +459,10 @@
             width:100vw;
             .containerGetOff{
                 .containerCards{
-                    width:100% ;
+                    width:90% ;
                 }
                 .containerMessage{
-                    width:80% ;
+                    width:75% ;
                     text-align: center;
                 }
             }
@@ -506,7 +529,39 @@
 // Screen 510px
 
 @media (max-width: 510px){
+    .header{
+        .logo{
+            left:-50px;
+            // display:none;
+        }
+    }
     .mainContainer{
+        .heroSection{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:auto;
+            .heroSectionCentered{
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+                width:90vw;
+                margin:auto;
+                .info{
+                    width:100%;
+                    .cta{
+                        width:100%;
+                        .ctaDiscount, .ctaNewArrivals{
+                            width:auto;
+                        }
+                    }
+                }
+                .laptop{
+                    width:100%;
+                }
+            }
+        }
         .bestSellers{
             .subtitle{
                 font-size: $LargeTitle;
@@ -522,7 +577,7 @@
                 .info{
                     .title{
                         font-size: $LargeTitle;
-                        text-align: center;
+                        place-self: center;
                     }
                     .paragraph{
                         .subtitle, .sentence{
@@ -537,8 +592,12 @@
         }
         .giftCards{
             .containerGetOff{
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 margin:auto;
                 .containerCards{
+                    width:100%;
                     .sectionCards{
                         width: 100%;
                         padding: 0px;
@@ -563,6 +622,7 @@
                     }
                 }
                 .containerMessage{
+                    width:90%;
                     .subtitleMessage{
                         font-size: $nameLogo;
                     }
@@ -588,6 +648,11 @@
 
 @media (max-width: 460px){
     .mainContainer{
+        .heroSection{
+            .heroSectionCentered{
+                width:87vw;
+            }
+        }
         .advertising{
             .advertisingMood{
                 width:100%;
@@ -617,6 +682,10 @@
             }
         }
         .getOffHoddy{
+            .containerGetOff
+            .hoddy{
+                width:95%;
+            }
             .bannerGetOff{
                 width: 100vw;
             }
@@ -631,18 +700,11 @@
         .menuSide{
             width:100vw;
         }
-        .logo{
-            .brand{
-                // display:none;
-                left:-10px;
-            }
-        }
     }
     .mainContainer{
         .heroSection{
-            padding-left: 30px;
-            padding-right: 30px;
             .heroSectionCentered{
+                width:85vw;
                 .info{
                     .cta{
                         width:100%;
@@ -686,6 +748,28 @@
                 }
             }
         }
+        .giftCards{
+            .containerGetOff{
+                .containerCards{
+                    .sectionCards{
+                        .card1, .card2, .card3, .card4{
+                            .subtitleGift{
+                                font-size:1.5rem;
+                            }
+                        }
+                    }
+                }
+                .containerMessage{
+                    width:90%;
+                    .subtitleMessage{
+                        font-size: $nameLogo;
+                    }
+                    .paragraph{
+                        font-size: $MediumTitle;
+                    }
+                }
+            }
+        }
         .footer{
             .payments{
                 .paymentCards{
@@ -700,10 +784,12 @@
 
 @media (max-width: 360px){
     .footerContainer{
-        .development{
-            .developer{
-                display:flex;
-                flex-direction: column;
+        .containerFooter{
+            .development{
+                .developer{
+                    display:flex;
+                    flex-direction: column;
+                }
             }
         }
     }
