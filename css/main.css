@@ -932,7 +932,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: rotate(90deg);
 }
 .getOffHoddy .bannerGetOff .slideGetOff {
-  padding: 20px 20px 0px;
+  padding: 15px 20px 0px;
   backdrop-filter: blur(10px);
 }
 .getOffHoddy .bannerGetOff .slideGetOff .hoddy {
@@ -1375,7 +1375,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   margin-top: 20px;
 }
 .containerStore .getOffStore .bannerGetOff .slideGetOff {
-  padding: 20px 20px 0px;
+  padding: 15px 20px 0px;
   backdrop-filter: blur(10px);
 }
 .containerStore .getOffStore .bannerGetOff .slideGetOff .hoddy {
@@ -2271,7 +2271,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: rotate(90deg);
 }
 .getOffSignIn .bannerGetOff .slideGetOff {
-  padding: 20px 20px 0px;
+  padding: 15px 20px 0px;
   backdrop-filter: blur(10px);
 }
 .getOffSignIn .bannerGetOff .slideGetOff .hoddy {
@@ -3314,7 +3314,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   transform: rotate(90deg);
 }
 .getOffShowRoom .bannerGetOff .slideGetOff {
-  padding: 20px 20px 0px;
+  padding: 15px 20px 0px;
   backdrop-filter: blur(10px);
 }
 .getOffShowRoom .bannerGetOff .slideGetOff .hoddy {
@@ -3552,8 +3552,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
   .mainContainer .getOffHoddy .bannerGetOff .title {
     font-size: 2.5rem;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .mainContainer .getOffHoddy .bannerGetOff .slideGetOff {
     width: 100%;
