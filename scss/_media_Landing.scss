@@ -48,8 +48,9 @@
                 .heroSectionCentered{
                     .info{
                         .cta{
+                            width: 100%;
                             .ctaDiscount, .ctaNewArrivals{
-                                width: 45%;
+                                width: 100%;
                                 padding:$paddingBreakSmall;
                             }
                         }
@@ -83,7 +84,7 @@
                         }
                         .cta{
                             .ctaDiscount, .ctaNewArrivals{
-                                width: 45%;
+                                width: 100%;
                                 font-size:$smallText;
                             }
                         }

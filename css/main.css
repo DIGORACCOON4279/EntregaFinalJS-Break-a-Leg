@@ -704,15 +704,16 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   font-weight: 600;
 }
 .heroSection .containerHeroSection .heroSectionCentered .info .cta {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 15px;
 }
 .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaDiscount, .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaNewArrivals {
+  width: 50%;
   text-align: center;
-  padding: 25px 55px;
+  padding: 20px;
   font-family: "Jura", sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
@@ -3488,8 +3489,11 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .header .menuSide {
     width: 25vw;
   }
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta {
+    width: 100%;
+  }
   .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaNewArrivals {
-    width: 45%;
+    width: 100%;
     padding: 20px !important;
   }
   .bestSellers .sectionCardBlock {
@@ -3504,7 +3508,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     font-size: 3rem;
   }
   .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaNewArrivals {
-    width: 45%;
+    width: 100%;
     font-size: 0.9rem;
   }
   .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .promo {
