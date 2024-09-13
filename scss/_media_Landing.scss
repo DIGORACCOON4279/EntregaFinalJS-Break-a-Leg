@@ -173,21 +173,24 @@
     .mainContainer{
         .heroSection{
             height: auto;
-            .heroSectionCentered{
-                display: flex;
-                flex-direction: column-reverse;
-                gap:50px;
-                .info{
-                    width:60%;
-                    .cta{
-                        .ctaDiscount, .ctaNewArrivals{
-                            flex-grow: 1;
+            .containerHeroSection{
+                margin: 50px auto 50px;
+                .heroSectionCentered{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    gap:50px;
+                    .info{
+                        width:60%;
+                        .cta{
+                            .ctaDiscount, .ctaNewArrivals{
+                                flex-grow: 1;
+                            }
                         }
                     }
                 }
-            }
-            .laptop{
-                width:70vw;
+                .laptop{
+                    width:70vw;
+                }
             }
         }
         .getOffHoddy{

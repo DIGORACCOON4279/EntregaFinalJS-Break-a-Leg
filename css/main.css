@@ -3578,18 +3578,21 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .mainContainer .heroSection {
     height: auto;
   }
-  .mainContainer .heroSection .heroSectionCentered {
+  .mainContainer .heroSection .containerHeroSection {
+    margin: 50px auto 50px;
+  }
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered {
     display: flex;
     flex-direction: column-reverse;
     gap: 50px;
   }
-  .mainContainer .heroSection .heroSectionCentered .info {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info {
     width: 60%;
   }
-  .mainContainer .heroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaNewArrivals {
     flex-grow: 1;
   }
-  .mainContainer .heroSection .laptop {
+  .mainContainer .heroSection .containerHeroSection .laptop {
     width: 70vw;
   }
   .mainContainer .getOffHoddy .containerGetOff {
