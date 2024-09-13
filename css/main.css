@@ -4616,7 +4616,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .containerError {
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
   }
   .containerError .pageError .sentenceBreakALeg .returnSentence {
     font-size: 1rem;
