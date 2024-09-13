@@ -4624,11 +4624,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .containerError .pageError .sentenceBreakALeg .returnSentence span.intro {
     font-size: 1.2rem;
   }
-  .containerError .pageError .btnBreakALeg .btnReturn {
-    width: 100%;
-    font-size: 1rem;
-    padding: 10px 25px;
-  }
   .containerError .pageError .btnBreakALeg .skullBrand {
     width: 100%;
   }
