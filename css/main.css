@@ -4489,7 +4489,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 .containerError {
   width: 100%;
-  height: 100%;
+  height: auto;
   background-color: #ffffff;
 }
 .containerError .pageError {
@@ -4615,7 +4615,8 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 @media (max-width: 600px) {
   .containerError {
     width: 100vw;
-    height: 100vh;
+    height: 80vh;
+    background-color: aqua;
   }
   .containerError .pageError .sentenceBreakALeg .returnSentence {
     font-size: 1rem;

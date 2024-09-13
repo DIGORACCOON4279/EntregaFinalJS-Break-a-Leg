@@ -2,7 +2,7 @@
 
     .containerError{
         width:100%;
-        height:100%;
+        height:auto;
         background-color: $whiteColor;
         .pageError{
             width:100%;
@@ -135,7 +135,8 @@
 @media (max-width: 600px){
     .containerError{
         width:100vw;
-        height:100vh;
+        height:80vh;
+        background-color: aqua;
         .pageError{
             .sentenceBreakALeg{
                 .returnSentence{
