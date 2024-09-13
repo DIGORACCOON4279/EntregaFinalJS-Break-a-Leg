@@ -6,25 +6,27 @@
 @media (max-width: 1350px){
     .mainContainer{
         .heroSection{
-            .heroSectionCentered{
-                .info{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-around;
-                    align-items: flex-start;
-                    .break{
-                        font-size:$sectionSubtitle ;
-                    }
-                    .subtitle{
-                        font-size:$sentence;
-                    }
-                    .cta{
-                        .ctaDiscount, .ctaNewArrivals{
-                            font-size:$regularText;
+            .containerHeroSection{
+                .heroSectionCentered{
+                    .info{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: flex-start;
+                        .break{
+                            font-size:$sectionSubtitle ;
                         }
-                    }
-                    .promo{
-                        font-size:$smallText;
+                        .subtitle{
+                            font-size:$sentence;
+                        }
+                        .cta{
+                            .ctaDiscount, .ctaNewArrivals{
+                                font-size:$regularText;
+                            }
+                        }
+                        .promo{
+                            font-size:$smallText;
+                        }
                     }
                 }
             }
@@ -42,12 +44,14 @@
     }
     .mainContainer{
         .heroSection{
-            .heroSectionCentered{
-                .info{
-                    .cta{
-                        .ctaDiscount, .ctaNewArrivals{
-                            width: 45%;
-                            padding:$paddingBreakSmall;
+            .containerHeroSection{
+                .heroSectionCentered{
+                    .info{
+                        .cta{
+                            .ctaDiscount, .ctaNewArrivals{
+                                width: 45%;
+                                padding:$paddingBreakSmall;
+                            }
                         }
                     }
                 }
@@ -71,19 +75,21 @@
     }
     .mainContainer{
         .heroSection{
-            .heroSectionCentered{
-                .info{
-                    .break{
-                        font-size:$cardLetter ;
-                    }
-                    .cta{
-                        .ctaDiscount, .ctaNewArrivals{
-                            width: 45%;
-                            font-size:$smallText;
+            .containerHeroSection{
+                .heroSectionCentered{
+                    .info{
+                        .break{
+                            font-size:$cardLetter ;
                         }
-                    }
-                    .promo{
-                        font-size:$xSmallText;
+                        .cta{
+                            .ctaDiscount, .ctaNewArrivals{
+                                width: 45%;
+                                font-size:$smallText;
+                            }
+                        }
+                        .promo{
+                            font-size:$xSmallText;
+                        }
                     }
                 }
             }
@@ -264,12 +270,14 @@
 @media (max-width: 950px){
     .mainContainer{
         .heroSection{
-            .heroSectionCentered{
-                .info{
-                    width:70%;
-                    .cta{
-                        .ctaDiscount, .ctaNewArrivals{
-                            flex-grow: 1;
+            .containerHeroSection{
+                .heroSectionCentered{
+                    .info{
+                        width:70%;
+                        .cta{
+                            .ctaDiscount, .ctaNewArrivals{
+                                flex-grow: 1;
+                            }
                         }
                     }
                 }
@@ -385,12 +393,16 @@
     }
     .mainContainer{
         .heroSection{
-            .heroSectionCentered{
-                .info{
-                    width:100%;
-                }
-                .laptop{
-                    width:80vw;
+            .containerHeroSection{
+                .heroSectionCentered{
+                    width:90%;
+                    margin: auto;
+                    .info{
+                        width:100%;
+                    }
+                    .laptop{
+                        width:100%;
+                    }
                 }
             }
         }
@@ -544,24 +556,26 @@
             justify-content: center;
             align-items: center;
             margin:auto;
-            .heroSectionCentered{
-                display: flex;
-                flex-direction: column-reverse;
-                justify-content: center;
-                align-items: center;
-                width:90vw;
-                margin:auto;
-                .info{
-                    width:100%;
-                    .cta{
+            .containerHeroSection{
+                .heroSectionCentered{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    justify-content: center;
+                    align-items: center;
+                    width:85vw;
+                    margin:auto;
+                    .info{
                         width:100%;
-                        .ctaDiscount, .ctaNewArrivals{
-                            width:auto;
+                        .cta{
+                            width:100%;
+                            .ctaDiscount, .ctaNewArrivals{
+                                width:auto;
+                            }
                         }
                     }
-                }
-                .laptop{
-                    width:100%;
+                    .laptop{
+                        width:100%;
+                    }
                 }
             }
         }

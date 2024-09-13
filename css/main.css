@@ -3465,22 +3465,22 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
 }
 
 @media (max-width: 1350px) {
-  .mainContainer .heroSection .heroSectionCentered .info {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
   }
-  .mainContainer .heroSection .heroSectionCentered .info .break {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .break {
     font-size: 3.5rem;
   }
-  .mainContainer .heroSection .heroSectionCentered .info .subtitle {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .subtitle {
     font-size: 1.5rem;
   }
-  .mainContainer .heroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaNewArrivals {
     font-size: 1rem;
   }
-  .mainContainer .heroSection .heroSectionCentered .info .promo {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .promo {
     font-size: 0.9rem;
   }
 }
@@ -3488,7 +3488,7 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .header .menuSide {
     width: 25vw;
   }
-  .mainContainer .heroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaNewArrivals {
     width: 45%;
     padding: 20px !important;
   }
@@ -3500,14 +3500,14 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .header .menuSide {
     width: 30vw;
   }
-  .mainContainer .heroSection .heroSectionCentered .info .break {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .break {
     font-size: 3rem;
   }
-  .mainContainer .heroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaNewArrivals {
     width: 45%;
     font-size: 0.9rem;
   }
-  .mainContainer .heroSection .heroSectionCentered .info .promo {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .promo {
     font-size: 0.8rem;
   }
   .mainContainer .sectionShop {
@@ -3659,10 +3659,10 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 950px) {
-  .mainContainer .heroSection .heroSectionCentered .info {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info {
     width: 70%;
   }
-  .mainContainer .heroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaNewArrivals {
     flex-grow: 1;
   }
   .mainContainer .bestSellers .sectionCardBlock .cardProducts .article .info .nameOutfit {
@@ -3728,11 +3728,15 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   .header .menuSide {
     width: 50vw;
   }
-  .mainContainer .heroSection .heroSectionCentered .info {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered {
+    width: 90%;
+    margin: auto;
+  }
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info {
     width: 100%;
   }
-  .mainContainer .heroSection .heroSectionCentered .laptop {
-    width: 80vw;
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .laptop {
+    width: 100%;
   }
   .mainContainer .sectionShop {
     width: 60vw;
@@ -3819,24 +3823,24 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
     align-items: center;
     margin: auto;
   }
-  .mainContainer .heroSection .heroSectionCentered {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    width: 90vw;
+    width: 85vw;
     margin: auto;
   }
-  .mainContainer .heroSection .heroSectionCentered .info {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info {
     width: 100%;
   }
-  .mainContainer .heroSection .heroSectionCentered .info .cta {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta {
     width: 100%;
   }
-  .mainContainer .heroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .heroSectionCentered .info .cta .ctaNewArrivals {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaDiscount, .mainContainer .heroSection .containerHeroSection .heroSectionCentered .info .cta .ctaNewArrivals {
     width: auto;
   }
-  .mainContainer .heroSection .heroSectionCentered .laptop {
+  .mainContainer .heroSection .containerHeroSection .heroSectionCentered .laptop {
     width: 100%;
   }
   .mainContainer .bestSellers .subtitle {
