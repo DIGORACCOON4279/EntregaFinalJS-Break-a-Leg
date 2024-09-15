@@ -3921,6 +3921,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 425px) {
+  .header .menuSide {
+    width: 100vw;
+  }
   .mainContainer .advertising .advertisingMood {
     width: 100%;
   }
@@ -3935,9 +3938,6 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 400px) {
-  .header .menuSide {
-    width: 100vw;
-  }
   .mainContainer .heroSection .heroSectionCentered {
     width: 85vw;
   }
@@ -4440,6 +4440,9 @@ html .mainContainer .arrowUp .directionUp .arrowUpIcon:hover {
   }
 }
 @media (max-width: 425px) {
+  .header .menuSide {
+    width: 100vw;
+  }
   .headerSignIn .menuSide {
     width: 100vw;
   }

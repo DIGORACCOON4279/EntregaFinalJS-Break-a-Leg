@@ -576,18 +576,6 @@
     }
 }
 
-// Screen 550px
-
-@media (max-width: 550px){
-    // .mainContainer{
-    //     .showRoom{
-    //         .rightSide{
-
-    //         }
-    //     }
-    // }
-}
-
 // Screen 500px
 
 @media (max-width: 500px){
@@ -714,6 +702,11 @@
 // Screen 425px
 
 @media (max-width: 425px){
+    .header{
+        .menuSide{
+            width:100vw;
+        }
+    }
     .headerSignIn{
         .menuSide{
             width:100vw;
